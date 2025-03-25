@@ -79,6 +79,16 @@
               id="39a20269-5f28-4921-a0eb-1022000848ff" name="Operate System"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="75a89a57-e6d3-43ce-a90d-e0c899bf22fb" name="Supply Resources"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="3837093c-56c2-489c-84b4-944c677b5586" name="Assist Local Population "/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="9b0258a0-1a6f-448d-9f43-3b0e939310d8" name="Receive Water"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="e73169d9-ccc8-47b7-8c86-0af3f15a81a1" name="Receive Power for Phone"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="28913c87-ec37-4e50-bb50-a724adb807a4" name="Provide Communncation Services"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="e0acd3d5-f72c-4831-84b4-fc145b206ead" name="Assiste Local Population"/>
         </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
@@ -127,6 +137,8 @@
               id="91da06ab-904c-439a-891e-3a481a0c2960" involved="#c49b2466-7d40-4c15-8d56-37aeebe1e76b"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="6486329f-f2d2-41ea-9d53-2644ba0e0a1d" involved="#545cfe51-0b9f-4f45-9615-2b593c58b17f"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="e0266711-1a20-4910-b2d3-85777268065b" involved="#f7837c65-f072-4c09-a6b0-d3d7700fe97c"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="ec01b651-6e04-43d7-90b2-bc53b06802d0" name="Power Supply Management"
@@ -145,6 +157,8 @@
               id="d8a69f0f-059b-4455-958f-a6eaf26d7e09" involved="#c49b2466-7d40-4c15-8d56-37aeebe1e76b"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="2cf87664-2bf0-43a7-b934-a325635992e8" involved="#545cfe51-0b9f-4f45-9615-2b593c58b17f"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="0779c0a9-075f-4856-a590-42cae056b07f" involved="#f7837c65-f072-4c09-a6b0-d3d7700fe97c"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="6c4d2fb1-e089-468e-bd12-521c1a0a7d9b" name="Situational Awareness"
@@ -171,6 +185,8 @@
               id="4689bed2-f203-4565-a042-325bb80070e5" involved="#9a733fdc-5efc-4be0-9a57-033a2e325048"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="f5a813cc-e7fa-4f46-88b4-f585abcd580f" involved="#66681fe1-1f37-420d-8c90-d641fd3b9a4b"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="98a95c6e-f03b-4392-81d8-e7a488772c48" involved="#f7837c65-f072-4c09-a6b0-d3d7700fe97c"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="848cb324-5c90-40ce-a587-7b004162cdb8" name="Crisis Response Coordination"
@@ -218,6 +234,18 @@
               id="23398b72-5eb0-465a-877a-c2169acb5d77" targetElement="#02543099-ff11-4437-8562-6fd8bf89aaf1"
               sourceElement="#6c0cb19d-d5cf-4bf7-8943-40f2c22c769d"/>
         </ownedRoles>
+        <ownedRoles xsi:type="org.polarsys.capella.core.data.oa:Role" id="f9ad9d1c-ba9a-4d72-a991-6fe6c2e42347"
+            name="PEAK Resouce Consumer">
+          <ownedActivityAllocations xsi:type="org.polarsys.capella.core.data.oa:ActivityAllocation"
+              id="a48d9888-4949-4e22-b1db-8794e788f2a5" targetElement="#9b0258a0-1a6f-448d-9f43-3b0e939310d8"
+              sourceElement="#f9ad9d1c-ba9a-4d72-a991-6fe6c2e42347"/>
+          <ownedActivityAllocations xsi:type="org.polarsys.capella.core.data.oa:ActivityAllocation"
+              id="0700ffe7-f668-4011-9324-d7e2ab2138de" targetElement="#e73169d9-ccc8-47b7-8c86-0af3f15a81a1"
+              sourceElement="#f9ad9d1c-ba9a-4d72-a991-6fe6c2e42347"/>
+          <ownedActivityAllocations xsi:type="org.polarsys.capella.core.data.oa:ActivityAllocation"
+              id="f5cdd00e-53c2-4f2a-99a3-06707c5d683d" targetElement="#28913c87-ec37-4e50-bb50-a724adb807a4"
+              sourceElement="#f9ad9d1c-ba9a-4d72-a991-6fe6c2e42347"/>
+        </ownedRoles>
       </ownedRolePkg>
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="f3b78a41-bc80-4b6b-866e-222fac8dcafc"
           name="Operational Entities">
@@ -263,13 +291,24 @@
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="545cfe51-0b9f-4f45-9615-2b593c58b17f"
             name="First Responders" description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Direct system operation&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Emergency service delivery&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Situation assessment&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
-            actor="true" human="true"/>
+            actor="true" human="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="bee4f087-7bd7-4d9b-87f4-65e8dc6f6e3c" targetElement="#e0acd3d5-f72c-4831-84b4-fc145b206ead"
+              sourceElement="#545cfe51-0b9f-4f45-9615-2b593c58b17f"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="8f9a3fc8-7c34-4e8e-a9b9-21c3218b4657"
             name="Local Authorities" description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Local coordination&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Information sharing&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Resource management&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
             actor="true" human="true"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="c49b2466-7d40-4c15-8d56-37aeebe1e76b"
             name="Aid Personnel" description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>System operation&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Service delivery&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Status reporting&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
-            actor="true" human="true"/>
+            actor="true" human="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="f412dd8b-3db9-4fbd-a14e-d64d4ebd2499" targetElement="#3837093c-56c2-489c-84b4-944c677b5586"
+              sourceElement="#c49b2466-7d40-4c15-8d56-37aeebe1e76b"/>
+          <ownedRoleAllocations xsi:type="org.polarsys.capella.core.data.oa:RoleAllocation"
+              id="fad4efe9-a35f-4ecc-a30a-fcc62a1069a0" targetElement="#f9ad9d1c-ba9a-4d72-a991-6fe6c2e42347"
+              sourceElement="#c49b2466-7d40-4c15-8d56-37aeebe1e76b"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="66681fe1-1f37-420d-8c90-d641fd3b9a4b"
             name="PEAK JCTD Kit">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
@@ -317,7 +356,11 @@
               sourceElement="#c8d45ab5-e3bb-4e56-84ef-5f7c7de38297"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="f7837c65-f072-4c09-a6b0-d3d7700fe97c"
-            name="Local Population" actor="true" human="true"/>
+            name="Local Population" actor="true" human="true">
+          <ownedRoleAllocations xsi:type="org.polarsys.capella.core.data.oa:RoleAllocation"
+              id="c0cb2fdc-d38f-4409-acb5-854fef91fe5e" targetElement="#f9ad9d1c-ba9a-4d72-a991-6fe6c2e42347"
+              sourceElement="#f7837c65-f072-4c09-a6b0-d3d7700fe97c"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3bf88f02-4449-44e5-872a-332db0b309d9"
             name="Environmental Elements" actor="true" human="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
