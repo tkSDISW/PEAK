@@ -105,6 +105,12 @@
               id="754b9bc1-f7d4-4f16-84bf-1e4caa3483a5" name="Make Decision"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="d7597cc1-f825-44fc-a371-ab0480502c24" name="Make Decision"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="c00581c2-4b7c-49d7-ac1a-eaa46527e989" name="Receive Water_1"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="6ba1616e-2e6e-4955-9c17-7d950d7c2e65" name="Receive Power for Phone_1"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="333df881-2e12-4a91-aed5-b6f31c6a1617" name="Provide Communncation Services_1"/>
         </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
@@ -222,6 +228,12 @@
             id="a458689f-c6a4-4993-9c10-bad1dae17692" name="Distribute ">
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="07b12d03-6875-4f45-baf7-f1d8eb896961" involved="#f7837c65-f072-4c09-a6b0-d3d7700fe97c"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="b94add71-c922-49e7-ace8-d805ac0df174" involved="#c49b2466-7d40-4c15-8d56-37aeebe1e76b"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="0a9d9867-64ef-4039-a452-f3d6a4d5e8c3" involved="#545cfe51-0b9f-4f45-9615-2b593c58b17f"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="7867c39c-e557-4a23-91e9-c020bdc823ff" involved="#1b54b3c3-a36f-4184-8205-c3915c83e99e"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="d7ece451-0027-45f2-beb3-0b744a09ecad" name="Store"/>
@@ -399,6 +411,15 @@
             name="Operational User Community" actor="true" human="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="96aae452-2045-4513-8bbd-4a7153f2a511" targetElement="#39a20269-5f28-4921-a0eb-1022000848ff"
+              sourceElement="#1b54b3c3-a36f-4184-8205-c3915c83e99e"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="f24b9752-921d-4c93-a6c4-edf9605b0b01" targetElement="#c00581c2-4b7c-49d7-ac1a-eaa46527e989"
+              sourceElement="#1b54b3c3-a36f-4184-8205-c3915c83e99e"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="0cd28fce-1eef-4be5-9ae1-d50167914278" targetElement="#333df881-2e12-4a91-aed5-b6f31c6a1617"
+              sourceElement="#1b54b3c3-a36f-4184-8205-c3915c83e99e"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="c64d6667-ab62-4e44-9f80-b6c9fd125bd2" targetElement="#6ba1616e-2e6e-4955-9c17-7d950d7c2e65"
               sourceElement="#1b54b3c3-a36f-4184-8205-c3915c83e99e"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="999e952d-7784-40a9-8a65-9b0833581923"
