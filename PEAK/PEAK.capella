@@ -354,7 +354,7 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="d7597cc1-f825-44fc-a371-ab0480502c24" name="Make Decision"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="c00581c2-4b7c-49d7-ac1a-eaa46527e989" name="Receive Water_1"/>
+              id="c00581c2-4b7c-49d7-ac1a-eaa46527e989" name="Receive Water"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="6ba1616e-2e6e-4955-9c17-7d950d7c2e65" name="Receive Power for Phone"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
@@ -449,28 +449,28 @@
               id="cc90f11f-4977-466f-8410-b74bf08e573f" name="Manage Power Generation"
               target="#4bc6df0b-2381-4965-a7e7-302c00b82957" source="#39a20269-5f28-4921-a0eb-1022000848ff"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="00c7e97a-05cb-4b2f-b0ba-d370ab6c28d4" name="Interaction 18" target="#ffc8c624-5add-4cca-85ab-153cc546765e"
-              source="#39a20269-5f28-4921-a0eb-1022000848ff"/>
+              id="00c7e97a-05cb-4b2f-b0ba-d370ab6c28d4" name="Manage Water Production"
+              target="#ffc8c624-5add-4cca-85ab-153cc546765e" source="#39a20269-5f28-4921-a0eb-1022000848ff"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="31510bb9-6e2c-4b82-a5fd-8cac204bde3b" name="Filtered Water" target="#c00581c2-4b7c-49d7-ac1a-eaa46527e989"
               source="#ffc8c624-5add-4cca-85ab-153cc546765e"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="8b9a63ae-0b6c-44b5-9398-36f1db5fea4d" name="Interaction 20" target="#9b0258a0-1a6f-448d-9f43-3b0e939310d8"
+              id="8b9a63ae-0b6c-44b5-9398-36f1db5fea4d" name="Water" target="#9b0258a0-1a6f-448d-9f43-3b0e939310d8"
               source="#ffc8c624-5add-4cca-85ab-153cc546765e"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="d0ab58d0-f2a3-4dbc-b373-60ea5027ce58" name="Interaction 21" target="#7423df95-f74a-410c-91a6-9be71a976d2a"
+              id="d0ab58d0-f2a3-4dbc-b373-60ea5027ce58" name="Water" target="#7423df95-f74a-410c-91a6-9be71a976d2a"
               source="#ffc8c624-5add-4cca-85ab-153cc546765e"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="a5553785-b36f-454b-8c63-6a7ee67cc229" name="Interaction 22" target="#c3a53e70-c13f-48f3-b048-0c804c807014"
+              id="a5553785-b36f-454b-8c63-6a7ee67cc229" name="Water" target="#c3a53e70-c13f-48f3-b048-0c804c807014"
               source="#ffc8c624-5add-4cca-85ab-153cc546765e"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="9b727226-6d8f-45e6-943d-c4b224cd1232" name="Interaction 23" target="#e73169d9-ccc8-47b7-8c86-0af3f15a81a1"
+              id="9b727226-6d8f-45e6-943d-c4b224cd1232" name="Power" target="#e73169d9-ccc8-47b7-8c86-0af3f15a81a1"
               source="#4bc6df0b-2381-4965-a7e7-302c00b82957"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="a69a9473-9d27-4222-bb74-fcdf78c89e17" name="Interaction 24" target="#ecf2ca64-8845-49d5-9346-0db383cc730d"
+              id="a69a9473-9d27-4222-bb74-fcdf78c89e17" name="Power" target="#ecf2ca64-8845-49d5-9346-0db383cc730d"
               source="#4bc6df0b-2381-4965-a7e7-302c00b82957"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="cf99b51c-c846-4fed-9795-3a02dacd1aa5" name="Interaction 25" target="#79cc0cd7-7e03-49a7-99a1-abf561bc16f6"
+              id="cf99b51c-c846-4fed-9795-3a02dacd1aa5" name="Power" target="#79cc0cd7-7e03-49a7-99a1-abf561bc16f6"
               source="#4bc6df0b-2381-4965-a7e7-302c00b82957"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="e8f7944b-a127-4ce5-b786-14805b164fde" name="Cellular" target="#4b6f1397-4fcf-4015-960b-ee3c4694a9f4"
@@ -479,7 +479,7 @@
               id="915cdd90-2cec-4f01-98cb-9efcb2de9574" name="Interaction 27" target="#efb85db1-e9ba-4542-9072-9c45c3cf9b72"
               source="#4b6f1397-4fcf-4015-960b-ee3c4694a9f4"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="7d61fb27-b212-4875-ab86-dc886618adf4" name="Interaction 28" target="#d993acf6-8c62-43a3-adb4-ee0c0f72145c"
+              id="7d61fb27-b212-4875-ab86-dc886618adf4" name="Comms" target="#d993acf6-8c62-43a3-adb4-ee0c0f72145c"
               source="#ac6b6961-efb9-4a7b-86ba-c3e317f483a5"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="1370176c-1ef6-4941-8f49-ae7572186503" name="Interaction 29" target="#d7597cc1-f825-44fc-a371-ab0480502c24"
@@ -494,7 +494,7 @@
               id="0de13e94-586c-494b-957e-d29aaed71f24" name="Cellular" target="#28913c87-ec37-4e50-bb50-a724adb807a4"
               source="#d993acf6-8c62-43a3-adb4-ee0c0f72145c"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="19970bf1-a353-4485-9bc7-e1407de87114" name="Interaction 33" target="#c269568b-392b-4b60-b639-c2a9066621cf"
+              id="19970bf1-a353-4485-9bc7-e1407de87114" name="Comm Service" target="#c269568b-392b-4b60-b639-c2a9066621cf"
               source="#d993acf6-8c62-43a3-adb4-ee0c0f72145c"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="6f2d74cc-62b2-4150-b6f3-a66e145f14ba" name="Enable " target="#3837093c-56c2-489c-84b4-944c677b5586"
