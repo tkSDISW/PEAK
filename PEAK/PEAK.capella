@@ -179,6 +179,21 @@
                 source="#38318b44-bfac-453b-9aa8-45c479662b4b" target="#affe518d-377f-4a20-a934-7ade86b00114"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="affe518d-377f-4a20-a934-7ade86b00114" involved="#e73169d9-ccc8-47b7-8c86-0af3f15a81a1"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="f3b1daba-ceb9-4f53-8ab5-96a65bf89efb" involved="#129c028c-84c1-40c1-9fdd-62b558e70fcb"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="3e778b91-6726-42f6-a628-4ab043159496" involved="#427bfa92-75c7-46f5-bfb6-08ddc0c251a9"
+                source="#f3b1daba-ceb9-4f53-8ab5-96a65bf89efb" target="#38318b44-bfac-453b-9aa8-45c479662b4b"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="9998b9d9-8035-4d7e-b29f-a377313f6273" involved="#0759ef37-2819-4dde-81e6-21422e785844"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="7b633e7a-c3d5-4940-a6b8-1e8ab8053b13" involved="#53ae447a-8931-44f4-be62-2bce87ec4b69"
+                source="#9998b9d9-8035-4d7e-b29f-a377313f6273" target="#38318b44-bfac-453b-9aa8-45c479662b4b"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="4b401dd1-b5ee-4163-976b-d3b7fe2edd3f" involved="#6ba1616e-2e6e-4955-9c17-7d950d7c2e65"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="c7a98048-379b-42d7-9c7a-0cfc9a944fd6" involved="#4c04c283-1a69-45c4-9e8c-dadce0ea6120"
+                source="#38318b44-bfac-453b-9aa8-45c479662b4b" target="#4b401dd1-b5ee-4163-976b-d3b7fe2edd3f"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
               id="8e4c761f-933f-40f0-b8a5-8b40532f1032" name="Provide Communication">
@@ -214,14 +229,19 @@
                 id="7075b72b-eda1-40f7-a670-199e9f25c4cd" involved="#ac6b6961-efb9-4a7b-86ba-c3e317f483a5"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="5efac601-f1fd-4bec-8d0e-a5bbb2479c8b" involved="#39a20269-5f28-4921-a0eb-1022000848ff"/>
-            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
-                id="7a786a45-8ee7-428c-a9fd-b8a548c0bb26" involved="#7d61fb27-b212-4875-ab86-dc886618adf4"
-                source="#7075b72b-eda1-40f7-a670-199e9f25c4cd" target="#04fcd1fe-bff0-4ba3-878b-f0d9281c8ece"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
-                id="04fcd1fe-bff0-4ba3-878b-f0d9281c8ece" involved="#d993acf6-8c62-43a3-adb4-ee0c0f72145c"/>
+                id="42913743-2a50-4e1e-9a79-dffd0bdf43b3" involved="#52917364-2f99-4605-ac07-c1e562bced6b"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="75dce4a6-f2e1-4850-a123-b002c4f39c45" involved="#68d7897e-4fed-4ec4-8fa4-4a95f83356fb"
+                source="#7075b72b-eda1-40f7-a670-199e9f25c4cd" target="#42913743-2a50-4e1e-9a79-dffd0bdf43b3"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="7a17e139-f485-4e8e-a5e2-2c0e95a2916d" involved="#92e102f5-ca29-4ae0-8907-95db8d9d690b"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="9d3539cc-49a9-4c82-9356-f5949d465432" involved="#127457c4-cca2-479f-a4e4-e68cd658c250"
+                source="#7075b72b-eda1-40f7-a670-199e9f25c4cd" target="#7a17e139-f485-4e8e-a5e2-2c0e95a2916d"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
-              id="ebcbbf35-ed05-4f6e-bdbb-5ce0fe76c994" name="Assiste Population">
+              id="ebcbbf35-ed05-4f6e-bdbb-5ce0fe76c994" name="Assist Population">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="b602da49-8fa8-4f58-a40e-8d49b3f84bc5" involved="#2112f59f-a8a8-44f9-8ce0-67a26c1f71fb"
                 source="#5ba1a8f6-3c76-4f05-a5bb-aff3e2392c91" target="#20ab5c85-d1ce-4582-bcac-a3aff17cc3ad"/>
@@ -374,7 +394,7 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="9ebf082d-daf9-4d6f-89d6-68c5a281b2c2" name="Offer to Deploy Kits"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="7fda5b33-a4b8-4b92-9903-dfd67be0d25c" name="Reciece Transport"/>
+              id="7fda5b33-a4b8-4b92-9903-dfd67be0d25c" name="ReceiverTransport"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="b2318efd-a623-4d8b-a3f6-c301ff83cdd2" name="Transport Staff"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
@@ -485,10 +505,10 @@
               id="1370176c-1ef6-4941-8f49-ae7572186503" name="Interaction 29" target="#d7597cc1-f825-44fc-a371-ab0480502c24"
               source="#efb85db1-e9ba-4542-9072-9c45c3cf9b72"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="2112f59f-a8a8-44f9-8ce0-67a26c1f71fb" name="Interaction 30" target="#85157e55-9ef6-4662-b420-dc29e91693c2"
+              id="2112f59f-a8a8-44f9-8ce0-67a26c1f71fb" name="Assitance" target="#85157e55-9ef6-4662-b420-dc29e91693c2"
               source="#e0acd3d5-f72c-4831-84b4-fc145b206ead"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="38b47987-a71c-4f24-a986-208aae1039b2" name="Interaction 31" target="#85157e55-9ef6-4662-b420-dc29e91693c2"
+              id="38b47987-a71c-4f24-a986-208aae1039b2" name="Assistance" target="#85157e55-9ef6-4662-b420-dc29e91693c2"
               source="#3837093c-56c2-489c-84b4-944c677b5586"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="0de13e94-586c-494b-957e-d29aaed71f24" name="Cellular" target="#28913c87-ec37-4e50-bb50-a724adb807a4"
@@ -497,22 +517,22 @@
               id="19970bf1-a353-4485-9bc7-e1407de87114" name="Comm Service" target="#c269568b-392b-4b60-b639-c2a9066621cf"
               source="#d993acf6-8c62-43a3-adb4-ee0c0f72145c"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="6f2d74cc-62b2-4150-b6f3-a66e145f14ba" name="Enable " target="#3837093c-56c2-489c-84b4-944c677b5586"
+              id="6f2d74cc-62b2-4150-b6f3-a66e145f14ba" name="Power" target="#3837093c-56c2-489c-84b4-944c677b5586"
               source="#e73169d9-ccc8-47b7-8c86-0af3f15a81a1"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="64c571f2-06b9-4d2f-906d-6c70a44e3263" name="Enable" target="#3837093c-56c2-489c-84b4-944c677b5586"
               source="#28913c87-ec37-4e50-bb50-a724adb807a4"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="c613a44b-0345-4b8f-b9c1-66b17dbee8e5" name="Enable" target="#3837093c-56c2-489c-84b4-944c677b5586"
+              id="c613a44b-0345-4b8f-b9c1-66b17dbee8e5" name="Water" target="#3837093c-56c2-489c-84b4-944c677b5586"
               source="#9b0258a0-1a6f-448d-9f43-3b0e939310d8"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="757a6e92-b78b-4ef8-b148-30362bcf09e0" name="Enable" target="#e0acd3d5-f72c-4831-84b4-fc145b206ead"
+              id="757a6e92-b78b-4ef8-b148-30362bcf09e0" name="Water" target="#e0acd3d5-f72c-4831-84b4-fc145b206ead"
               source="#7423df95-f74a-410c-91a6-9be71a976d2a"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="bffeee4e-9489-4ca1-832b-304c75b3cb78" name="Enable" target="#e0acd3d5-f72c-4831-84b4-fc145b206ead"
+              id="bffeee4e-9489-4ca1-832b-304c75b3cb78" name="Water" target="#e0acd3d5-f72c-4831-84b4-fc145b206ead"
               source="#7423df95-f74a-410c-91a6-9be71a976d2a"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="61001420-ed30-42c4-bcb5-485c85ffd83a" name="Enable" target="#e0acd3d5-f72c-4831-84b4-fc145b206ead"
+              id="61001420-ed30-42c4-bcb5-485c85ffd83a" name="Power" target="#e0acd3d5-f72c-4831-84b4-fc145b206ead"
               source="#ecf2ca64-8845-49d5-9346-0db383cc730d"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="f1e2a39b-4259-43c2-93b5-6e7514a3521d" name="Cellular" target="#e0acd3d5-f72c-4831-84b4-fc145b206ead"
@@ -609,7 +629,7 @@
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="6c4d2fb1-e089-468e-bd12-521c1a0a7d9b" name="Situational Awareness"
-            description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>&amp;nbsp;&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Share time-sensitive information&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Track threats and population status&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;">
+            description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Monitor environment and infrastructure&amp;nbsp;&lt;/p>&#xA;&#xA;&#x9;&lt;p>Collect aerial imagery&amp;nbsp;&lt;/p>&#xA;&#xA;&#x9;&lt;p>Share time-sensitive information&amp;nbsp;&lt;/p>&#xA;&#xA;&#x9;&lt;p>Track threats and population status&amp;nbsp;&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;">
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="f639bca6-6d66-4433-8505-7efcf7bbae5e" included="#1557bb00-130d-43ff-a61e-a45409cdd666"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
@@ -623,7 +643,7 @@
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="18148283-8c63-46ff-b0db-17fbe2d9d198" name="Communications Management"
-            description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Facilitate international communications&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Transfer voice and data over low-bandwidth networks&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;">
+            description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;div class=&quot;ListContainerWrapper SCXW33709799 BCX0&quot; style=&quot;margin: 0px; padding: 0px; text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &amp;quot;Times New Roman&amp;quot;, &amp;quot;Times New Roman_MSFontService&amp;quot;, serif; font-size: 16px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; position: relative; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; user-select: text; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&#xA;&#x9;&lt;ul class=&quot;BulletListStyle1 SCXW33709799 BCX0&quot; role=&quot;list&quot; style=&quot;margin: 0px; padding: 0px; overflow: visible; font-family: verdana; list-style-type: disc; cursor: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; user-select: text;&quot;>&#xA;&#x9;&#x9;&lt;li aria-setsize=&quot;-1&quot; class=&quot;OutlineElement Ltr SCXW33709799 BCX0&quot; data-aria-level=&quot;2&quot; data-aria-posinset=&quot;1&quot; data-font=&quot;Symbol&quot; data-leveltext=&quot;&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:1440,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-listid=&quot;2&quot; role=&quot;listitem&quot; style=&quot;margin: 0px 0px 0px 72px; padding: 0px; overflow: visible; clear: both; font-family: &amp;quot;Times New Roman&amp;quot;, &amp;quot;Times New Roman_MSFontService&amp;quot;, serif; font-size: 12pt; vertical-align: baseline; display: block; position: relative; cursor: text; direction: ltr; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; user-select: text;&quot;>&#xA;&#x9;&#x9;&lt;p style=&quot;margin: 0px 0px 0px 72px; padding: 0px; overflow: visible; clear: both; font-family: &amp;quot;Times New Roman&amp;quot;, &amp;quot;Times New Roman_MSFontService&amp;quot;, serif; font-size: 12pt; vertical-align: baseline; display: block; position: relative; cursor: text; direction: ltr; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; user-select: text;&quot;>&lt;br />&#xA;&#x9;&#x9;&lt;span id=&quot;cke_bm_13095S&quot; style=&quot;display: none;&quot;>&amp;nbsp;&lt;/span>&lt;/p>&#xA;&#xA;&#x9;&#x9;&lt;p>Enable local communications&amp;nbsp;&lt;/p>&#xA;&#xA;&#x9;&#x9;&lt;p>Support national/regional communications&amp;nbsp;&lt;/p>&#xA;&#xA;&#x9;&#x9;&lt;p>Facilitate international communications&amp;nbsp;&lt;/p>&#xA;&#xA;&#x9;&#x9;&lt;p>Transfer voice and data over low-bandwidth networks&amp;nbsp;&lt;/p>&#xA;&#x9;&#x9;&lt;/li>&#xA;&#x9;&lt;/ul>&#xA;&#x9;&lt;/div>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;">
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="44668042-66e5-40f9-8120-c4cd11c23810" included="#8f450202-ddb4-4777-9a7b-d366208c8353"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
@@ -709,13 +729,15 @@
               id="32c05272-e132-407e-a7a2-1fac365f840f" involved="#c8d45ab5-e3bb-4e56-84ef-5f7c7de38297"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="bf779b09-3ef1-4cae-a9ba-ffd824088831" name="Build Kits">
+            id="bf779b09-3ef1-4cae-a9ba-ffd824088831" name="Build Kits" description="&lt;p>Build Kits that can be prepositioned.&lt;/p>&#xA;">
           <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
               id="08979d16-beae-41ad-a4b7-ee0f022709a8" involved="#a443f333-2166-41ab-9fb0-4e07ab04276f"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="89d36e2b-51eb-454a-81bc-5ec26d4fd7e1" involved="#66681fe1-1f37-420d-8c90-d641fd3b9a4b"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="f911d5c1-927c-4a5d-a46e-428c1fde5672" involved="#85e1e204-595e-42d0-bd5d-1d7d0fd404f5"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="d389cca9-f076-4005-9dae-4337593e1d5a" involved="#352b5361-f682-4c3d-8826-705d085c1f79"/>
         </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
@@ -751,7 +773,7 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="c0e0995f-d1b9-41da-abda-3eef81397ea8"
             name="Partner Nation" abstractType="#266f0c68-844c-42ae-a688-875f43e055ba"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="545cfe51-0b9f-4f45-9615-2b593c58b17f"
-            name="First Responders" description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Direct system operation&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Emergency service delivery&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Situation assessment&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
+            name="First Responders" description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Emergency service delivery&amp;nbsp;&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
             actor="true" human="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="bee4f087-7bd7-4d9b-87f4-65e8dc6f6e3c" targetElement="#e0acd3d5-f72c-4831-84b4-fc145b206ead"
@@ -767,7 +789,7 @@
               sourceElement="#545cfe51-0b9f-4f45-9615-2b593c58b17f"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="c49b2466-7d40-4c15-8d56-37aeebe1e76b"
-            name="Aid Personnel" description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>System operation&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Service delivery&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Status reporting&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
+            name="Aid Personnel" description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Service delivery&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>&amp;nbsp;Status reporting&amp;nbsp;&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
             actor="true" human="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="f412dd8b-3db9-4fbd-a14e-d64d4ebd2499" targetElement="#3837093c-56c2-489c-84b4-944c677b5586"
@@ -783,7 +805,7 @@
               sourceElement="#c49b2466-7d40-4c15-8d56-37aeebe1e76b"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="66681fe1-1f37-420d-8c90-d641fd3b9a4b"
-            name="PEAK JCTD Kit">
+            name="PEAK JCTD Kit" description="&lt;p>This is the PEAK Kit.&lt;/p>&#xA;&#xA;&lt;p>It will be prepositioned in countries prior to natural disaster.&lt;/p>&#xA;&#xA;&lt;p>It will provide:&lt;/p>&#xA;&#xA;&lt;ul>&#xA;&#x9;&lt;li>Water purification equipment&amp;nbsp;&lt;/li>&#xA;&#x9;&lt;li>Power generation systems&amp;nbsp;&lt;/li>&#xA;&#x9;&lt;li>UAV and control systems&amp;nbsp;&lt;/li>&#xA;&#x9;&lt;li>Communications devices&amp;nbsp;&lt;/li>&#xA;&#x9;&lt;li>Storage and distribution components&amp;nbsp;&lt;/li>&#xA;&lt;/ul>&#xA;">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="0dd281f7-53e9-4157-94e6-43773c22714d" targetElement="#ac6b6961-efb9-4a7b-86ba-c3e317f483a5"
               sourceElement="#66681fe1-1f37-420d-8c90-d641fd3b9a4b"/>
@@ -801,7 +823,7 @@
               sourceElement="#66681fe1-1f37-420d-8c90-d641fd3b9a4b"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="8dda5af4-d5f5-4e35-b291-6097dff1965b"
-            name="Transportation Systems" description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Military transport&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Civilian transport&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>463L cargo pallets&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;">
+            name="Transportation Systems" description="&lt;p>Provide the facilities to preposition the kits in partner countries.&lt;/p>&#xA;&#xA;&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Military transport&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Civilian transport&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>463L cargo pallets&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="9d13f096-2f04-4e3f-8aed-a523a220296e" targetElement="#fe780003-131b-4259-98fb-b321917b8e15"
               sourceElement="#8dda5af4-d5f5-4e35-b291-6097dff1965b"/>
@@ -838,7 +860,8 @@
               sourceElement="#c8d45ab5-e3bb-4e56-84ef-5f7c7de38297"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="3bf88f02-4449-44e5-872a-332db0b309d9"
-            name="Environmental Elements" actor="true" human="true">
+            name="Environmental Elements" description="&lt;p>Water sources&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>Weather conditions&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>Terrain&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>Infrastructure&amp;nbsp;&lt;/p>&#xA;"
+            actor="true" human="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="9f5ca465-d055-46a6-af2f-625005956d17" targetElement="#227953b6-17f8-4156-bf2a-9c08e3854f30"
               sourceElement="#3bf88f02-4449-44e5-872a-332db0b309d9"/>
@@ -853,7 +876,8 @@
               sourceElement="#3bf88f02-4449-44e5-872a-332db0b309d9"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="1b54b3c3-a36f-4184-8205-c3915c83e99e"
-            name="Operational User Community" actor="true" human="true">
+            name="Operational User Community" description="&lt;ul>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Direct system operation&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Situation assessment&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
+            actor="true" human="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="96aae452-2045-4513-8bbd-4a7153f2a511" targetElement="#39a20269-5f28-4921-a0eb-1022000848ff"
               sourceElement="#1b54b3c3-a36f-4184-8205-c3915c83e99e"/>
@@ -877,11 +901,11 @@
               sourceElement="#1b54b3c3-a36f-4184-8205-c3915c83e99e"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="f9620d1a-d06a-4357-8744-46246e9ff471"
-            name="Department of Defence">
+            name="Department of Defence" description="&lt;div class=&quot;OutlineElement Ltr SCXW45556123 BCX0&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; overflow: visible; clear: both; font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; position: relative; cursor: text; direction: ltr; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; user-select: text; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&#xA;&lt;div class=&quot;OutlineElement Ltr SCXW114113491 BCX0&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; overflow: visible; clear: both; font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; position: relative; cursor: text; direction: ltr; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; user-select: text; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&#xA;&lt;p class=&quot;Paragraph SCXW114113491 BCX0&quot; paraeid=&quot;{9d29d185-d1ee-4a0c-912c-7ee65e71a9da}{165}&quot; paraid=&quot;893565296&quot; style=&quot;margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; user-select: text; overflow-wrap: break-word; font-kerning: none;&quot;>&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;div class=&quot;OutlineElement Ltr SCXW114113491 BCX0&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; overflow: visible; clear: both; font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; position: relative; cursor: text; direction: ltr; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; user-select: text; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&#xA;&lt;p>o&amp;nbsp;&amp;nbsp;&amp;nbsp; Overall mission coordination&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>o&amp;nbsp;&amp;nbsp;&amp;nbsp; Resource deployment&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>o&amp;nbsp;&amp;nbsp;&amp;nbsp; International cooperation&amp;nbsp;&lt;/p>&#xA;&lt;/div>&#xA;&lt;/div>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;&lt;/div>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;">
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3fbe00fa-ffa8-4f01-b68c-85274a47c486"
               name="USSOUTHCOM" abstractType="#2d0f5026-878a-468d-84c6-3e2b2e3c67c1"/>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="2d0f5026-878a-468d-84c6-3e2b2e3c67c1"
-              name="USSOUTHCOM">
+              name="USSOUTHCOM" description="&lt;p>o&amp;nbsp;&amp;nbsp;&amp;nbsp; Regional security promotion&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>o&amp;nbsp;&amp;nbsp;&amp;nbsp; Stability enhancement&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>o&amp;nbsp;&amp;nbsp;&amp;nbsp; Crisis response coordination&amp;nbsp;&lt;/p>&#xA;">
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="e5398c12-2cb6-4478-a469-6a865c431a11" targetElement="#02543099-ff11-4437-8562-6fd8bf89aaf1"
                 sourceElement="#2d0f5026-878a-468d-84c6-3e2b2e3c67c1"/>
@@ -900,7 +924,7 @@
           </ownedEntities>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="266f0c68-844c-42ae-a688-875f43e055ba"
-            name="Partner Nation">
+            name="Partner Nation" description="&lt;div class=&quot;OutlineElement Ltr SCXW37956555 BCX0&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; overflow: visible; clear: both; font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; position: relative; cursor: text; direction: ltr; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; user-select: text; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&#xA;&lt;p>o&amp;nbsp;&amp;nbsp;&amp;nbsp; Local coordination&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>o&amp;nbsp;&amp;nbsp;&amp;nbsp; Resource support&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>o&amp;nbsp;&amp;nbsp;&amp;nbsp; Crisis response collaboration&amp;nbsp;&lt;/p>&#xA;&lt;/div>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="531e5803-0ce8-4b85-9c98-95d6cc88a14b" targetElement="#754b9bc1-f7d4-4f16-84bf-1e4caa3483a5"
               sourceElement="#266f0c68-844c-42ae-a688-875f43e055ba"/>
@@ -921,7 +945,7 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="413785fc-e240-4511-96ee-06a00d707e50"
               name="Local Population" abstractType="#d29542e6-f0df-4853-b1ab-4682ec2589b3"/>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="85e1e204-595e-42d0-bd5d-1d7d0fd404f5"
-              name="Local Authorities">
+              name="Local Authorities" description="&lt;p>Local coordination&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>Information sharing&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>Resource management&amp;nbsp;&lt;/p>&#xA;">
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="7fde9268-0a66-4d67-87c6-730b4a416faa" targetElement="#424dfd7f-d1f6-4f84-81b5-54bef09713f6"
                 sourceElement="#85e1e204-595e-42d0-bd5d-1d7d0fd404f5"/>
