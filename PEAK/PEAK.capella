@@ -91,7 +91,7 @@
                 id="aa42bb45-5ee5-4c29-8239-43e5496e11d5" involved="#55c97f11-0307-4b76-a36e-142d3d3cc4e8"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
-              id="8f7d1290-01b1-4db6-bbe4-28f4d0859469" name="Cris Response Coordination">
+              id="8f7d1290-01b1-4db6-bbe4-28f4d0859469" name="Crisis Response Coordination">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="42ada6ab-211e-491e-b535-f20cf9f9c6a3" involved="#990bf8b8-037c-459a-9fba-275740187cc9"
                 source="#b47cbb4d-307a-41da-a41d-72d5bafc4558" target="#06c42615-fad6-4a6f-a178-b96c9c31932e"/>
@@ -569,6 +569,10 @@
               id="80d50369-34f1-4db5-8c99-81fec8a65e30" included="#bf779b09-3ef1-4cae-a9ba-ffd824088831"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="b9ae4ff1-29d3-41d5-9d99-de92057890ac" included="#0a3f4115-00fa-4bcd-83e5-37d1cd6f7f6b"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="ee961166-2684-4919-b1b8-58a3e8c3126a" involved="#a443f333-2166-41ab-9fb0-4e07ab04276f"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="14490fd9-0640-4811-a962-e67162057c18" involved="#2ac10df0-8c78-4398-af24-3df511eeb935"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="f72501b9-3c62-4d72-99d3-51bd738a7b1e" involved="#545cfe51-0b9f-4f45-9615-2b593c58b17f"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -592,6 +596,8 @@
               id="01827b93-fe02-43f4-ab61-468ecdd8470f" included="#a458689f-c6a4-4993-9c10-bad1dae17692"/>
           <includes xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityInclude"
               id="23a40392-cf3b-4ac7-8911-1bfc648641f6" included="#cf7411d2-93de-4f0c-b756-2f3ebfb8b634"/>
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="2583c162-4a79-4d06-8680-f59d2298db56" involved="#ae384251-0c0a-4fd5-b2d5-836f675220b3"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="104f6e3c-aa6a-4f54-aaee-5bf683e21b06" involved="#66681fe1-1f37-420d-8c90-d641fd3b9a4b"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -662,6 +668,8 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="848cb324-5c90-40ce-a587-7b004162cdb8" name="Crisis Response Coordination"
             description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Enable structured collaboration between public and private entities&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Facilitate trans-national participation&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Support regional stability efforts&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;">
+          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
+              id="cd6e3240-1a52-4452-a15b-f7ea23670b9b" involved="#8f7d1290-01b1-4db6-bbe4-28f4d0859469"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="af395ac0-516b-4e43-a302-b01af246f884" involved="#c49b2466-7d40-4c15-8d56-37aeebe1e76b"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
