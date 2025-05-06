@@ -1039,6 +1039,43 @@
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="1469af64-4214-4be5-913c-cadbfd4fcd5b" name="System Analysis">
+      <ownedPropertyValuePkgs xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValuePkg"
+          id="c1f9e487-0691-4e61-8c57-f621f133c1a1" name="Requirements">
+        <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+            id="a718ee34-34f2-4968-9e38-1809d7392d26" name="PEAK Stakeholder Specification">
+          <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+              id="a6c75377-2172-4212-9cf7-81161c0e2647" name="ID" value="ID Value"/>
+          <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+              id="ddedfc51-62fb-4449-8eab-72f1179b1fa9" name="Type" value="Specification"/>
+          <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+              id="011d3b44-faf3-4388-be40-3ed76c5249c5" name="Needs" appliedPropertyValueGroups="#061730d8-b093-4e18-89d4-b14510dfd097">
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                id="601c2ed2-fe88-4cd6-b15f-6fa1c1804b1b" name="ID" value="ID Value"/>
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                id="4fe8880b-8984-42b2-a4e0-571ec7d601e4" name="Type" value="Paragraph"/>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="061730d8-b093-4e18-89d4-b14510dfd097" name="Stakeholder Requirement"
+                summary="ID Value" appliedPropertyValueGroups="#3774330c-0cb6-4038-9994-77c47450c82d">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="ba1105ec-1927-44ef-8a17-e6e36a2000d4" name="ID" value="ID Value"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="0b971225-022b-4986-9517-42c90fb27bdc" name="Type" value="Business Goal"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="3774330c-0cb6-4038-9994-77c47450c82d" name="Requirement"/>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="42c0d0b3-8497-4593-abcb-221b467633d4" name="Copy of Stakeholder Requirement"
+                summary="ID Value">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="72b0e791-6431-4e8c-82e6-c7a9fd7e460e" name="ID" value="ID Value"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="b38d8881-c299-4285-aadd-8cab00b1ebbc" name="Type" value="Business Goal"/>
+            </ownedPropertyValueGroups>
+          </ownedPropertyValueGroups>
+        </ownedPropertyValueGroups>
+        <ownedPropertyValuePkgs xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValuePkg"
+            id="74e5b4c8-9d3e-4dfc-81e5-c3c99808188b" name="PropertyValuePkg 1"/>
+      </ownedPropertyValuePkgs>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemFunctionPkg"
           id="94d47345-3cf0-4376-b2c4-525fb03b445e" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
