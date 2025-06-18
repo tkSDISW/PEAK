@@ -2,7 +2,8 @@
 
 <!--Capella_Version_6.1.0-->
 <org.polarsys.capella.core.data.capellamodeller:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CapellaRequirements="http://www.polarsys.org/capella/requirements"
+    xmlns:Requirements="http://www.polarsys.org/kitalpha/requirements" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellamodeller="http://www.polarsys.org/capella/core/modeller/6.0.0"
@@ -1039,6 +1040,13 @@
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="1469af64-4214-4be5-913c-cadbfd4fcd5b" name="System Analysis">
+      <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="37e52fea-1298-4615-b4b8-46631d77f13b"
+          ReqIFName="Requirements">
+        <ownedRequirements xsi:type="Requirements:Requirement" id="1b8377e2-b6e8-45f8-b9c4-8d9299fc238d"
+            ReqIFName="Power System Requirements" ReqIFText="The system shall provide power generated through renewable resources with a fossil fuel generator backup sufficient to support all components simultaneously. Rationale:Ensures operational effectiveness using sustainable energy sources, as highlighted in the PEAK project&amp;#x27;s goal to leverage existing technology and renewable resources."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="b8fb1076-6783-4021-8948-518327788391"
+            ReqIFName="Water Purification Specifications" ReqIFText="The water purification equipment shall produce potable water from fresh, brackish, or salt water, incorporating a filtration system for drinking and hygiene purposes. Rationale:This aligns with the PEAK project&amp;#x27;s aim to leverage existing technology for providing essential services in critical events, ensuring water is safe for affected populations."/>
+      </ownedExtensions>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemFunctionPkg"
           id="94d47345-3cf0-4376-b2c4-525fb03b445e" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
