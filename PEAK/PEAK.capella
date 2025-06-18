@@ -2,8 +2,7 @@
 
 <!--Capella_Version_6.1.0-->
 <org.polarsys.capella.core.data.capellamodeller:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CapellaRequirements="http://www.polarsys.org/capella/requirements"
-    xmlns:Requirements="http://www.polarsys.org/kitalpha/requirements" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellamodeller="http://www.polarsys.org/capella/core/modeller/6.0.0"
@@ -1040,13 +1039,6 @@
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="1469af64-4214-4be5-913c-cadbfd4fcd5b" name="System Analysis">
-      <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="2db61754-be81-462f-872e-bbc6f0dc825e"
-          ReqIFName="Requirements">
-        <ownedRequirements xsi:type="Requirements:Requirement" id="53d77b17-d3dd-4f12-a45d-1a809363689e"
-            ReqIFName="Use Renewable Power Sources" ReqIFText="The power sub-system shall primarily run on renewable sources such as solar and wind, with a fossil fuel generator as backup. Rationale:To ensure sustainability and reduce dependency on fossil fuels, aligning with the project&amp;#x27;s goal of leveraging existing technology."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="6e70ebab-1478-4240-96bc-0eba2f319055"
-            ReqIFName="Produce Potable Water" ReqIFText="The water purification equipment shall produce potable water from fresh, brackish, or salt water, providing at least the necessary daily intake for an average community. Rationale:Ensures the provision of safe drinking water during time-sensitive events and contributes to the operational goal of addressing critical service needs."/>
-      </ownedExtensions>
       <ownedPropertyValuePkgs xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValuePkg"
           id="c1f9e487-0691-4e61-8c57-f621f133c1a1" name="Requirements">
         <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
