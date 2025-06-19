@@ -40,6 +40,8 @@
       key="projectApproach" value="SingletonComponents"/>
   <ownedModelRoots xsi:type="org.polarsys.capella.core.data.capellamodeller:SystemEngineering"
       id="69642134-a5ae-4fc3-9ad9-cdde615e7396" name="PEAK">
+    <ownedPropertyValuePkgs xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValuePkg"
+        id="de9c39d9-b2c1-47f1-b8c6-850b58ac0ede" name="PropertyValuePkg 1"/>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.oa:OperationalAnalysis"
         id="aa829470-6ca7-48d0-859f-ffd5eb0cb5d5" name="Operational Analysis">
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
@@ -1041,29 +1043,9 @@
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="1469af64-4214-4be5-913c-cadbfd4fcd5b" name="System Analysis">
       <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="90645741-3a11-48f2-88a5-c846013b7ae9"
-          ReqIFName="User Requirements">
-        <ownedRequirements xsi:type="Requirements:Requirement" id="f048abf8-026b-427e-bab8-a5b807f53220"
-            ReqIFName="Use COTS Technology" ReqIFText="The system shall utilize commercial-off-the-shelf technology. Rationale:Requires limited development and accessible technology."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="727cda0b-9fc7-409a-bbf1-0cabae756b92"
-            ReqIFName="Easy Operation" ReqIFText="The system shall be easy to operate. Rationale:To allow various personnel to manage the system."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="c073a16c-7a7c-4417-84a7-3bc86afc54f5"
-            ReqIFName="Low Maintenance" ReqIFText="The system shall require low maintenance. Rationale:To reduce operational sustainment costs."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="fd3da4fa-0815-4b65-bbc0-f5ddab20c8c4"
-            ReqIFName="Export Capability" ReqIFText="The system shall be exportable to foreign nations. Rationale:For deployment in various geographic regions."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="03b356b5-7b86-419a-bf4c-00e5e323e7da"
-            ReqIFName="Non-Proprietary Technology" ReqIFText="The system shall use non-proprietary technology. Rationale:To ensure flexibility and interoperability."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="e5d434b3-c43a-4f79-8148-d2c085f9d265"
-            ReqIFName="Lightweight Design" ReqIFText="The system shall be lightweight and man-portable. Rationale:For easy transport and deployment by personnel."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="a55d41b8-0218-4629-992c-aad4706f14d4"
-            ReqIFName="Durability" ReqIFText="The system shall be durable and weather resistant. Rationale:To withstand diverse environmental conditions."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="7ee5b285-3ad8-407b-a1af-540cb9045cda"
-            ReqIFName="Limited HAZMAT Needs" ReqIFText="The system shall have limited HAZMAT requirements. Rationale:To reduce risks associated with hazardous materials."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="61e43109-2c0b-4b5d-a820-1ab76f1f4e2b"
-            ReqIFName="Transportable System" ReqIFText="The system shall be transportable by air, sea, and land modes. Rationale:To ensure flexible logistics."/>
+          ReqIFLongName="User Requirements" ReqIFName="User Requirements">
         <ownedRequirements xsi:type="Requirements:Requirement" id="5bc632c1-af32-4682-945d-607c3dfe6912"
             ReqIFName="Cargo Pallet Fit" ReqIFText="The system components shall fit on a single 463L cargo air pallet. Rationale:Standardizes military air transport."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="53773e29-a148-481e-aada-47987c2a1357"
-            ReqIFName="Produce Potable Water" ReqIFText="The water purification equipment shall produce potable water. Rationale:To meet health and hygiene needs."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="1b408a6b-ea13-4c87-888a-d1f276c265e4"
             ReqIFName="Filtration System Inclusion" ReqIFText="The water system shall include a filtration system. Rationale:Ensures the removal of contaminants."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="e034047e-3d6c-4cd3-bfa4-a5e89e7613bf"
@@ -1086,14 +1068,6 @@
             ReqIFName="Situational Awareness Features" ReqIFText="The system shall include local situational awareness capabilities. Rationale:To provide essential data to responders."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="f80f9d03-f3a2-4690-974f-e0bf28470bc6"
             ReqIFName="Integrate Aerial Device" ReqIFText="The system shall include an unmanned aerial system. Rationale:To monitor environments and infrastructure."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="ed52e4cf-63c1-4d12-906b-bf2b06423ac9"
-            ReqIFName="Include Camera System" ReqIFText="The situational awareness component shall include a camera system. Rationale:To capture essential visual data."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="d4e57853-9b16-4d61-8f0e-7740ec3de662"
-            ReqIFName="Integrate Situational Platform" ReqIFText="The situational awareness component shall have an integrated platform. Rationale:To provide a cohesive data framework."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="9596e2b6-002f-45e2-8244-3c6febf05979"
-            ReqIFName="Power Through Kit" ReqIFText="The situational awareness system shall be powered through the kit. Rationale:Ensures system autonomy."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="fafd2974-09a8-4d07-8189-415d57e5d32b"
-            ReqIFName="Existing Awareness Tech" ReqIFText="The situational awareness system shall leverage existing technology. Rationale:To optimize existing capabilities."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="dd640a56-2832-448a-87d2-e8dde2639126"
             ReqIFName="Communications Levels" ReqIFText="The communications sub-system shall operate on various levels (local, national, regional, international). Rationale:Ensures broad communication capacity."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="54646119-85af-4a04-8d40-ad28eed7b3e0"
@@ -1106,42 +1080,6 @@
             ReqIFName="Power Communications" ReqIFText="The communications system shall be powered through the kit. Rationale:For consistent operation and autonomy."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="9f8e7489-7510-4a8d-a0f9-9b0294c17efc"
             ReqIFName="Leverage Existing Communication Tech" ReqIFText="The communications sub-system shall leverage existing technology. Rationale:To maintain efficiency and practicality."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="7f60976c-7ba9-4f67-ba42-29dab5c40f61"
-            ReqIFName="Resilience Against Natural Disasters" ReqIFText="The system shall be resilient against natural disaster conditions. Rationale:Ensures reliable functionality under stress."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="9d517a84-4466-423c-9761-335acdbab0e4"
-            ReqIFName="Rapid Deployment" ReqIFText="The system shall be capable of rapid deployment. Rationale:To ensure timely delivery of services."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="8fd556c3-7272-4286-9dc7-468cefd64a69"
-            ReqIFName="Modular Components" ReqIFText="The system shall include modular components for easy replacement or upgrade. Rationale:To maintain and extend service life of the system."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="2d525c10-bc76-4d13-b906-9e8cf8acc76e"
-            ReqIFName="Secure Communications" ReqIFText="The system shall provide secure voice and data communications. Rationale:To ensure confidentiality and integrity of information."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="dc412dd7-1365-4a47-a063-9f325e3fd13e"
-            ReqIFName="Localized Training Programs" ReqIFText="The system shall include programs for localized training. Rationale:Ensures applicable skills in diverse deployment regions."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="34712745-fd0b-43ac-b6a2-152e8232355a"
-            ReqIFName="Autonomous Operation Capability" ReqIFText="The system shall have capabilities for semi-autonomous operation. Rationale:Reduces operator demand in high-stress situations."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="a9e3d169-6a02-4131-b8ba-635570386f0c"
-            ReqIFName="Scalable Design" ReqIFText="The system shall have a scalable design to fit varied operational needs. Rationale:Allows flexible response sizing."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="ec76c685-d6b2-4b68-a6f5-488266ed57bd"
-            ReqIFName="Interoperability Standard Compliance" ReqIFText="The system shall comply with relevant interoperability standards. Rationale:To ensure broad compatibility."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="5ee1bcb0-10e1-4cf3-9be1-48124de00939"
-            ReqIFName="Data Logging" ReqIFText="The system shall log operational data for post-operation analysis. Rationale:Enhances review and optimization capacity."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="95f9c7c5-2dd7-47ca-bc61-18277ff400db"
-            ReqIFName="Low Environmental Impact" ReqIFText="The system shall have a low environmental impact. Rationale:To promote sustainability."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="3605c76c-2d0c-43c1-b094-9c9cb16f9dd9"
-            ReqIFName="Critical Event Focus" ReqIFText="The system shall be focused on providing aid during critical events. Rationale:Addresses specific operational needs during crises."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="1a84ca74-3828-42c0-b9d9-f6f9af4613a2"
-            ReqIFName="Supply Chain Resilience" ReqIFText="The system shall have a resilient supply chain for critical components. Rationale:Ensures availability and minimizes delays."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="6fb2830b-8262-4e62-88a1-7842152a5a58"
-            ReqIFName="Remote Control Capability" ReqIFText="The system shall include remote control capabilities for critical functions. Rationale:Supports operations in hazardous environments."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="6d5551b9-e1df-4e60-aa1d-0785b2874914"
-            ReqIFName="Time-Sensitive Information Delivery" ReqIFText="The system shall deliver time-sensitive information quickly. Rationale:Provides timely data to responders and decision makers."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="6e97c580-95a1-445c-8634-be2d75f7da65"
-            ReqIFName="Coordinate with Public Entities" ReqIFText="The system shall facilitate coordination with public entities. Rationale:For an integrated public-private response."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="a4e63e67-484a-46cb-ba84-1433bfa56f35"
-            ReqIFName="System Security" ReqIFText="The system shall include security measures to prevent unauthorized access. Rationale:To protect system integrity."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="ca02d49e-c407-4fdc-a1a0-89edf6b7bc33"
-            ReqIFName="Portable Power Sources" ReqIFText="The system shall include portable power sources to support off-grid operations. Rationale:Ensures continuous operation in remote locations."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="f8761ff2-2b56-4f56-b8d1-36f356f9a690"
-            ReqIFName="Redundancy for Critical Functions" ReqIFText="The system shall include redundancy for all critical functions. Rationale:Ensures system reliability under duress."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="1b600244-f724-494a-9c60-309d2c47b6e7"
             ReqIFName="Weather Data Integration" ReqIFText="Situational awareness components shall integrate local weather data streams. Rationale:Provides environmental context for operations."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="aa3a5b1f-eeea-4e7f-ac45-42b5bb4da098"
@@ -1154,8 +1092,6 @@
             ReqIFName="High Throughput Data Capacity" ReqIFText="The communication system shall support high-throughput data transfer. Rationale:Enables detailed image and video sharing."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="ce579235-615c-4713-88ff-d673bb10ec88"
             ReqIFName="Self-Diagnosis and Alerts" ReqIFText="The system shall include self-diagnosis capabilities with alert systems. Rationale:Promotes proactive maintenance."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="188c4eed-b141-4bb9-9e33-a4e8a3cfa215"
-            ReqIFName="Advanced Water Sensors" ReqIFText="Water systems shall include advanced sensors for quality monitoring. Rationale:Ensures safety and compliance."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="bd9a26d5-4158-42d5-9a21-38233e181f62"
             ReqIFName="Power Management Interface" ReqIFText="The power system shall include a management interface for monitoring usage. Rationale:For efficient resource allocation."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="fdcb1d3b-6c0b-4428-acbd-d924b522a793"
@@ -1166,66 +1102,142 @@
             ReqIFName="Synchronized Updates" ReqIFText="The system shall support synchronized updates for all components. Rationale:To ensure consistent operation."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="edb0c21f-3131-4f6b-8e2a-096a7e2881d6"
             ReqIFName="Mesh Network Capability" ReqIFText="The communications system shall support mesh network capabilities for extended range. Rationale:Enables adaptable connectivity."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="e3ce73d2-3f83-42b6-ab3e-d1bd684bb4dd"
-            ReqIFName="User Feedback System" ReqIFText="The system shall include a user feedback mechanism for performance monitoring. Rationale:To enhance service refinement."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="f232c30a-4beb-46b4-85dc-1d8e87b8fab1"
-            ReqIFName="GIS Integration" ReqIFText="Situational awareness tools shall integrate with Geographic Information Systems (GIS). Rationale:To enhance mapping and tracking capabilities."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="f248b297-7f90-4cd3-a269-1c23fd4b7bc9"
-            ReqIFName="Battery Backup" ReqIFText="The system shall include battery backup systems for essential functions. Rationale:Ensures operation during outages."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="89f3d9b0-9fad-4e65-a7e3-d20f292e7804"
-            ReqIFName="Mission-Customizable Kits" ReqIFText="The system shall allow for mission-specific customization of kits. Rationale:Enhances operational flexibility."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="0fed052f-488f-49ff-b5bd-fe40cdbf5e2b"
-            ReqIFName="Collaboration with Local Authorities" ReqIFText="The system shall support collaboration with local authorities in affected areas. Rationale:Ensures alignment with local needs."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="c2b7439a-b50e-4919-b379-c4ce18e9da2b"
-            ReqIFName="Carbon Footprint Monitoring" ReqIFText="The system shall monitor and report its carbon footprint. Rationale:Supports environmental accountability."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="49070765-a9df-45b3-a1b6-2b42e3142841"
-            ReqIFName="Digital Training Library" ReqIFText="The system shall include a digital library with training resources. Rationale:Provides continuous learning opportunities."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="124bbd4d-2926-4cc3-aad4-efe12005063f"
             ReqIFName="Public Information Broadcast" ReqIFText="The system&amp;#x27;s communications capability shall include a public information broadcast channel. Rationale:Raises public awareness in crisis scenarios."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="cb40999a-7e40-4664-8bd8-b9c24b60d5a2"
-            ReqIFName="Accessibility Features" ReqIFText="The system shall include features that ensure accessibility for all users. Rationale:Promotes inclusivity."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="d4e8f139-0c08-410b-bbaf-94d2bf9a4b90"
-            ReqIFName="Remote Diagnostics" ReqIFText="The system shall include capabilities for remote diagnostics. Rationale:Supports efficient troubleshooting and maintenance."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="71bb9d1c-4b68-4f2c-9873-7e5ce068dd58"
             ReqIFName="Network Adaptive Protocols" ReqIFText="The communication system protocols shall adapt to varying network conditions. Rationale:Ensures consistent performance."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="0c5a32e9-2763-4f8f-a56c-7f1d2526a29d"
             ReqIFName="Interactive User Guide" ReqIFText="An interactive user guide shall be available through the system. Rationale:Facilitates quick user adaptation."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="b03c6c20-3dc4-416d-8a83-04b31351b16e"
             ReqIFName="Scalable Supply Network" ReqIFText="The system setup shall support a scalable supply network for kit components. Rationale:Ensures responsiveness to demand fluctuations."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="b0795839-55fe-455d-9e48-3134c60f829c"
-            ReqIFName="Standardized Connectors" ReqIFText="The system shall use standardized connectors for all components. Rationale:To ensure interoperability and ease of maintenance."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="792375fc-2c33-4c53-8961-243357daa35f"
-            ReqIFName="Light Optical Components" ReqIFText="Situational awareness systems shall use lightweight optical components. Rationale:To ease transport and installation."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="b2856f14-99bb-4ed8-bfa5-3acd69257e8f"
-            ReqIFName="Dynamic Resource Allocation" ReqIFText="The system shall dynamically allocate resources based on real-time demand. Rationale:Enhances efficiency."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="87fac7c2-ca87-4f58-9705-a08fcecee58a"
-            ReqIFName="Thermal Management" ReqIFText="The system shall include thermal management systems to prevent overheating. Rationale:Ensures reliability under stress."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="ee27c4d0-36ed-4778-98f2-d52dee9a276d"
-            ReqIFName="Weather Forecast Alerts" ReqIFText="Situational awareness components shall issue alerts based on forecasted weather conditions. Rationale:Prepares users for imminent conditions."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="f553f0fa-12c7-48df-ae2f-731e5ed0aff2"
-            ReqIFName="Standard Battery Packs" ReqIFText="The system shall use standard battery packs interchangeable across components. Rationale:Simplifies logistics and replacement."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="53d4f59c-1042-4927-8c2c-ebe523a2bd64"
-            ReqIFName="Evacuation Route Mapping" ReqIFText="The system shall assist in mapping evacuation routes in crisis zones. Rationale:Supports safety and coordination."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="49b9adb6-2c83-49c3-a642-71fa48062421"
-            ReqIFName="Language Adaptation" ReqIFText="The system interface shall support multiple languages. Rationale:Accommodates diverse operation zones."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="3006aa58-ff96-45be-874b-5b9cdeb726e7"
-            ReqIFName="Cybersecurity Measures" ReqIFText="The system shall include robust cybersecurity measures. Rationale:To guard against digital threats."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="53d9d87a-55a6-4f99-9a91-eb6e9db78c1f"
-            ReqIFName="Public Access Points" ReqIFText="The system shall provide public access points for emergency communications. Rationale:Enhances community outreach."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="1064aca2-0978-441a-ad09-cf50bf085ebd"
-            ReqIFName="Field Data Logging" ReqIFText="The system shall log data from field operations for later analysis. Rationale:Improves strategic insights."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="5bc6cee0-0810-4a7a-9e1a-a4c842a1f16b"
-            ReqIFName="Emergency Response Community Interface" ReqIFText="The system shall include an interface for emergency response community communications. Rationale:Increases coordination efficacy."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="02cf59d5-6b31-472a-aba0-66a22555b18a"
             ReqIFName="Multi-Band Communication Devices" ReqIFText="The communications system shall include multi-band devices for wider frequency usage. Rationale:Ensures broad connectivity."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="d298dd5c-da67-45f6-b730-878f51088f65"
-            ReqIFName="Incident Report Generation" ReqIFText="The system shall generate incident reports based on operational data. Rationale:Aids in post-event analysis."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="abd0ce92-d913-41c2-ad68-6a5b5c012f85"
-            ReqIFName="Structural Health Monitoring" ReqIFText="The system infrastructure shall include structural health monitoring. Rationale:Enhances proactive repairs."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="cc8eb8d8-bf08-430c-a1b7-adeb21dd4dd4"
-            ReqIFName="Graphical Configuration Tools" ReqIFText="The system shall provide graphical tools for configuration and management. Rationale:Simplifies control operations."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="66e2da24-b359-4de3-a2d7-d47ffaae3f6b"
-            ReqIFName="Deployed System Protection" ReqIFText="The system shall include deployable protection measures against environmental threats. Rationale:Preserves system integrity in adverse conditions."/>
+        <ownedRequirements xsi:type="Requirements:Folder" id="524ac81c-729f-4026-87f2-f654e217c158"
+            ReqIFLongName="System">
+          <ownedRequirements xsi:type="Requirements:Requirement" id="f048abf8-026b-427e-bab8-a5b807f53220"
+              ReqIFName="Use COTS Technology" ReqIFText="The system shall utilize commercial-off-the-shelf technology. Rationale:Requires limited development and accessible technology."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="727cda0b-9fc7-409a-bbf1-0cabae756b92"
+              ReqIFName="Easy Operation" ReqIFText="The system shall be easy to operate. Rationale:To allow various personnel to manage the system."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="c073a16c-7a7c-4417-84a7-3bc86afc54f5"
+              ReqIFName="Low Maintenance" ReqIFText="The system shall require low maintenance. Rationale:To reduce operational sustainment costs."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="fd3da4fa-0815-4b65-bbc0-f5ddab20c8c4"
+              ReqIFName="Export Capability" ReqIFText="The system shall be exportable to foreign nations. Rationale:For deployment in various geographic regions."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="03b356b5-7b86-419a-bf4c-00e5e323e7da"
+              ReqIFName="Non-Proprietary Technology" ReqIFText="The system shall use non-proprietary technology. Rationale:To ensure flexibility and interoperability."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="e5d434b3-c43a-4f79-8148-d2c085f9d265"
+              ReqIFName="Lightweight Design" ReqIFText="The system shall be lightweight and man-portable. Rationale:For easy transport and deployment by personnel."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="a55d41b8-0218-4629-992c-aad4706f14d4"
+              ReqIFName="Durability" ReqIFText="The system shall be durable and weather resistant. Rationale:To withstand diverse environmental conditions."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="7ee5b285-3ad8-407b-a1af-540cb9045cda"
+              ReqIFName="Limited HAZMAT Needs" ReqIFText="The system shall have limited HAZMAT requirements. Rationale:To reduce risks associated with hazardous materials."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="61e43109-2c0b-4b5d-a820-1ab76f1f4e2b"
+              ReqIFName="Transportable System" ReqIFText="The system shall be transportable by air, sea, and land modes. Rationale:To ensure flexible logistics."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="7f60976c-7ba9-4f67-ba42-29dab5c40f61"
+              ReqIFName="Resilience Against Natural Disasters" ReqIFText="The system shall be resilient against natural disaster conditions. Rationale:Ensures reliable functionality under stress."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="9d517a84-4466-423c-9761-335acdbab0e4"
+              ReqIFName="Rapid Deployment" ReqIFText="The system shall be capable of rapid deployment. Rationale:To ensure timely delivery of services."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="8fd556c3-7272-4286-9dc7-468cefd64a69"
+              ReqIFName="Modular Components" ReqIFText="The system shall include modular components for easy replacement or upgrade. Rationale:To maintain and extend service life of the system."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="2d525c10-bc76-4d13-b906-9e8cf8acc76e"
+              ReqIFName="Secure Communications" ReqIFText="The system shall provide secure voice and data communications. Rationale:To ensure confidentiality and integrity of information."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="dc412dd7-1365-4a47-a063-9f325e3fd13e"
+              ReqIFName="Localized Training Programs" ReqIFText="The system shall include programs for localized training. Rationale:Ensures applicable skills in diverse deployment regions."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="34712745-fd0b-43ac-b6a2-152e8232355a"
+              ReqIFName="Autonomous Operation Capability" ReqIFText="The system shall have capabilities for semi-autonomous operation. Rationale:Reduces operator demand in high-stress situations."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="a9e3d169-6a02-4131-b8ba-635570386f0c"
+              ReqIFName="Scalable Design" ReqIFText="The system shall have a scalable design to fit varied operational needs. Rationale:Allows flexible response sizing."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="ec76c685-d6b2-4b68-a6f5-488266ed57bd"
+              ReqIFName="Interoperability Standard Compliance" ReqIFText="The system shall comply with relevant interoperability standards. Rationale:To ensure broad compatibility."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="5ee1bcb0-10e1-4cf3-9be1-48124de00939"
+              ReqIFName="Data Logging" ReqIFText="The system shall log operational data for post-operation analysis. Rationale:Enhances review and optimization capacity."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="95f9c7c5-2dd7-47ca-bc61-18277ff400db"
+              ReqIFName="Low Environmental Impact" ReqIFText="The system shall have a low environmental impact. Rationale:To promote sustainability."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="3605c76c-2d0c-43c1-b094-9c9cb16f9dd9"
+              ReqIFName="Critical Event Focus" ReqIFText="The system shall be focused on providing aid during critical events. Rationale:Addresses specific operational needs during crises."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="1a84ca74-3828-42c0-b9d9-f6f9af4613a2"
+              ReqIFName="Supply Chain Resilience" ReqIFText="The system shall have a resilient supply chain for critical components. Rationale:Ensures availability and minimizes delays."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="6fb2830b-8262-4e62-88a1-7842152a5a58"
+              ReqIFName="Remote Control Capability" ReqIFText="The system shall include remote control capabilities for critical functions. Rationale:Supports operations in hazardous environments."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="6d5551b9-e1df-4e60-aa1d-0785b2874914"
+              ReqIFName="Time-Sensitive Information Delivery" ReqIFText="The system shall deliver time-sensitive information quickly. Rationale:Provides timely data to responders and decision makers."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="6e97c580-95a1-445c-8634-be2d75f7da65"
+              ReqIFName="Coordinate with Public Entities" ReqIFText="The system shall facilitate coordination with public entities. Rationale:For an integrated public-private response."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="a4e63e67-484a-46cb-ba84-1433bfa56f35"
+              ReqIFName="System Security" ReqIFText="The system shall include security measures to prevent unauthorized access. Rationale:To protect system integrity."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="ca02d49e-c407-4fdc-a1a0-89edf6b7bc33"
+              ReqIFName="Portable Power Sources" ReqIFText="The system shall include portable power sources to support off-grid operations. Rationale:Ensures continuous operation in remote locations."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="f8761ff2-2b56-4f56-b8d1-36f356f9a690"
+              ReqIFName="Redundancy for Critical Functions" ReqIFText="&lt;p>The system shall include redundancy for all critical functions. Rationale:Ensures system reliability under duress.&lt;/p>&#xA;"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="298c7ee6-993c-499b-a87d-adb7e784e5ec"
+              ReqIFLongName="Water Purification">
+            <ownedRequirements xsi:type="Requirements:Requirement" id="53773e29-a148-481e-aada-47987c2a1357"
+                ReqIFName="Produce Potable Water" ReqIFText="The water purification equipment shall produce potable water. Rationale:To meet health and hygiene needs."/>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="188c4eed-b141-4bb9-9e33-a4e8a3cfa215"
+                ReqIFName="Advanced Water Sensors" ReqIFText="Water systems shall include advanced sensors for quality monitoring. Rationale:Ensures safety and compliance."/>
+          </ownedRequirements>
+          <ownedRequirements xsi:type="Requirements:Folder" id="6cb5eca4-3761-42cc-934f-3aa757dafc44"
+              ReqIFLongName="Situational Awareness">
+            <ownedRequirements xsi:type="Requirements:Requirement" id="ed52e4cf-63c1-4d12-906b-bf2b06423ac9"
+                ReqIFName="Include Camera System" ReqIFText="The situational awareness component shall include a camera system. Rationale:To capture essential visual data."/>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="d4e57853-9b16-4d61-8f0e-7740ec3de662"
+                ReqIFName="Integrate Situational Platform" ReqIFText="The situational awareness component shall have an integrated platform. Rationale:To provide a cohesive data framework."/>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="9596e2b6-002f-45e2-8244-3c6febf05979"
+                ReqIFName="Power Through Kit" ReqIFText="The situational awareness system shall be powered through the kit. Rationale:Ensures system autonomy."/>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="fafd2974-09a8-4d07-8189-415d57e5d32b"
+                ReqIFName="Existing Awareness Tech" ReqIFText="The situational awareness system shall leverage existing technology. Rationale:To optimize existing capabilities."/>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="f232c30a-4beb-46b4-85dc-1d8e87b8fab1"
+                ReqIFName="GIS Integration" ReqIFText="Situational awareness tools shall integrate with Geographic Information Systems (GIS). Rationale:To enhance mapping and tracking capabilities."/>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="792375fc-2c33-4c53-8961-243357daa35f"
+                ReqIFName="Light Optical Components" ReqIFText="Situational awareness systems shall use lightweight optical components. Rationale:To ease transport and installation."/>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="ee27c4d0-36ed-4778-98f2-d52dee9a276d"
+                ReqIFName="Weather Forecast Alerts" ReqIFText="Situational awareness components shall issue alerts based on forecasted weather conditions. Rationale:Prepares users for imminent conditions."/>
+          </ownedRequirements>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="b0795839-55fe-455d-9e48-3134c60f829c"
+              ReqIFName="Standardized Connectors" ReqIFText="The system shall use standardized connectors for all components. Rationale:To ensure interoperability and ease of maintenance."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="b2856f14-99bb-4ed8-bfa5-3acd69257e8f"
+              ReqIFName="Dynamic Resource Allocation" ReqIFText="The system shall dynamically allocate resources based on real-time demand. Rationale:Enhances efficiency."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="87fac7c2-ca87-4f58-9705-a08fcecee58a"
+              ReqIFName="Thermal Management" ReqIFText="The system shall include thermal management systems to prevent overheating. Rationale:Ensures reliability under stress."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="f553f0fa-12c7-48df-ae2f-731e5ed0aff2"
+              ReqIFName="Standard Battery Packs" ReqIFText="The system shall use standard battery packs interchangeable across components. Rationale:Simplifies logistics and replacement."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="53d4f59c-1042-4927-8c2c-ebe523a2bd64"
+              ReqIFName="Evacuation Route Mapping" ReqIFText="The system shall assist in mapping evacuation routes in crisis zones. Rationale:Supports safety and coordination."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="49b9adb6-2c83-49c3-a642-71fa48062421"
+              ReqIFName="Language Adaptation" ReqIFText="The system interface shall support multiple languages. Rationale:Accommodates diverse operation zones."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="3006aa58-ff96-45be-874b-5b9cdeb726e7"
+              ReqIFName="Cybersecurity Measures" ReqIFText="The system shall include robust cybersecurity measures. Rationale:To guard against digital threats."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="53d9d87a-55a6-4f99-9a91-eb6e9db78c1f"
+              ReqIFName="Public Access Points" ReqIFText="The system shall provide public access points for emergency communications. Rationale:Enhances community outreach."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="1064aca2-0978-441a-ad09-cf50bf085ebd"
+              ReqIFName="Field Data Logging" ReqIFText="The system shall log data from field operations for later analysis. Rationale:Improves strategic insights."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="5bc6cee0-0810-4a7a-9e1a-a4c842a1f16b"
+              ReqIFName="Emergency Response Community Interface" ReqIFText="The system shall include an interface for emergency response community communications. Rationale:Increases coordination efficacy."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="d298dd5c-da67-45f6-b730-878f51088f65"
+              ReqIFName="Incident Report Generation" ReqIFText="The system shall generate incident reports based on operational data. Rationale:Aids in post-event analysis."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="abd0ce92-d913-41c2-ad68-6a5b5c012f85"
+              ReqIFName="Structural Health Monitoring" ReqIFText="The system infrastructure shall include structural health monitoring. Rationale:Enhances proactive repairs."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="cc8eb8d8-bf08-430c-a1b7-adeb21dd4dd4"
+              ReqIFName="Graphical Configuration Tools" ReqIFText="The system shall provide graphical tools for configuration and management. Rationale:Simplifies control operations."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="66e2da24-b359-4de3-a2d7-d47ffaae3f6b"
+              ReqIFName="Deployed System Protection" ReqIFText="The system shall include deployable protection measures against environmental threats. Rationale:Preserves system integrity in adverse conditions."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="e3ce73d2-3f83-42b6-ab3e-d1bd684bb4dd"
+              ReqIFName="User Feedback System" ReqIFText="The system shall include a user feedback mechanism for performance monitoring. Rationale:To enhance service refinement."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="f248b297-7f90-4cd3-a269-1c23fd4b7bc9"
+              ReqIFName="Battery Backup" ReqIFText="The system shall include battery backup systems for essential functions. Rationale:Ensures operation during outages."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="89f3d9b0-9fad-4e65-a7e3-d20f292e7804"
+              ReqIFName="Mission-Customizable Kits" ReqIFText="The system shall allow for mission-specific customization of kits. Rationale:Enhances operational flexibility."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="0fed052f-488f-49ff-b5bd-fe40cdbf5e2b"
+              ReqIFName="Collaboration with Local Authorities" ReqIFText="The system shall support collaboration with local authorities in affected areas. Rationale:Ensures alignment with local needs."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="c2b7439a-b50e-4919-b379-c4ce18e9da2b"
+              ReqIFName="Carbon Footprint Monitoring" ReqIFText="The system shall monitor and report its carbon footprint. Rationale:Supports environmental accountability."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="49070765-a9df-45b3-a1b6-2b42e3142841"
+              ReqIFName="Digital Training Library" ReqIFText="The system shall include a digital library with training resources. Rationale:Provides continuous learning opportunities."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="cb40999a-7e40-4664-8bd8-b9c24b60d5a2"
+              ReqIFName="Accessibility Features" ReqIFText="The system shall include features that ensure accessibility for all users. Rationale:Promotes inclusivity."/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="d4e8f139-0c08-410b-bbaf-94d2bf9a4b90"
+              ReqIFName="Remote Diagnostics" ReqIFText="The system shall include capabilities for remote diagnostics. Rationale:Supports efficient troubleshooting and maintenance."/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="8ce811cc-eee0-46d2-8545-55c0b8b57bbb"/>
+        </ownedRequirements>
       </ownedExtensions>
       <ownedPropertyValuePkgs xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValuePkg"
           id="c1f9e487-0691-4e61-8c57-f621f133c1a1" name="Requirements">
@@ -3246,7 +3258,17 @@
             id="36fb64d4-79e4-4049-ab5d-f184217fbf25" targetElement="#0dcf5cab-4c48-4981-8274-f1b3b7840ad7"
             sourceElement="#5f3b948c-9c60-4301-98f2-58869b255aa0"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="5f3b948c-9c60-4301-98f2-58869b255aa0"
-            name="PEAK" abstractType="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+            name="PEAK" abstractType="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947">
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="ac71d65a-181b-4087-aaec-ba49145b7506" source="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"
+              target="#f048abf8-026b-427e-bab8-a5b807f53220"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="5c14d337-a58e-49ef-86a7-8aef5b4603a1" source="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"
+              target="#727cda0b-9fc7-409a-bbf1-0cabae756b92"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="256dccfa-7ddf-408d-879d-7271439e52f2" relationTypeProxy="" source="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"
+              target="#c073a16c-7a7c-4417-84a7-3bc86afc54f5"/>
+        </ownedParts>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="287e89b9-5211-41e8-8909-4425c810d945"
             name="Local Authorities" abstractType="#0fd1838b-1cc6-4ddc-9dfc-d4657cca26b8"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="03acb664-0cf2-4fd4-bc03-caa906b99fe6"
