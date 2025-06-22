@@ -1047,71 +1047,171 @@
         <ownedRequirements xsi:type="Requirements:Requirement" id="5bc632c1-af32-4682-945d-607c3dfe6912"
             ReqIFName="Cargo Pallet Fit" ReqIFText="The system components shall fit on a single 463L cargo air pallet. Rationale:Standardizes military air transport."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="1b408a6b-ea13-4c87-888a-d1f276c265e4"
-            ReqIFName="Filtration System Inclusion" ReqIFText="The water system shall include a filtration system. Rationale:Ensures the removal of contaminants."/>
+            ReqIFName="Filtration System Inclusion" ReqIFText="The water system shall include a filtration system. Rationale:Ensures the removal of contaminants.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="c9b9f11d-6af6-42a8-83fc-27ffba654976"
+              source="#1b408a6b-ea13-4c87-888a-d1f276c265e4" target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="e034047e-3d6c-4cd3-bfa4-a5e89e7613bf"
-            ReqIFName="Water Distribution Capability" ReqIFText="The system shall include water distribution capability. Rationale:To facilitate potable water supply."/>
+            ReqIFName="Water Distribution Capability" ReqIFText="The system shall include water distribution capability. Rationale:To facilitate potable water supply.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="17181b48-84e0-49f6-9c4b-c14b781b7e8e"
+              source="#e034047e-3d6c-4cd3-bfa4-a5e89e7613bf" target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="7546d353-e92f-4f5e-9fd2-0d4aef285e80"
-            ReqIFName="Include Storage Container" ReqIFText="The water system shall include a storage container. Rationale:To store the purified water."/>
+            ReqIFName="Include Storage Container" ReqIFText="The water system shall include a storage container. Rationale:To store the purified water.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="06aae7b7-f8d2-4548-9d7f-b09859ee41cb"
+              source="#7546d353-e92f-4f5e-9fd2-0d4aef285e80" target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="69bd77f0-61f8-4e76-8ee5-97357959b4cb"
-            ReqIFName="Kit Power Source" ReqIFText="The water equipment shall be powered through the kit power generation system. Rationale:To ensure energy efficiency."/>
+            ReqIFName="Kit Power Source" ReqIFText="The water equipment shall be powered through the kit power generation system. Rationale:To ensure energy efficiency.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="b87226a4-cb0d-492e-bc4a-868a194cdbb1"
+              source="#69bd77f0-61f8-4e76-8ee5-97357959b4cb" target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="9f01a3b9-4945-4cf9-9d29-4717ab2876d2"
-            ReqIFName="Leverage Existing Water Tech" ReqIFText="The water system shall leverage existing technology. Rationale:To reduce development time and cost."/>
+            ReqIFName="Leverage Existing Water Tech" ReqIFText="The water system shall leverage existing technology. Rationale:To reduce development time and cost.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="d3a8b1cd-c8c3-40bb-938c-6bf9f102bb91"
+              source="#9f01a3b9-4945-4cf9-9d29-4717ab2876d2" target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="b3aa5623-5095-4f76-a306-faf82a0e9cf3"
-            ReqIFName="Renewable Power Source" ReqIFText="The power sub-system shall primarily run on renewable sources. Rationale:To promote sustainability and autonomy."/>
+            ReqIFName="Renewable Power Source" ReqIFText="The power sub-system shall primarily run on renewable sources. Rationale:To promote sustainability and autonomy.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="96bc4a90-b9c2-4d04-a0e9-b897ee5d5fc1"
+              source="#b3aa5623-5095-4f76-a306-faf82a0e9cf3" target="#227e66f0-482e-4f30-bea0-0c615f0d4489"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="4612aebc-795e-4315-8482-2680d4197315"
-            ReqIFName="Fossil Fuel Backup" ReqIFText="The power system shall have a fossil fuel generator backup. Rationale:Ensures continuous operation."/>
+            ReqIFName="Fossil Fuel Backup" ReqIFText="The power system shall have a fossil fuel generator backup. Rationale:Ensures continuous operation.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="9a4980f1-8b91-44ff-b3ba-4f72a8dc7d78"
+              source="#4612aebc-795e-4315-8482-2680d4197315" target="#18a249ae-8e5b-4b13-ae72-15f61ba0ab0d"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="db208455-2f1c-4bea-8277-7d0dfeb05740"
-            ReqIFName="Support Kit Components" ReqIFText="The power system shall have sufficient capacity to support all kit components. Rationale:Enables integrated operation."/>
+            ReqIFName="Support Kit Components" ReqIFText="The power system shall have sufficient capacity to support all kit components. Rationale:Enables integrated operation.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="c59fab12-c265-4e7a-ab2a-72ee2f2a9cad"
+              source="#db208455-2f1c-4bea-8277-7d0dfeb05740" target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="eb323dd1-0d54-4e13-8951-5ff2281c427b"
-            ReqIFName="Use Existing Power Tech" ReqIFText="The power system shall leverage existing technology. Rationale:To minimize resource use."/>
+            ReqIFName="Use Existing Power Tech" ReqIFText="The power system shall leverage existing technology. Rationale:To minimize resource use.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="0a560c42-575f-4217-b93c-b537c08e7e66"
+              source="#eb323dd1-0d54-4e13-8951-5ff2281c427b" target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="2760202e-ef64-41f4-a9f9-e4a1f63f6bb7"
-            ReqIFName="Situational Awareness Features" ReqIFText="The system shall include local situational awareness capabilities. Rationale:To provide essential data to responders."/>
+            ReqIFName="Situational Awareness Features" ReqIFText="The system shall include local situational awareness capabilities. Rationale:To provide essential data to responders.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="6a702541-e527-4af8-9bce-4758b9341935"
+              source="#2760202e-ef64-41f4-a9f9-e4a1f63f6bb7" target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="f80f9d03-f3a2-4690-974f-e0bf28470bc6"
-            ReqIFName="Integrate Aerial Device" ReqIFText="The system shall include an unmanned aerial system. Rationale:To monitor environments and infrastructure."/>
+            ReqIFName="Integrate Aerial Device" ReqIFText="The system shall include an unmanned aerial system. Rationale:To monitor environments and infrastructure.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="c5c37695-3ce6-4d2d-a290-45f8cc358f60"
+              source="#f80f9d03-f3a2-4690-974f-e0bf28470bc6" target="#d7138526-4d27-4545-a98e-84368bc85308"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="dd640a56-2832-448a-87d2-e8dde2639126"
-            ReqIFName="Communications Levels" ReqIFText="The communications sub-system shall operate on various levels (local, national, regional, international). Rationale:Ensures broad communication capacity."/>
+            ReqIFName="Communications Levels" ReqIFText="The communications sub-system shall operate on various levels (local, national, regional, international). Rationale:Ensures broad communication capacity.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="1d0b472a-c147-4ffb-9295-6663d935ca36"
+              source="#dd640a56-2832-448a-87d2-e8dde2639126" target="#b82cda73-10cd-4851-8b5e-d158fe5606b3"/>
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="48c0c975-f831-4452-85e7-13819abacd67"
+              source="#dd640a56-2832-448a-87d2-e8dde2639126" target="#4854d23a-6f56-469d-afa5-7c946debd4a6"/>
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="6be842d0-05a7-4179-b715-d2de5de6109d"
+              source="#dd640a56-2832-448a-87d2-e8dde2639126" target="#422f3fea-da3c-48a7-9f26-d1321ddfc404"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="54646119-85af-4a04-8d40-ad28eed7b3e0"
-            ReqIFName="Low-Bandwidth Communications" ReqIFText="The communication device shall transmit data over a low-bandwidth network. Rationale:To optimize communication in variable conditions."/>
+            ReqIFName="Low-Bandwidth Communications" ReqIFText="The communication device shall transmit data over a low-bandwidth network. Rationale:To optimize communication in variable conditions.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="4480a190-d024-4162-a34b-f00feeae3193"
+              source="#54646119-85af-4a04-8d40-ad28eed7b3e0" target="#422f3fea-da3c-48a7-9f26-d1321ddfc404"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="0133d8c8-c011-473a-b1d9-810e9a9469d7"
-            ReqIFName="Transmit Situation Reports" ReqIFText="The system shall enable transmitting situation reports. Rationale:To keep authorities and aid personnel informed."/>
+            ReqIFName="Transmit Situation Reports" ReqIFText="The system shall enable transmitting situation reports. Rationale:To keep authorities and aid personnel informed.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="f398aa5d-9b41-4ab4-aac5-9bbc058d6e9c"
+              source="#0133d8c8-c011-473a-b1d9-810e9a9469d7" target="#4854d23a-6f56-469d-afa5-7c946debd4a6"/>
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="71141f70-1fb4-4149-8f17-cd07cf4cbcd2"
+              source="#0133d8c8-c011-473a-b1d9-810e9a9469d7" target="#b82cda73-10cd-4851-8b5e-d158fe5606b3"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="bfbe63f7-9593-4f45-903b-597bbaf5c9f7"
-            ReqIFName="Integrate Communications" ReqIFText="The communications system shall integrate with the situational awareness component. Rationale:For streamlined operations."/>
+            ReqIFName="Integrate Communications" ReqIFText="The communications system shall integrate with the situational awareness component. Rationale:For streamlined operations.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="920c5b5c-89cf-4177-aa94-db77f7077118"
+              source="#bfbe63f7-9593-4f45-903b-597bbaf5c9f7" target="#422f3fea-da3c-48a7-9f26-d1321ddfc404"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="5efb1749-742c-407a-896c-527d487df1c9"
-            ReqIFName="Power Communications" ReqIFText="The communications system shall be powered through the kit. Rationale:For consistent operation and autonomy."/>
+            ReqIFName="Power Communications" ReqIFText="The communications system shall be powered through the kit. Rationale:For consistent operation and autonomy.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="5903c80d-5445-47d4-90d1-b39ee7f144ab"
+              source="#5efb1749-742c-407a-896c-527d487df1c9" target="#422f3fea-da3c-48a7-9f26-d1321ddfc404"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="9f8e7489-7510-4a8d-a0f9-9b0294c17efc"
-            ReqIFName="Leverage Existing Communication Tech" ReqIFText="The communications sub-system shall leverage existing technology. Rationale:To maintain efficiency and practicality."/>
+            ReqIFName="Leverage Existing Communication Tech" ReqIFText="The communications sub-system shall leverage existing technology. Rationale:To maintain efficiency and practicality.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="f03290bf-6d01-4f95-b032-4238244a3299"
+              source="#9f8e7489-7510-4a8d-a0f9-9b0294c17efc" target="#422f3fea-da3c-48a7-9f26-d1321ddfc404"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="1b600244-f724-494a-9c60-309d2c47b6e7"
-            ReqIFName="Weather Data Integration" ReqIFText="Situational awareness components shall integrate local weather data streams. Rationale:Provides environmental context for operations."/>
+            ReqIFName="Weather Data Integration" ReqIFText="Situational awareness components shall integrate local weather data streams. Rationale:Provides environmental context for operations.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="3a646a71-6f30-468b-961a-5744dac63da0"
+              source="#1b600244-f724-494a-9c60-309d2c47b6e7" target="#15ceee45-c317-4dd8-b1ec-15ee776b5e42"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="aa3a5b1f-eeea-4e7f-ac45-42b5bb4da098"
-            ReqIFName="Public-Private Data Sharing" ReqIFText="The system shall enable data sharing between public and private sector entities. Rationale:Enhances cooperation and resource use."/>
+            ReqIFName="Public-Private Data Sharing" ReqIFText="The system shall enable data sharing between public and private sector entities. Rationale:Enhances cooperation and resource use.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="11158926-2016-4acd-a22e-63847da0026f"
+              source="#aa3a5b1f-eeea-4e7f-ac45-42b5bb4da098" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="31b239ff-f9b0-4e83-99cc-033d998984e1"
-            ReqIFName="Humanitarian Logistics" ReqIFText="The system shall support humanitarian logistics activities. Rationale:Facilitates resource delivery and setup."/>
+            ReqIFName="Humanitarian Logistics" ReqIFText="The system shall support humanitarian logistics activities. Rationale:Facilitates resource delivery and setup.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="f991eede-d48b-4b28-a84c-fd935c3e9334"
+              source="#31b239ff-f9b0-4e83-99cc-033d998984e1" target="#b82cda73-10cd-4851-8b5e-d158fe5606b3"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="477a3dad-47a6-4ecc-8bb7-92223b8a882f"
-            ReqIFName="Adapted Tech for Diverse Terrains" ReqIFText="The system shall adapt its technology for various terrains. Rationale:To ensure wide applicability."/>
+            ReqIFName="Adapted Tech for Diverse Terrains" ReqIFText="The system shall adapt its technology for various terrains. Rationale:To ensure wide applicability.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="28414c96-ffa0-44cc-b099-d21f6a41bedd"
+              source="#477a3dad-47a6-4ecc-8bb7-92223b8a882f" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="54b5978c-10f3-410f-b32e-d1e599a7b0c6"
-            ReqIFName="High Throughput Data Capacity" ReqIFText="The communication system shall support high-throughput data transfer. Rationale:Enables detailed image and video sharing."/>
+            ReqIFName="High Throughput Data Capacity" ReqIFText="The communication system shall support high-throughput data transfer. Rationale:Enables detailed image and video sharing.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="fa372169-317c-4e71-90e0-eebbe09923ae"
+              source="#54b5978c-10f3-410f-b32e-d1e599a7b0c6" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="ce579235-615c-4713-88ff-d673bb10ec88"
-            ReqIFName="Self-Diagnosis and Alerts" ReqIFText="The system shall include self-diagnosis capabilities with alert systems. Rationale:Promotes proactive maintenance."/>
+            ReqIFName="Self-Diagnosis and Alerts" ReqIFText="The system shall include self-diagnosis capabilities with alert systems. Rationale:Promotes proactive maintenance.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="0a13247f-a0f8-4570-adb2-95ef8f0165b0"
+              source="#ce579235-615c-4713-88ff-d673bb10ec88" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="bd9a26d5-4158-42d5-9a21-38233e181f62"
-            ReqIFName="Power Management Interface" ReqIFText="The power system shall include a management interface for monitoring usage. Rationale:For efficient resource allocation."/>
+            ReqIFName="Power Management Interface" ReqIFText="The power system shall include a management interface for monitoring usage. Rationale:For efficient resource allocation.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="5fb8bf48-dbf5-48f8-beea-6b521c12f36e"
+              source="#bd9a26d5-4158-42d5-9a21-38233e181f62" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="fdcb1d3b-6c0b-4428-acbd-d924b522a793"
-            ReqIFName="Local Partner Training" ReqIFText="The system shall provide training to local partners on operational use. Rationale:Enhances capacity building and sustainability."/>
+            ReqIFName="Local Partner Training" ReqIFText="The system shall provide training to local partners on operational use. Rationale:Enhances capacity building and sustainability.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="acf5e83d-b29a-4615-b69e-515cf1390337"
+              source="#fdcb1d3b-6c0b-4428-acbd-d924b522a793" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="c9f1f3cf-185b-4016-a2dd-b2b71050b8ed"
-            ReqIFName="Wide Range Power Input" ReqIFText="The power system shall support a wide range of input voltages. Rationale:To use in diverse regions."/>
+            ReqIFName="Wide Range Power Input" ReqIFText="The power system shall support a wide range of input voltages. Rationale:To use in diverse regions.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="11e67835-78c6-4ea0-ae30-ebc8e50efdc7"
+              source="#c9f1f3cf-185b-4016-a2dd-b2b71050b8ed" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="7edf483a-089c-4f46-9470-8635a23bac0b"
-            ReqIFName="Synchronized Updates" ReqIFText="The system shall support synchronized updates for all components. Rationale:To ensure consistent operation."/>
+            ReqIFName="Synchronized Updates" ReqIFText="The system shall support synchronized updates for all components. Rationale:To ensure consistent operation.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="bc449b31-66b0-40e2-a026-25b6fe5c380e"
+              source="#7edf483a-089c-4f46-9470-8635a23bac0b" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="edb0c21f-3131-4f6b-8e2a-096a7e2881d6"
-            ReqIFName="Mesh Network Capability" ReqIFText="The communications system shall support mesh network capabilities for extended range. Rationale:Enables adaptable connectivity."/>
+            ReqIFName="Mesh Network Capability" ReqIFText="The communications system shall support mesh network capabilities for extended range. Rationale:Enables adaptable connectivity.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="199c4c29-846a-419a-9721-9a4d22f18891"
+              source="#edb0c21f-3131-4f6b-8e2a-096a7e2881d6" target="#b82cda73-10cd-4851-8b5e-d158fe5606b3"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="124bbd4d-2926-4cc3-aad4-efe12005063f"
-            ReqIFName="Public Information Broadcast" ReqIFText="The system&amp;#x27;s communications capability shall include a public information broadcast channel. Rationale:Raises public awareness in crisis scenarios."/>
+            ReqIFName="Public Information Broadcast" ReqIFText="The system&amp;#x27;s communications capability shall include a public information broadcast channel. Rationale:Raises public awareness in crisis scenarios.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="a0cf74a6-8ef5-4020-be55-626a896b2e5b"
+              source="#124bbd4d-2926-4cc3-aad4-efe12005063f" target="#b82cda73-10cd-4851-8b5e-d158fe5606b3"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="71bb9d1c-4b68-4f2c-9873-7e5ce068dd58"
-            ReqIFName="Network Adaptive Protocols" ReqIFText="The communication system protocols shall adapt to varying network conditions. Rationale:Ensures consistent performance."/>
+            ReqIFName="Network Adaptive Protocols" ReqIFText="The communication system protocols shall adapt to varying network conditions. Rationale:Ensures consistent performance.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="8b957583-a5ab-45af-820a-8f68fee3fbd6"
+              source="#71bb9d1c-4b68-4f2c-9873-7e5ce068dd58" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="0c5a32e9-2763-4f8f-a56c-7f1d2526a29d"
-            ReqIFName="Interactive User Guide" ReqIFText="An interactive user guide shall be available through the system. Rationale:Facilitates quick user adaptation."/>
+            ReqIFName="Interactive User Guide" ReqIFText="An interactive user guide shall be available through the system. Rationale:Facilitates quick user adaptation.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="f54605b1-988f-4ed3-ac02-bf9419a84476"
+              source="#0c5a32e9-2763-4f8f-a56c-7f1d2526a29d" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="b03c6c20-3dc4-416d-8a83-04b31351b16e"
-            ReqIFName="Scalable Supply Network" ReqIFText="The system setup shall support a scalable supply network for kit components. Rationale:Ensures responsiveness to demand fluctuations."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="02cf59d5-6b31-472a-aba0-66a22555b18a"
-            ReqIFName="Multi-Band Communication Devices" ReqIFText="The communications system shall include multi-band devices for wider frequency usage. Rationale:Ensures broad connectivity."/>
+            ReqIFName="Scalable Supply Network" ReqIFText="The system setup shall support a scalable supply network for kit components. Rationale:Ensures responsiveness to demand fluctuations.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="1e949dd1-c029-4786-84bf-ed2786be8f0d"
+              source="#b03c6c20-3dc4-416d-8a83-04b31351b16e" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Folder" id="524ac81c-729f-4026-87f2-f654e217c158"
             ReqIFLongName="System">
           <ownedRequirements xsi:type="Requirements:Requirement" id="f048abf8-026b-427e-bab8-a5b807f53220"
@@ -1133,109 +1233,229 @@
           <ownedRequirements xsi:type="Requirements:Requirement" id="61e43109-2c0b-4b5d-a820-1ab76f1f4e2b"
               ReqIFName="Transportable System" ReqIFText="The system shall be transportable by air, sea, and land modes. Rationale:To ensure flexible logistics."/>
           <ownedRequirements xsi:type="Requirements:Requirement" id="7f60976c-7ba9-4f67-ba42-29dab5c40f61"
-              ReqIFName="Resilience Against Natural Disasters" ReqIFText="The system shall be resilient against natural disaster conditions. Rationale:Ensures reliable functionality under stress."/>
+              ReqIFName="Resilience Against Natural Disasters" ReqIFText="The system shall be resilient against natural disaster conditions. Rationale:Ensures reliable functionality under stress.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="ff81b749-440c-44a1-9586-62ae6e7b071a" source="#7f60976c-7ba9-4f67-ba42-29dab5c40f61"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="9d517a84-4466-423c-9761-335acdbab0e4"
-              ReqIFName="Rapid Deployment" ReqIFText="The system shall be capable of rapid deployment. Rationale:To ensure timely delivery of services."/>
+              ReqIFName="Rapid Deployment" ReqIFText="The system shall be capable of rapid deployment. Rationale:To ensure timely delivery of services.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="ceaab845-9c81-4424-b1fc-107881cb97d2" source="#9d517a84-4466-423c-9761-335acdbab0e4"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="8fd556c3-7272-4286-9dc7-468cefd64a69"
-              ReqIFName="Modular Components" ReqIFText="The system shall include modular components for easy replacement or upgrade. Rationale:To maintain and extend service life of the system."/>
+              ReqIFName="Modular Components" ReqIFText="The system shall include modular components for easy replacement or upgrade. Rationale:To maintain and extend service life of the system.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="227c9a80-fe04-4972-8793-e4b03185cf5b" source="#8fd556c3-7272-4286-9dc7-468cefd64a69"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="2d525c10-bc76-4d13-b906-9e8cf8acc76e"
-              ReqIFName="Secure Communications" ReqIFText="The system shall provide secure voice and data communications. Rationale:To ensure confidentiality and integrity of information."/>
+              ReqIFName="Secure Communications" ReqIFText="The system shall provide secure voice and data communications. Rationale:To ensure confidentiality and integrity of information.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="b3ec316e-37db-4bab-9a9d-655d4e06993f" source="#2d525c10-bc76-4d13-b906-9e8cf8acc76e"
+                target="#422f3fea-da3c-48a7-9f26-d1321ddfc404"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="dc412dd7-1365-4a47-a063-9f325e3fd13e"
-              ReqIFName="Localized Training Programs" ReqIFText="The system shall include programs for localized training. Rationale:Ensures applicable skills in diverse deployment regions."/>
+              ReqIFName="Localized Training Programs" ReqIFText="The system shall include programs for localized training. Rationale:Ensures applicable skills in diverse deployment regions.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="d9c4a711-4830-4a23-8926-af10f242ae79" source="#dc412dd7-1365-4a47-a063-9f325e3fd13e"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="34712745-fd0b-43ac-b6a2-152e8232355a"
-              ReqIFName="Autonomous Operation Capability" ReqIFText="The system shall have capabilities for semi-autonomous operation. Rationale:Reduces operator demand in high-stress situations."/>
+              ReqIFName="Autonomous Operation Capability" ReqIFText="The system shall have capabilities for semi-autonomous operation. Rationale:Reduces operator demand in high-stress situations.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="f5389f60-033b-4c7a-96df-d91120dc5115" source="#34712745-fd0b-43ac-b6a2-152e8232355a"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="a9e3d169-6a02-4131-b8ba-635570386f0c"
-              ReqIFName="Scalable Design" ReqIFText="The system shall have a scalable design to fit varied operational needs. Rationale:Allows flexible response sizing."/>
+              ReqIFName="Scalable Design" ReqIFText="The system shall have a scalable design to fit varied operational needs. Rationale:Allows flexible response sizing.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="4be73ab5-20b4-4ef3-be64-b3135eba10ec" source="#a9e3d169-6a02-4131-b8ba-635570386f0c"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="ec76c685-d6b2-4b68-a6f5-488266ed57bd"
-              ReqIFName="Interoperability Standard Compliance" ReqIFText="The system shall comply with relevant interoperability standards. Rationale:To ensure broad compatibility."/>
+              ReqIFName="Interoperability Standard Compliance" ReqIFText="The system shall comply with relevant interoperability standards. Rationale:To ensure broad compatibility.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="15ba8e4d-3ffe-4d50-92ed-5ba3e8ed8c4b" source="#ec76c685-d6b2-4b68-a6f5-488266ed57bd"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="5ee1bcb0-10e1-4cf3-9be1-48124de00939"
-              ReqIFName="Data Logging" ReqIFText="The system shall log operational data for post-operation analysis. Rationale:Enhances review and optimization capacity."/>
+              ReqIFName="Data Logging" ReqIFText="The system shall log operational data for post-operation analysis. Rationale:Enhances review and optimization capacity.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="a589a3c5-3e75-410a-a299-8f13fbca178f" source="#5ee1bcb0-10e1-4cf3-9be1-48124de00939"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="95f9c7c5-2dd7-47ca-bc61-18277ff400db"
-              ReqIFName="Low Environmental Impact" ReqIFText="The system shall have a low environmental impact. Rationale:To promote sustainability."/>
+              ReqIFName="Low Environmental Impact" ReqIFText="The system shall have a low environmental impact. Rationale:To promote sustainability.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="7aae5254-a536-448e-834d-70a81f745ff5" source="#95f9c7c5-2dd7-47ca-bc61-18277ff400db"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="3605c76c-2d0c-43c1-b094-9c9cb16f9dd9"
-              ReqIFName="Critical Event Focus" ReqIFText="The system shall be focused on providing aid during critical events. Rationale:Addresses specific operational needs during crises."/>
+              ReqIFName="Critical Event Focus" ReqIFText="The system shall be focused on providing aid during critical events. Rationale:Addresses specific operational needs during crises.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="33a0fc86-5b31-4777-8ae4-886d2a9ec475" source="#3605c76c-2d0c-43c1-b094-9c9cb16f9dd9"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="1a84ca74-3828-42c0-b9d9-f6f9af4613a2"
-              ReqIFName="Supply Chain Resilience" ReqIFText="The system shall have a resilient supply chain for critical components. Rationale:Ensures availability and minimizes delays."/>
+              ReqIFName="Supply Chain Resilience" ReqIFText="The system shall have a resilient supply chain for critical components. Rationale:Ensures availability and minimizes delays.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="32d8c790-f5fe-4141-8160-caad484320d9" source="#1a84ca74-3828-42c0-b9d9-f6f9af4613a2"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="6fb2830b-8262-4e62-88a1-7842152a5a58"
-              ReqIFName="Remote Control Capability" ReqIFText="The system shall include remote control capabilities for critical functions. Rationale:Supports operations in hazardous environments."/>
+              ReqIFName="Remote Control Capability" ReqIFText="The system shall include remote control capabilities for critical functions. Rationale:Supports operations in hazardous environments.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="d170e90f-482f-4f08-8e75-902d55dbce92" source="#6fb2830b-8262-4e62-88a1-7842152a5a58"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="6d5551b9-e1df-4e60-aa1d-0785b2874914"
-              ReqIFName="Time-Sensitive Information Delivery" ReqIFText="The system shall deliver time-sensitive information quickly. Rationale:Provides timely data to responders and decision makers."/>
+              ReqIFName="Time-Sensitive Information Delivery" ReqIFText="The system shall deliver time-sensitive information quickly. Rationale:Provides timely data to responders and decision makers.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="14fdff0d-3085-4875-99c0-5278a644d05a" source="#6d5551b9-e1df-4e60-aa1d-0785b2874914"
+                target="#52adde74-3770-4cff-bbbe-cbedb831a3f9"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="6e97c580-95a1-445c-8634-be2d75f7da65"
-              ReqIFName="Coordinate with Public Entities" ReqIFText="The system shall facilitate coordination with public entities. Rationale:For an integrated public-private response."/>
+              ReqIFName="Coordinate with Public Entities" ReqIFText="The system shall facilitate coordination with public entities. Rationale:For an integrated public-private response.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="b721c402-a989-44ba-82e1-1ae202b90b32" source="#6e97c580-95a1-445c-8634-be2d75f7da65"
+                target="#b82cda73-10cd-4851-8b5e-d158fe5606b3"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="a4e63e67-484a-46cb-ba84-1433bfa56f35"
-              ReqIFName="System Security" ReqIFText="The system shall include security measures to prevent unauthorized access. Rationale:To protect system integrity."/>
+              ReqIFName="System Security" ReqIFText="The system shall include security measures to prevent unauthorized access. Rationale:To protect system integrity.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="9b1e6a1b-060a-4c20-b42c-146f6b6123e1" source="#a4e63e67-484a-46cb-ba84-1433bfa56f35"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="ca02d49e-c407-4fdc-a1a0-89edf6b7bc33"
-              ReqIFName="Portable Power Sources" ReqIFText="The system shall include portable power sources to support off-grid operations. Rationale:Ensures continuous operation in remote locations."/>
+              ReqIFName="Portable Power Sources" ReqIFText="The system shall include portable power sources to support off-grid operations. Rationale:Ensures continuous operation in remote locations.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="4a363584-114f-419f-a99d-b29b95d3aabd" source="#ca02d49e-c407-4fdc-a1a0-89edf6b7bc33"
+                target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="f8761ff2-2b56-4f56-b8d1-36f356f9a690"
-              ReqIFName="Redundancy for Critical Functions" ReqIFText="&lt;p>The system shall include redundancy for all critical functions. Rationale:Ensures system reliability under duress.&lt;/p>&#xA;"/>
+              ReqIFName="Redundancy for Critical Functions" ReqIFText="&lt;p>The system shall include redundancy for all critical functions. Rationale:Ensures system reliability under duress.&lt;/p>&#xA;">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="e733093d-802c-4e88-809b-c3f3f06f9f2b" source="#f8761ff2-2b56-4f56-b8d1-36f356f9a690"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Folder" id="298c7ee6-993c-499b-a87d-adb7e784e5ec"
               ReqIFLongName="Water Purification">
             <ownedRequirements xsi:type="Requirements:Requirement" id="53773e29-a148-481e-aada-47987c2a1357"
-                ReqIFName="Produce Potable Water" ReqIFText="The water purification equipment shall produce potable water. Rationale:To meet health and hygiene needs."/>
+                ReqIFName="Produce Potable Water" ReqIFText="The water purification equipment shall produce potable water. Rationale:To meet health and hygiene needs.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="3422938a-3ebf-4488-8005-c36d8aa691df" source="#53773e29-a148-481e-aada-47987c2a1357"
+                  target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
+            </ownedRequirements>
             <ownedRequirements xsi:type="Requirements:Requirement" id="188c4eed-b141-4bb9-9e33-a4e8a3cfa215"
-                ReqIFName="Advanced Water Sensors" ReqIFText="Water systems shall include advanced sensors for quality monitoring. Rationale:Ensures safety and compliance."/>
+                ReqIFName="Advanced Water Sensors" ReqIFText="Water systems shall include advanced sensors for quality monitoring. Rationale:Ensures safety and compliance.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="2748b271-f504-495b-aa1e-2edbb186de5e" source="#188c4eed-b141-4bb9-9e33-a4e8a3cfa215"
+                  target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
+            </ownedRequirements>
           </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Folder" id="6cb5eca4-3761-42cc-934f-3aa757dafc44"
               ReqIFLongName="Situational Awareness">
             <ownedRequirements xsi:type="Requirements:Requirement" id="ed52e4cf-63c1-4d12-906b-bf2b06423ac9"
-                ReqIFName="Include Camera System" ReqIFText="The situational awareness component shall include a camera system. Rationale:To capture essential visual data."/>
+                ReqIFName="Include Camera System" ReqIFText="The situational awareness component shall include a camera system. Rationale:To capture essential visual data.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="c2a3ec8b-a8af-4615-be87-9f682352ff04" source="#ed52e4cf-63c1-4d12-906b-bf2b06423ac9"
+                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
+            </ownedRequirements>
             <ownedRequirements xsi:type="Requirements:Requirement" id="d4e57853-9b16-4d61-8f0e-7740ec3de662"
-                ReqIFName="Integrate Situational Platform" ReqIFText="The situational awareness component shall have an integrated platform. Rationale:To provide a cohesive data framework."/>
+                ReqIFName="Integrate Situational Platform" ReqIFText="The situational awareness component shall have an integrated platform. Rationale:To provide a cohesive data framework.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="23d52885-6f96-49d0-9cf1-547d736e87ad" source="#d4e57853-9b16-4d61-8f0e-7740ec3de662"
+                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
+            </ownedRequirements>
             <ownedRequirements xsi:type="Requirements:Requirement" id="9596e2b6-002f-45e2-8244-3c6febf05979"
-                ReqIFName="Power Through Kit" ReqIFText="The situational awareness system shall be powered through the kit. Rationale:Ensures system autonomy."/>
+                ReqIFName="Power Through Kit" ReqIFText="The situational awareness system shall be powered through the kit. Rationale:Ensures system autonomy.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="9f50d43b-7a7b-43c3-a31e-85bed151cbbc" source="#9596e2b6-002f-45e2-8244-3c6febf05979"
+                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
+            </ownedRequirements>
             <ownedRequirements xsi:type="Requirements:Requirement" id="fafd2974-09a8-4d07-8189-415d57e5d32b"
-                ReqIFName="Existing Awareness Tech" ReqIFText="The situational awareness system shall leverage existing technology. Rationale:To optimize existing capabilities."/>
+                ReqIFName="Existing Awareness Tech" ReqIFText="The situational awareness system shall leverage existing technology. Rationale:To optimize existing capabilities.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="a8ecfc13-8c24-42ab-afc8-0d1c9f49e15b" source="#fafd2974-09a8-4d07-8189-415d57e5d32b"
+                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
+            </ownedRequirements>
             <ownedRequirements xsi:type="Requirements:Requirement" id="f232c30a-4beb-46b4-85dc-1d8e87b8fab1"
-                ReqIFName="GIS Integration" ReqIFText="Situational awareness tools shall integrate with Geographic Information Systems (GIS). Rationale:To enhance mapping and tracking capabilities."/>
-            <ownedRequirements xsi:type="Requirements:Requirement" id="792375fc-2c33-4c53-8961-243357daa35f"
-                ReqIFName="Light Optical Components" ReqIFText="Situational awareness systems shall use lightweight optical components. Rationale:To ease transport and installation."/>
+                ReqIFName="GIS Integration" ReqIFText="Situational awareness tools shall integrate with Geographic Information Systems (GIS). Rationale:To enhance mapping and tracking capabilities.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="00816388-65dd-48b9-8398-8fa08e68bd8c" source="#f232c30a-4beb-46b4-85dc-1d8e87b8fab1"
+                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
+            </ownedRequirements>
             <ownedRequirements xsi:type="Requirements:Requirement" id="ee27c4d0-36ed-4778-98f2-d52dee9a276d"
-                ReqIFName="Weather Forecast Alerts" ReqIFText="Situational awareness components shall issue alerts based on forecasted weather conditions. Rationale:Prepares users for imminent conditions."/>
+                ReqIFName="Weather Forecast Alerts" ReqIFText="Situational awareness components shall issue alerts based on forecasted weather conditions. Rationale:Prepares users for imminent conditions.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="552dadb2-ff00-4692-bca8-17ba8cc08d7d" source="#ee27c4d0-36ed-4778-98f2-d52dee9a276d"
+                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
+            </ownedRequirements>
           </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="b0795839-55fe-455d-9e48-3134c60f829c"
-              ReqIFName="Standardized Connectors" ReqIFText="The system shall use standardized connectors for all components. Rationale:To ensure interoperability and ease of maintenance."/>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="b2856f14-99bb-4ed8-bfa5-3acd69257e8f"
-              ReqIFName="Dynamic Resource Allocation" ReqIFText="The system shall dynamically allocate resources based on real-time demand. Rationale:Enhances efficiency."/>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="87fac7c2-ca87-4f58-9705-a08fcecee58a"
-              ReqIFName="Thermal Management" ReqIFText="The system shall include thermal management systems to prevent overheating. Rationale:Ensures reliability under stress."/>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="f553f0fa-12c7-48df-ae2f-731e5ed0aff2"
-              ReqIFName="Standard Battery Packs" ReqIFText="The system shall use standard battery packs interchangeable across components. Rationale:Simplifies logistics and replacement."/>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="53d4f59c-1042-4927-8c2c-ebe523a2bd64"
-              ReqIFName="Evacuation Route Mapping" ReqIFText="The system shall assist in mapping evacuation routes in crisis zones. Rationale:Supports safety and coordination."/>
+              ReqIFName="Standardized Connectors" ReqIFText="The system shall use standardized connectors for all components. Rationale:To ensure interoperability and ease of maintenance.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="5ef8dea5-d0e5-4cfa-a3be-7f313eba2d31" source="#b0795839-55fe-455d-9e48-3134c60f829c"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="49b9adb6-2c83-49c3-a642-71fa48062421"
-              ReqIFName="Language Adaptation" ReqIFText="The system interface shall support multiple languages. Rationale:Accommodates diverse operation zones."/>
+              ReqIFName="Language Adaptation" ReqIFText="The system interface shall support multiple languages. Rationale:Accommodates diverse operation zones.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="187f14fa-f4e2-4da4-b085-f4152597d9d3" source="#49b9adb6-2c83-49c3-a642-71fa48062421"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="3006aa58-ff96-45be-874b-5b9cdeb726e7"
-              ReqIFName="Cybersecurity Measures" ReqIFText="The system shall include robust cybersecurity measures. Rationale:To guard against digital threats."/>
+              ReqIFName="Cybersecurity Measures" ReqIFText="The system shall include robust cybersecurity measures. Rationale:To guard against digital threats.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="30aef838-2194-427c-b3d6-cd7055174ef6" source="#3006aa58-ff96-45be-874b-5b9cdeb726e7"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="53d9d87a-55a6-4f99-9a91-eb6e9db78c1f"
-              ReqIFName="Public Access Points" ReqIFText="The system shall provide public access points for emergency communications. Rationale:Enhances community outreach."/>
+              ReqIFName="Public Access Points" ReqIFText="The system shall provide public access points for emergency communications. Rationale:Enhances community outreach.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="fcb8cf82-bb26-4dcf-bc0b-4a55427ba6d4" source="#53d9d87a-55a6-4f99-9a91-eb6e9db78c1f"
+                target="#b82cda73-10cd-4851-8b5e-d158fe5606b3"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="1064aca2-0978-441a-ad09-cf50bf085ebd"
-              ReqIFName="Field Data Logging" ReqIFText="The system shall log data from field operations for later analysis. Rationale:Improves strategic insights."/>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="5bc6cee0-0810-4a7a-9e1a-a4c842a1f16b"
-              ReqIFName="Emergency Response Community Interface" ReqIFText="The system shall include an interface for emergency response community communications. Rationale:Increases coordination efficacy."/>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="d298dd5c-da67-45f6-b730-878f51088f65"
-              ReqIFName="Incident Report Generation" ReqIFText="The system shall generate incident reports based on operational data. Rationale:Aids in post-event analysis."/>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="abd0ce92-d913-41c2-ad68-6a5b5c012f85"
-              ReqIFName="Structural Health Monitoring" ReqIFText="The system infrastructure shall include structural health monitoring. Rationale:Enhances proactive repairs."/>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="cc8eb8d8-bf08-430c-a1b7-adeb21dd4dd4"
-              ReqIFName="Graphical Configuration Tools" ReqIFText="The system shall provide graphical tools for configuration and management. Rationale:Simplifies control operations."/>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="66e2da24-b359-4de3-a2d7-d47ffaae3f6b"
-              ReqIFName="Deployed System Protection" ReqIFText="The system shall include deployable protection measures against environmental threats. Rationale:Preserves system integrity in adverse conditions."/>
+              ReqIFName="Field Data Logging" ReqIFText="The system shall log data from field operations for later analysis. Rationale:Improves strategic insights.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="d90cf03d-dceb-4a13-9c35-3aa040831f0c" source="#1064aca2-0978-441a-ad09-cf50bf085ebd"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="e3ce73d2-3f83-42b6-ab3e-d1bd684bb4dd"
               ReqIFName="User Feedback System" ReqIFText="The system shall include a user feedback mechanism for performance monitoring. Rationale:To enhance service refinement."/>
           <ownedRequirements xsi:type="Requirements:Requirement" id="f248b297-7f90-4cd3-a269-1c23fd4b7bc9"
-              ReqIFName="Battery Backup" ReqIFText="The system shall include battery backup systems for essential functions. Rationale:Ensures operation during outages."/>
+              ReqIFName="Battery Backup" ReqIFText="The system shall include battery backup systems for essential functions. Rationale:Ensures operation during outages.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="c7fa158c-cf45-4052-bbb4-a57344882890" source="#f248b297-7f90-4cd3-a269-1c23fd4b7bc9"
+                target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="89f3d9b0-9fad-4e65-a7e3-d20f292e7804"
-              ReqIFName="Mission-Customizable Kits" ReqIFText="The system shall allow for mission-specific customization of kits. Rationale:Enhances operational flexibility."/>
+              ReqIFName="Mission-Customizable Kits" ReqIFText="The system shall allow for mission-specific customization of kits. Rationale:Enhances operational flexibility.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="7e6b61b3-31bd-4d63-a42c-08fb290b26d3" source="#89f3d9b0-9fad-4e65-a7e3-d20f292e7804"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="0fed052f-488f-49ff-b5bd-fe40cdbf5e2b"
-              ReqIFName="Collaboration with Local Authorities" ReqIFText="The system shall support collaboration with local authorities in affected areas. Rationale:Ensures alignment with local needs."/>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="c2b7439a-b50e-4919-b379-c4ce18e9da2b"
-              ReqIFName="Carbon Footprint Monitoring" ReqIFText="The system shall monitor and report its carbon footprint. Rationale:Supports environmental accountability."/>
+              ReqIFName="Collaboration with Local Authorities" ReqIFText="The system shall support collaboration with local authorities in affected areas. Rationale:Ensures alignment with local needs.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="70a7e2c9-d529-462f-b652-56616486bbd1" source="#0fed052f-488f-49ff-b5bd-fe40cdbf5e2b"
+                target="#b82cda73-10cd-4851-8b5e-d158fe5606b3"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="49070765-a9df-45b3-a1b6-2b42e3142841"
-              ReqIFName="Digital Training Library" ReqIFText="The system shall include a digital library with training resources. Rationale:Provides continuous learning opportunities."/>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="cb40999a-7e40-4664-8bd8-b9c24b60d5a2"
-              ReqIFName="Accessibility Features" ReqIFText="The system shall include features that ensure accessibility for all users. Rationale:Promotes inclusivity."/>
+              ReqIFName="Digital Training Library" ReqIFText="The system shall include a digital library with training resources. Rationale:Provides continuous learning opportunities.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="ae1b3bc6-b40d-4701-ba55-03477967cb23" source="#49070765-a9df-45b3-a1b6-2b42e3142841"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="d4e8f139-0c08-410b-bbaf-94d2bf9a4b90"
-              ReqIFName="Remote Diagnostics" ReqIFText="The system shall include capabilities for remote diagnostics. Rationale:Supports efficient troubleshooting and maintenance."/>
+              ReqIFName="Remote Diagnostics" ReqIFText="The system shall include capabilities for remote diagnostics. Rationale:Supports efficient troubleshooting and maintenance.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="e9a42379-b40a-4620-a402-e7ffcdae6adb" source="#d4e8f139-0c08-410b-bbaf-94d2bf9a4b90"
+                target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Folder" id="8ce811cc-eee0-46d2-8545-55c0b8b57bbb"/>
         </ownedRequirements>
       </ownedExtensions>
@@ -1801,6 +2021,9 @@
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
               id="c19d4576-93a1-45ad-8f03-de36a56f0ea3" name="Provide Situational Awareness">
+            <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+                id="4b7baa57-189a-4748-84cb-dd87c525563d" source="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"
+                target="#e5d434b3-c43a-4f79-8148-d2c085f9d265"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="cc1bc1af-2ace-49ae-9ad7-901fd4225913" involved="#67b3018e-aa40-4c3f-8ec1-55659602b2f4"
                 source="#0a247ebe-125e-4074-8b54-8162224a4bf8" target="#a5869186-8ac9-4e35-9f41-92cd5d8e7c67"/>
@@ -3268,6 +3491,24 @@
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
               id="256dccfa-7ddf-408d-879d-7271439e52f2" relationTypeProxy="" source="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"
               target="#c073a16c-7a7c-4417-84a7-3bc86afc54f5"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="936f353f-c9c3-4a60-a92f-c17c06db14b2" source="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"
+              target="#fd3da4fa-0815-4b65-bbc0-f5ddab20c8c4"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="1ca04a5e-d811-49a3-a1bc-33044b8defaa" source="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"
+              target="#03b356b5-7b86-419a-bf4c-00e5e323e7da"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="4e52b708-dd70-4c18-ad2f-c66533056b92" source="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"
+              target="#a55d41b8-0218-4629-992c-aad4706f14d4"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="9ffe9615-b839-442b-8a49-1a3f06a472ab" source="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"
+              target="#7ee5b285-3ad8-407b-a1af-540cb9045cda"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="4130d803-a244-4c4c-b0cb-8471d5569c64" source="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"
+              target="#61e43109-2c0b-4b5d-a820-1ab76f1f4e2b"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="159f921e-c506-4017-8d2d-11958707db15" source="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"
+              target="#5bc632c1-af32-4682-945d-607c3dfe6912"/>
         </ownedParts>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="287e89b9-5211-41e8-8909-4425c810d945"
             name="Local Authorities" abstractType="#0fd1838b-1cc6-4ddc-9dfc-d4657cca26b8"/>
