@@ -1080,6 +1080,8 @@
             ReqIFName="Fossil Fuel Backup" ReqIFText="The power system shall have a fossil fuel generator backup. Rationale:Ensures continuous operation.">
           <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="9a4980f1-8b91-44ff-b3ba-4f72a8dc7d78"
               source="#4612aebc-795e-4315-8482-2680d4197315" target="#18a249ae-8e5b-4b13-ae72-15f61ba0ab0d"/>
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="1edbcba7-1dba-4256-9ac3-ec97f3c2a0c2"
+              source="#4612aebc-795e-4315-8482-2680d4197315" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
         </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="db208455-2f1c-4bea-8277-7d0dfeb05740"
             ReqIFName="Support Kit Components" ReqIFText="The power system shall have sufficient capacity to support all kit components. Rationale:Enables integrated operation.">
