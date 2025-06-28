@@ -2236,7 +2236,14 @@
                 sourceElement="#c438671e-4b7b-432b-a967-da202dbe5995"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="8b849bf6-ba52-49f4-a0bf-858f96b2e501" name="Provide Water">
+              id="8b849bf6-ba52-49f4-a0bf-858f96b2e501" name="Provide Water" appliedPropertyValueGroups="#d6539966-0393-4b52-939a-b1481e6d9e8c">
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="d6539966-0393-4b52-939a-b1481e6d9e8c" name="Water Production Rate">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="a02f8376-a747-4737-b150-f20376546eb8" name="Units" value="Liter/hour"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="fb5da5b1-550c-450a-a7ba-d6a631cacfba" name="Value" value="300.0"/>
+            </ownedPropertyValueGroups>
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="e3ecba4d-5d3b-4245-90f8-afffc1c288f1" name="inManage Water Production"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -2326,7 +2333,7 @@
                 sourceElement="#efd6dcff-6d73-4e5e-ac6c-611652a33bb0"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="9803f3c3-59e9-45e7-b21e-b720aadd9025" name="Receive Water">
+              id="9803f3c3-59e9-45e7-b21e-b720aadd9025" name="Receive Water" appliedPropertyValueGroups="#553cbbfb-30ea-4dfe-ae07-8beecb794b63 #81da7e97-16e6-47d7-bb7f-7141821d2935">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="d16389a0-768e-40ee-88ae-3d450bed5d57" name="inWater"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -2372,7 +2379,7 @@
                 sourceElement="#c199aa4d-0c40-419e-9302-67b174b96d0f"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="d841d9cf-fffc-4875-9fc8-a1c8988a6e8d" name="Receive Water">
+              id="d841d9cf-fffc-4875-9fc8-a1c8988a6e8d" name="Receive Water" appliedPropertyValueGroups="#3bf52cba-7936-4057-a592-94c23a5b6b85 #81da7e97-16e6-47d7-bb7f-7141821d2935">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="2729bc06-337f-45c2-a840-82ff5615a9a1" name="inWater"/>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
@@ -2394,7 +2401,7 @@
                 sourceElement="#945a30e4-d03c-4cce-9f8b-2887e11c5679"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="8391ce3d-36d0-4d87-9dfd-854b37b2f36a" name="Receive Water">
+              id="8391ce3d-36d0-4d87-9dfd-854b37b2f36a" name="Receive Water" appliedPropertyValueGroups="#babb2580-5081-47d4-ad88-2832f9b0c52f #81da7e97-16e6-47d7-bb7f-7141821d2935">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="73d245d3-0cd9-4a2b-b07c-5db1b834e9b6" name="inWater"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -2442,7 +2449,7 @@
                 sourceElement="#c28a55b1-f16a-452b-88d6-f4178b304cd2"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="65c083b0-4004-4497-9870-cd2109b4b6c5" name="Receive Water">
+              id="65c083b0-4004-4497-9870-cd2109b4b6c5" name="Receive Water" appliedPropertyValueGroups="#4f5f256d-03fb-4817-9231-c8cd03842612 #81da7e97-16e6-47d7-bb7f-7141821d2935">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="7e2fc4d9-8b2a-47db-9115-70339d681b8f" name="inFiltered Water"/>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
@@ -3690,7 +3697,15 @@
               sourceElement="#0fd1838b-1cc6-4ddc-9dfc-d4657cca26b8"/>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="1df28e65-bed6-453d-9100-4d65ce14e442" name="Local Population" actor="true">
+            id="1df28e65-bed6-453d-9100-4d65ce14e442" name="Local Population" appliedPropertyValueGroups="#3bf52cba-7936-4057-a592-94c23a5b6b85"
+            actor="true">
+          <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+              id="3bf52cba-7936-4057-a592-94c23a5b6b85" name="Water Consumer">
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                id="08bd4351-69fb-43fb-a2c8-f174736a7643" name="Value" value="75"/>
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                id="1d35e9f4-e47a-4cda-b568-0033d848f19a" name="Units" value="Quantity"/>
+          </ownedPropertyValueGroups>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="a08c51d1-e177-4f4e-8d9c-8650935eaa97" targetElement="#b66afd97-3ada-467c-9522-14b47ad62b15"
               sourceElement="#71a82528-8c90-453b-b577-84371290893a"/>
@@ -3764,7 +3779,14 @@
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="ee9c1138-f37d-4654-9a56-2973fb5b7c8d" name="First Responders" description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Emergency service delivery&amp;nbsp;&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
-            actor="true">
+            appliedPropertyValueGroups="#babb2580-5081-47d4-ad88-2832f9b0c52f" actor="true">
+          <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+              id="babb2580-5081-47d4-ad88-2832f9b0c52f" name="Water Consumer">
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                id="0dec4c20-1687-4b08-a4e7-ecae8434f5d1" name="Value" value="10"/>
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                id="bbd1a575-c7c9-46a3-86b1-3944ca40ab98" name="Units" value="Quantity"/>
+          </ownedPropertyValueGroups>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="b374926f-16d7-49cf-a77a-10ab9c0d1d20" targetElement="#bee4f087-7bd7-4d9b-87f4-65e8dc6f6e3c"
               sourceElement="#077f7872-db31-450f-9420-3138f0a8f97e"/>
@@ -3795,7 +3817,14 @@
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="c0425e29-2a9d-46f9-9eaa-5990322a2947" name="Aid Personnel" description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Service delivery&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>&amp;nbsp;Status reporting&amp;nbsp;&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
-            actor="true">
+            appliedPropertyValueGroups="#553cbbfb-30ea-4dfe-ae07-8beecb794b63" actor="true">
+          <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+              id="553cbbfb-30ea-4dfe-ae07-8beecb794b63" name="Water Consumer">
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                id="fb4bbe98-98df-418f-ad75-9671ff447c9f" name="Value" value="10"/>
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                id="e5c87260-f4b5-4b8c-a873-1c1933aabed5" name="Units" value="Quantity"/>
+          </ownedPropertyValueGroups>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="ba8b3835-361d-4b21-baab-939507f35e44" targetElement="#f412dd8b-3db9-4fbd-a14e-d64d4ebd2499"
               sourceElement="#a80a7b94-b74a-48c2-923a-15a3de6e99dc"/>
@@ -3941,6 +3970,20 @@
             id="237e244a-5d72-4d9e-91e9-9f767ba4fed2" name="Operational User Community"
             description="&lt;ul>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Direct system operation&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Situation assessment&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
             actor="true">
+          <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+              id="4f5f256d-03fb-4817-9231-c8cd03842612" name="Water Consumer">
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:IntegerPropertyValue"
+                id="67013125-211a-40ae-a169-1176afb354bf" name="Value" value="5"/>
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                id="e458714d-8fa0-4576-ae44-4050e6ff201b" name="Units" value="Quantity"/>
+          </ownedPropertyValueGroups>
+          <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+              id="81da7e97-16e6-47d7-bb7f-7141821d2935" name="Water Consumption Rate">
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                id="9eedd248-b818-42d3-b56e-19d66fbb82ee" name="Units" value="Liter/Day"/>
+            <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                id="2f357df8-cb6b-43f8-a802-e00f2c0b5ed6" name="Value" value="3.7"/>
+          </ownedPropertyValueGroups>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="c1f9c6d3-9f40-45af-a90b-245a38ba19a6" targetElement="#96aae452-2045-4513-8bbd-4a7153f2a511"
               sourceElement="#d6e1d45c-8f91-40a2-8e7e-72946579774d"/>
