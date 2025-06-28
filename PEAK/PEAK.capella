@@ -1946,6 +1946,11 @@
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="203ffd44-c485-45e2-aa40-c71d60004544" involved="#ef016c7f-5811-4f4e-b5b2-4c6d6cfe07d1"
                 source="#6af326a1-181c-4d24-881c-79fdf906b99d" target="#3cd1ecc8-a84d-40b3-9837-8ab2ff1ad12b"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="fdca0190-7c3a-4637-854d-546a2207798f" involved="#91fabecc-1d0c-4641-8997-5238771fd7fd"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="f61e28d6-e73e-4f75-b4ce-4e85de238548" involved="#e1c39914-1309-4766-b256-ca751bcb50b0"
+                source="#fdca0190-7c3a-4637-854d-546a2207798f" target="#6af326a1-181c-4d24-881c-79fdf906b99d"/>
             <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
                 id="96ad6a41-e86b-4541-972e-52d47929b9ab" targetElement="#ae384251-0c0a-4fd5-b2d5-836f675220b3"
                 sourceElement="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
@@ -2242,10 +2247,12 @@
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
                   id="a02f8376-a747-4737-b150-f20376546eb8" name="Units" value="Liter/hour"/>
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
-                  id="fb5da5b1-550c-450a-a7ba-d6a631cacfba" name="Value" value="300.0"/>
+                  id="fb5da5b1-550c-450a-a7ba-d6a631cacfba" name="Value" value="20.0"/>
             </ownedPropertyValueGroups>
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="e3ecba4d-5d3b-4245-90f8-afffc1c288f1" name="inManage Water Production"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="64f09a35-ec27-4af2-879e-20cedbac6631" name="FIP 2"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="f9b1291c-4d02-4a03-b824-9c927765f103" name="outFiltered Water"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -2259,7 +2266,9 @@
                 sourceElement="#8b849bf6-ba52-49f4-a0bf-858f96b2e501"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="91fabecc-1d0c-4641-8997-5238771fd7fd" name="Water">
+              id="91fabecc-1d0c-4641-8997-5238771fd7fd" name="Provdie Water">
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="e2f3b7b2-4d9a-455b-8a76-24315f50575e" name="FOP 1"/>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
                 id="2376aaff-0bf8-4bd0-aa9a-ce83ee259dc8" targetElement="#227953b6-17f8-4156-bf2a-9c08e3854f30"
                 sourceElement="#91fabecc-1d0c-4641-8997-5238771fd7fd"/>
@@ -3044,6 +3053,9 @@
                 id="c3cdf662-8ec6-43d0-ae8b-652e4c83bc8a" targetElement="#57f7c234-71e1-4782-91f6-bb1f62a35b86"
                 sourceElement="#0081f56d-53be-4686-998b-2d46a39ff15a"/>
           </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="e1c39914-1309-4766-b256-ca751bcb50b0" name="Water" target="#64f09a35-ec27-4af2-879e-20cedbac6631"
+              source="#e2f3b7b2-4d9a-455b-8a76-24315f50575e"/>
         </ownedSystemFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
