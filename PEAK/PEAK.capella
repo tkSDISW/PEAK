@@ -2488,7 +2488,7 @@
                 sourceElement="#8696fc87-8347-4bba-83f8-cf879e1109e8"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="156c7a5b-7c4f-49e4-85ba-f51e6918422a" name="Receive Build">
+              id="156c7a5b-7c4f-49e4-85ba-f51e6918422a" name="V">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="2f657d09-7937-49d3-8baf-02df4d406310" name="inBuild"/>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
@@ -6371,35 +6371,102 @@
                 id="b65db4a3-81af-4180-82a4-01fdaec246b2" targetElement="#8ad43e4e-231a-4620-b54f-1a993fe2ef9e"
                 sourceElement="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                id="407a3063-250d-4059-9414-9711d2c44540" targetElement="#62732cf1-7d7d-466c-850d-b96a783b89d4"
-                sourceElement="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
-            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="b8b3f9bb-34ae-43e4-bcd2-99df770e128d" targetElement="#bb62a4f0-9d87-4c9f-b541-455dcbc2936b"
                 sourceElement="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="a431d810-6c6e-490a-87e3-afca6f7ab6eb" targetElement="#f4b5bf6e-8234-4cdd-ba8b-e537f54b161d"
                 sourceElement="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                id="7a6df389-bdcb-44f1-9ee7-fbeb7997241c" targetElement="#bd1f4617-04de-48df-9fff-94913723cf71"
-                sourceElement="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
-            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                id="4cf2a7f7-187f-4def-a7ef-c3c3681db167" targetElement="#2c286c61-4690-436d-8c0f-b0b3a01ee2a2"
-                sourceElement="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
-            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                id="6e7c9d83-e0a3-4ede-b5a6-a445d69eee0c" targetElement="#a1451127-4988-4529-9e19-4722b6d57f1d"
-                sourceElement="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
-            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                id="2604addc-6da7-49c4-817a-94d4a68c71d5" targetElement="#97a8932b-9e20-400b-b364-4df4e71adf69"
-                sourceElement="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
-            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                id="d7cae554-f386-49f5-ade9-669c6e1f9797" targetElement="#38fd077a-9bc4-445a-a6e5-5ac5d622abee"
-                sourceElement="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
-            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                id="292a2d31-d2cf-4172-a498-c98de88f44ab" targetElement="#c4c49af5-4790-4dd3-9685-08cdb5724cba"
-                sourceElement="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
-            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="e68b8ea2-1841-4482-9a23-33fefefcae95" targetElement="#15834182-ef41-4811-8235-96d9578dbcce"
                 sourceElement="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="fe2e5076-1a1f-4ee9-a9c3-7ec8543ae32f"
+                name="Water Subsystem" abstractType="#cfa71969-133d-4e0e-9115-594e582b5cff"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="553a5cb5-6eed-45ec-b68b-f9ad30922287"
+                name="Power Sub-System" abstractType="#96da9729-25c3-424a-ae4b-802fc88abdad"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7c0abf0d-1a76-4abf-a7fe-b9626b40dc42"
+                name="Communication Subsystem" abstractType="#e51003f0-ef85-4e34-8862-c7ebcf8109d3"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="465c6590-b4f3-46e9-a9f5-a87febb6db84"
+                name="Situational Awareness Sub -System" abstractType="#36564c6f-d7ce-44f4-bd8b-a4dfd90237eb"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ec51ed2a-a392-48aa-9aa6-fe47e2042164"
+                name="Pre-Position Kits" abstractType="#7762e040-2c1d-4a5f-a5d0-7fcb89d2672b"/>
+            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                id="cfa71969-133d-4e0e-9115-594e582b5cff" name="Water Subsystem">
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="6e7c9d83-e0a3-4ede-b5a6-a445d69eee0c" targetElement="#a1451127-4988-4529-9e19-4722b6d57f1d"
+                  sourceElement="#cfa71969-133d-4e0e-9115-594e582b5cff"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9a702cdf-dbc0-4896-ac86-930c0dc06bf7"
+                  name="Water Purification" abstractType="#7f8489cd-8752-437c-8528-fe35811620b6"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="480d6ec4-6ad4-4c91-9a9e-74848c0c2eac"
+                  name="Water Filtration" abstractType="#9f20aa82-62ee-408a-9501-c8234e51587f"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="350fc498-2e99-45bb-9250-b659d099f56a"
+                  name="Storage Container" abstractType="#8b1dc6a0-6a65-4b32-b1a9-60e2e39377b1"/>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="7f8489cd-8752-437c-8528-fe35811620b6" name="Water Purification"
+                  description="&lt;p>Includes filtration, distribution capability, and storage container to provide potable water, an essential service during crises. Requirement: Capable of purifying fresh, brackish, or salt water, integrated with power generation (source: provided document).&lt;/p>&#xA;"/>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="9f20aa82-62ee-408a-9501-c8234e51587f" name="Water Filtration"
+                  description="&lt;p>Ensures water is safe for drinking and hygiene. Requirement: Part of the purification process (source: domain knowledge of water safety standards).&lt;/p>&#xA;"/>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="8b1dc6a0-6a65-4b32-b1a9-60e2e39377b1" name="Storage Container"
+                  description="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{}]&quot;>Provides a means to hold and distribute purified water. Requirement: Must meet durability and lightweight standards (source: logistical standards for emergency supplies).&lt;/p>&#xA;"/>
+            </ownedLogicalComponents>
+            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                id="96da9729-25c3-424a-ae4b-802fc88abdad" name="Power Sub-System">
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="407a3063-250d-4059-9414-9711d2c44540" targetElement="#62732cf1-7d7d-466c-850d-b96a783b89d4"
+                  sourceElement="#96da9729-25c3-424a-ae4b-802fc88abdad"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="4cf2a7f7-187f-4def-a7ef-c3c3681db167" targetElement="#2c286c61-4690-436d-8c0f-b0b3a01ee2a2"
+                  sourceElement="#96da9729-25c3-424a-ae4b-802fc88abdad"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3a0c3e32-5020-418b-b1b3-877afd6c0f67"
+                  name="Renewable Power " abstractType="#6842fce8-2629-4e48-bf59-c13329b2f689"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="59dcdad9-ea9b-47be-b529-9a63b27f89aa"
+                  name="Fossil Fuel Generator Backup" abstractType="#0b423f8c-4d64-48df-af2a-5e03cabc5c3a"/>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="6842fce8-2629-4e48-bf59-c13329b2f689" name="Renewable Power "
+                  description="&lt;p>Utilizes solar, wind, etc., to generate sustainable energy with minimal environmental impact. Requirement: Must power all kit components (source: sustainable energy practices).&lt;/p>&#xA;"/>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="0b423f8c-4d64-48df-af2a-5e03cabc5c3a" name="Fossil Fuel Generator Backup"
+                  description="&lt;p>Provides reliability in diverse conditions where renewable sources may be insufficient. Requirement: Support system for power failure scenarios (source: best practices in power system reliability).&lt;/p>&#xA;"/>
+            </ownedLogicalComponents>
+            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                id="e51003f0-ef85-4e34-8862-c7ebcf8109d3" name="Communication Subsystem">
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="7a6df389-bdcb-44f1-9ee7-fbeb7997241c" targetElement="#bd1f4617-04de-48df-9fff-94913723cf71"
+                  sourceElement="#e51003f0-ef85-4e34-8862-c7ebcf8109d3"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="42c788dc-42a3-4170-9da2-30fedd89ff10"
+                  name="Communication Device" abstractType="#56fae1c5-7850-4d5e-9ad3-4cc095884947"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="efc454af-f3b0-4e92-b954-1bcff8b987b5"
+                  name="Didtribute Communication Network" abstractType="#b5ddf262-eebb-448f-8346-b7819f02c2e3"/>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="56fae1c5-7850-4d5e-9ad3-4cc095884947" name="Communication Device"
+                  description="&lt;p>Enables voice and data communication over low-bandwidth networks. Requirement: Integration with situational awareness component (source: telecommunications standards)&lt;/p>&#xA;"/>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="b5ddf262-eebb-448f-8346-b7819f02c2e3" name="Didtribute Communication Network"
+                  description="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{}]&quot;>Facilitates mobile and decentralized communications, crucial for dynamic crisis environments (source: general knowledge on communication networks).&lt;/p>&#xA;"/>
+            </ownedLogicalComponents>
+            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                id="36564c6f-d7ce-44f4-bd8b-a4dfd90237eb" name="Situational Awareness Sub -System">
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="93ce6149-4119-403f-81b9-8f3e4b2a33f1"
+                  name="Unmanned Air Vehicle" abstractType="#a17904b5-95a4-4003-a3e1-5fdb752f4eff"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="e70f5539-6b67-45e0-8325-68c62c73e732"
+                  name="Control Device and Platform" abstractType="#0c8a6055-3269-4c06-b0f3-1f6aae2080eb"/>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="a17904b5-95a4-4003-a3e1-5fdb752f4eff" name="Unmanned Air Vehicle"
+                  description="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{}]&quot;>Provides an aerial perspective to assess environments and infrastructure quickly. Requirement: Integrates with power system (source: modern surveillance and reconnaissance technologies).&lt;/p>&#xA;"/>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="0c8a6055-3269-4c06-b0f3-1f6aae2080eb" name="Control Device and Platform"
+                  description="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{}]&quot;>Manages UAS operations and data collection. Requirement: User-friendly for rapid deployment (source: user experience design in technology interfaces).&lt;/p>&#xA;"/>
+            </ownedLogicalComponents>
+            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                id="7762e040-2c1d-4a5f-a5d0-7fcb89d2672b" name="Pre-Position Kits">
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="d7cae554-f386-49f5-ade9-669c6e1f9797" targetElement="#38fd077a-9bc4-445a-a6e5-5ac5d622abee"
+                  sourceElement="#7762e040-2c1d-4a5f-a5d0-7fcb89d2672b"/>
+              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                  id="292a2d31-d2cf-4172-a498-c98de88f44ab" targetElement="#c4c49af5-4790-4dd3-9685-08cdb5724cba"
+                  sourceElement="#7762e040-2c1d-4a5f-a5d0-7fcb89d2672b"/>
+            </ownedLogicalComponents>
           </ownedLogicalComponents>
         </ownedLogicalComponents>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
@@ -6528,14 +6595,19 @@
               id="c408919e-f84d-4e52-b1f5-ee89054f7645" targetElement="#d2cb2b15-5879-4ef8-ae33-de25abf6cfae"
               sourceElement="#2422d9cc-666e-41ff-801b-eac7862c2df0"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="432a4158-54ad-4a2d-98dd-cbda0dfe9771" targetElement="#1e186c10-e69a-4ca7-99e9-62fa72192034"
-              sourceElement="#b1f04b38-9b60-4acb-a9fb-4c3b3e2dd072"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="2422d9cc-666e-41ff-801b-eac7862c2df0" targetElement="#7e82b4f2-990b-49c8-8bad-ae6fe8c83dd6"
               sourceElement="#b1f04b38-9b60-4acb-a9fb-4c3b3e2dd072"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3083754b-3304-4772-96c5-bc71b61485db"
+              name="Cargo Transport" abstractType="#308ee7da-286e-4a0b-912c-530d426aa793"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="1a6fc6ca-2661-472c-9f3b-a75efa07ae7c" targetElement="#8ee014fb-9294-4d23-826b-69aebd7ccee8"
               sourceElement="#b1f04b38-9b60-4acb-a9fb-4c3b3e2dd072"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="308ee7da-286e-4a0b-912c-530d426aa793" name="Cargo Transport">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="432a4158-54ad-4a2d-98dd-cbda0dfe9771" targetElement="#1e186c10-e69a-4ca7-99e9-62fa72192034"
+                sourceElement="#308ee7da-286e-4a0b-912c-530d426aa793"/>
+          </ownedLogicalComponents>
         </ownedLogicalComponents>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="5694cc79-6e41-4470-ab08-cacd588cced8" name="First Responders" description="&lt;ul data-pm-slice=&quot;3 3 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{}]&quot;>&#xA;&#x9;&lt;li>&#xA;&#x9;&lt;p>Emergency service delivery&amp;nbsp;&lt;/p>&#xA;&#x9;&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
@@ -6653,6 +6725,9 @@
               sourceElement="#013a1d4c-5435-4967-86cf-4521ec1f2022"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="013a1d4c-5435-4967-86cf-4521ec1f2022" targetElement="#c60f173a-2d6c-4f4d-a61b-c00a8a43b1c5"
+              sourceElement="#88ac140d-9006-47b9-a726-72a4097a3717"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="2604addc-6da7-49c4-817a-94d4a68c71d5" targetElement="#97a8932b-9e20-400b-b364-4df4e71adf69"
               sourceElement="#88ac140d-9006-47b9-a726-72a4097a3717"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="5689a1f1-3c79-4e48-a4a5-a36d23d9ae47" targetElement="#d5f35dfe-194b-4026-863d-bbcde0c78dda"
