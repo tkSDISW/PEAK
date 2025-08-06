@@ -4246,9 +4246,6 @@
               id="b10c6f25-2f8a-4df0-852f-5f2269b9513d" targetElement="#b7bea57d-f665-4d88-a6b5-3d93d33418f4"
               sourceElement="#23a09d9c-9ad4-4e58-8e8b-4e5e8f600fb8"/>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="4f9e30fc-df59-4313-bbaa-eb5b12dab77b" targetElement="#6af326a1-181c-4d24-881c-79fdf906b99d"
-              sourceElement="#feeb7cc6-6e93-4ba2-a5eb-bbd75617512f"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="e32dcc5d-b590-4502-8a6f-6bee43c50a2e" targetElement="#fcf15b02-d711-4551-963a-31f0a42afef0"
               sourceElement="#49f46b54-6610-441a-b75c-26177b700fe1"/>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
@@ -4547,36 +4544,51 @@
               id="273eeba1-93de-42db-b902-26d459371b25" name="Water Management">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="21cda34f-e4a5-4ae6-a4be-74c6b249d1bc" involved="#18099b75-788e-4d38-96ce-77f853c4e287"
-                source="#feeb7cc6-6e93-4ba2-a5eb-bbd75617512f" target="#7c3ab76f-d545-45cc-be9b-0ba9c27ed758"/>
+                source="#7404818a-ff8e-4c69-b5e5-c1a2de980993" target="#7c3ab76f-d545-45cc-be9b-0ba9c27ed758"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="7c3ab76f-d545-45cc-be9b-0ba9c27ed758" involved="#8ee3f48f-4425-4d24-9911-ad47d498184c"/>
-            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
-                id="feeb7cc6-6e93-4ba2-a5eb-bbd75617512f" involved="#a1451127-4988-4529-9e19-4722b6d57f1d"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="f13d3086-3087-4281-a767-c9a5fe30fc75" involved="#c11349f1-e7f7-4db0-8bf0-d2082863c0e8"
-                source="#feeb7cc6-6e93-4ba2-a5eb-bbd75617512f" target="#6ca6ca32-f5ee-4314-a185-582648be6152"/>
+                source="#7404818a-ff8e-4c69-b5e5-c1a2de980993" target="#6ca6ca32-f5ee-4314-a185-582648be6152"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="6ca6ca32-f5ee-4314-a185-582648be6152" involved="#c1cb94d4-652c-437e-8461-c2822cbdf742"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="cb7f28ac-2593-4d16-939c-09f168a0f3d4" involved="#3d164fe7-2bfe-4821-8259-8e100c1c2890"
-                source="#305fce94-0134-4276-b800-02b132a35ec2" target="#feeb7cc6-6e93-4ba2-a5eb-bbd75617512f"/>
+                source="#305fce94-0134-4276-b800-02b132a35ec2" target="#6e4b6673-510d-484e-953a-4610097e0b8c"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="305fce94-0134-4276-b800-02b132a35ec2" involved="#2235732b-180d-4762-bd6f-b0cea8af5243"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="68b33744-553a-4313-b1be-f4cf9dfa9fd4" involved="#5cd94c85-b005-4043-b95f-18b1fd3518e8"
-                source="#feeb7cc6-6e93-4ba2-a5eb-bbd75617512f" target="#7bc3bd73-6239-43c6-8a4d-899e3fe18ea2"/>
+                source="#7404818a-ff8e-4c69-b5e5-c1a2de980993" target="#7bc3bd73-6239-43c6-8a4d-899e3fe18ea2"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="7bc3bd73-6239-43c6-8a4d-899e3fe18ea2" involved="#635805f8-1379-4892-8d11-ed9ccf55a5cf"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="1bf48b27-1ce5-4ee7-b45e-080b8f8741b9" involved="#8870f148-5e35-4f6c-b48f-b227a6e517f1"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="63edc64e-5d96-4cbc-b976-8ab14d59b709" involved="#71330f32-aca2-4c32-b26c-99b57e9b421e"
-                source="#feeb7cc6-6e93-4ba2-a5eb-bbd75617512f" target="#1bf48b27-1ce5-4ee7-b45e-080b8f8741b9"/>
+                source="#7404818a-ff8e-4c69-b5e5-c1a2de980993" target="#1bf48b27-1ce5-4ee7-b45e-080b8f8741b9"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="27f07cc5-a03c-4a6d-a73c-727a9b271e12" involved="#74451b78-af98-4f68-8cb9-0def8b7df7d8"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="ab28cc9e-dd4c-4a8f-9e5f-8a50e0f2f4f1" involved="#4d2be34e-c77e-4150-83bb-dcf8dd96073e"
-                source="#27f07cc5-a03c-4a6d-a73c-727a9b271e12" target="#feeb7cc6-6e93-4ba2-a5eb-bbd75617512f"/>
+                source="#27f07cc5-a03c-4a6d-a73c-727a9b271e12" target="#3ff17dcc-3942-4d1c-b0c5-276cccf393f2"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="7404818a-ff8e-4c69-b5e5-c1a2de980993" involved="#1d049865-1d03-4283-9db7-c040b8271e03"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="3ff17dcc-3942-4d1c-b0c5-276cccf393f2" involved="#6a8ec4f1-e327-4780-a7e9-2e1e7337da6c"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="6e4b6673-510d-484e-953a-4610097e0b8c" involved="#61a793c5-c760-41d9-b85b-c1eb287fc97e"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="96360a89-b886-4950-b8f0-559bd5d0850e" involved="#7b2e75c9-6976-49c1-967d-ca3bf60c36da"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="fb8cdcaf-cfd3-4dc3-9d8a-2c64a1dc359a" involved="#879aaf03-d750-4e6d-af1e-120d91f739a9"
+                source="#3ff17dcc-3942-4d1c-b0c5-276cccf393f2" target="#96360a89-b886-4950-b8f0-559bd5d0850e"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="80dc6673-5f70-4880-8343-91bb7b9d48bf" involved="#398067be-ac71-4c80-9bd1-b71a29d1f095"
+                source="#6e4b6673-510d-484e-953a-4610097e0b8c" target="#3ff17dcc-3942-4d1c-b0c5-276cccf393f2"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="1188917e-89ad-42a0-946e-c00dd847f263" involved="#b135851f-d60d-4385-84f2-f49b6940526e"
+                source="#96360a89-b886-4950-b8f0-559bd5d0850e" target="#7404818a-ff8e-4c69-b5e5-c1a2de980993"/>
             <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
                 id="1db84117-458c-4e9f-8500-bbf114e097a6" targetElement="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"
                 sourceElement="#273eeba1-93de-42db-b902-26d459371b25"/>
@@ -5005,45 +5017,92 @@
                   id="dd98f78f-74d9-4fdf-92db-a4a195a1a67e" targetElement="#d6539966-0393-4b52-939a-b1481e6d9e8c"
                   sourceElement="#51e59bc5-4b73-449e-92cd-113b82252a82"/>
             </ownedPropertyValueGroups>
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="69740a39-3771-4e19-891d-d36dee69ff03" name="inManage Water Production">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="83e9a2ef-7a41-4d6d-97ec-6f007f452b03" targetElement="#e3ecba4d-5d3b-4245-90f8-afffc1c288f1"
-                  sourceElement="#69740a39-3771-4e19-891d-d36dee69ff03"/>
-            </inputs>
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="9378cc52-b2f5-433f-86ed-b83e341b297b" name="FIP 2">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="17156ea6-b162-49a2-b744-831abd8a0cc7" targetElement="#64f09a35-ec27-4af2-879e-20cedbac6631"
-                  sourceElement="#9378cc52-b2f5-433f-86ed-b83e341b297b"/>
-            </inputs>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="15d91343-ff68-44dc-a7e0-b86eb3d46b62" name="outFiltered Water">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="0afd648f-0d8a-4423-800d-68074e44cc5b" targetElement="#f9b1291c-4d02-4a03-b824-9c927765f103"
-                  sourceElement="#15d91343-ff68-44dc-a7e0-b86eb3d46b62"/>
-            </outputs>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="ee042c0e-5817-479f-be61-b0d2c0d83ef6" name="outWater">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="8375dd6e-bc49-45e2-b5e3-f66a873c6125" targetElement="#8d352e23-1197-477d-862c-11e8e4dc66fa"
-                  sourceElement="#ee042c0e-5817-479f-be61-b0d2c0d83ef6"/>
-            </outputs>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="bb1aa71c-4cc5-47fe-a871-25a3c179038d" name="outWater">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="b6e44906-032f-4ece-b88e-85cf14d57683" targetElement="#c4bcdfa6-fe78-4777-ac14-05bd7f714dbc"
-                  sourceElement="#bb1aa71c-4cc5-47fe-a871-25a3c179038d"/>
-            </outputs>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="99567752-bd9e-4a1d-9045-bcc15f4c65e1" name="outWater">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="ad72388d-253a-42e1-9f90-97e11aec2b2c" targetElement="#ed67255b-138f-4a42-8b14-99cc1eea287e"
-                  sourceElement="#99567752-bd9e-4a1d-9045-bcc15f4c65e1"/>
-            </outputs>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+                id="7b2e75c9-6976-49c1-967d-ca3bf60c36da" name="Purify Water" description="&lt;p>This function will purify bacteria from water.&lt;/p>&#xA;">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="6ddfe622-0445-46f4-b5a4-c99322f2a47b" name="FIP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="caa51c0c-02a1-49c6-819a-5e5937957d70" name="FOP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="28d15cd9-267b-4f87-ba54-b5e477beb49d" name="FOP 2"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+                id="6a8ec4f1-e327-4780-a7e9-2e1e7337da6c" name="Filter Water" description="&lt;p>This function with pump and filter the water. The pump will pull from environment.&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="9378cc52-b2f5-433f-86ed-b83e341b297b" name="FIP 2">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="17156ea6-b162-49a2-b744-831abd8a0cc7" targetElement="#64f09a35-ec27-4af2-879e-20cedbac6631"
+                    sourceElement="#9378cc52-b2f5-433f-86ed-b83e341b297b"/>
+              </inputs>
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="ee6e8e9c-29a1-4749-8921-71dae81a4032" name="FIP 3"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="4bd1b893-25a6-4f19-b184-06ca78974f6a" name="FOP 1"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+                id="1d049865-1d03-4283-9db7-c040b8271e03" name="Store the Water" description="&lt;p>Store in a vessel to be distributed.&lt;/p>&#xA;">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="2ed7a405-a5ce-4aec-ab1e-265f5ecfa659" name="FIP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="15d91343-ff68-44dc-a7e0-b86eb3d46b62" name="outFiltered Water">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="0afd648f-0d8a-4423-800d-68074e44cc5b" targetElement="#f9b1291c-4d02-4a03-b824-9c927765f103"
+                    sourceElement="#15d91343-ff68-44dc-a7e0-b86eb3d46b62"/>
+              </outputs>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="99567752-bd9e-4a1d-9045-bcc15f4c65e1" name="outWater">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="ad72388d-253a-42e1-9f90-97e11aec2b2c" targetElement="#ed67255b-138f-4a42-8b14-99cc1eea287e"
+                    sourceElement="#99567752-bd9e-4a1d-9045-bcc15f4c65e1"/>
+              </outputs>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="ee042c0e-5817-479f-be61-b0d2c0d83ef6" name="outWater">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="8375dd6e-bc49-45e2-b5e3-f66a873c6125" targetElement="#8d352e23-1197-477d-862c-11e8e4dc66fa"
+                    sourceElement="#ee042c0e-5817-479f-be61-b0d2c0d83ef6"/>
+              </outputs>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="bb1aa71c-4cc5-47fe-a871-25a3c179038d" name="outWater">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="b6e44906-032f-4ece-b88e-85cf14d57683" targetElement="#c4bcdfa6-fe78-4777-ac14-05bd7f714dbc"
+                    sourceElement="#bb1aa71c-4cc5-47fe-a871-25a3c179038d"/>
+              </outputs>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="ca15c03b-46c0-473c-b9f2-6632c42f088a" name="FOP 5"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+                id="61a793c5-c760-41d9-b85b-c1eb287fc97e" name="Sense and Pump Water">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="69740a39-3771-4e19-891d-d36dee69ff03" name="inManage Water Production">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="83e9a2ef-7a41-4d6d-97ec-6f007f452b03" targetElement="#e3ecba4d-5d3b-4245-90f8-afffc1c288f1"
+                    sourceElement="#69740a39-3771-4e19-891d-d36dee69ff03"/>
+              </inputs>
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="21f931cd-87c6-4924-ae7e-099bcba4199a" name="FIP 2"/>
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="0cd7adf5-800d-44d4-9e7a-d45a2feacf2a" name="FIP 3"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="eb011991-5e66-4be7-9796-5c28f56d85a1" name="FOP 1"/>
+            </ownedFunctions>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
                 id="34110829-d500-4e4d-b35d-49a3ddbbbd61" targetElement="#8b849bf6-ba52-49f4-a0bf-858f96b2e501"
                 sourceElement="#a1451127-4988-4529-9e19-4722b6d57f1d"/>
+            <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                id="879aaf03-d750-4e6d-af1e-120d91f739a9" name="Filtered Water" target="#6ddfe622-0445-46f4-b5a4-c99322f2a47b"
+                source="#4bd1b893-25a6-4f19-b184-06ca78974f6a"/>
+            <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                id="b135851f-d60d-4385-84f2-f49b6940526e" name="Purifired Water" target="#2ed7a405-a5ce-4aec-ab1e-265f5ecfa659"
+                source="#caa51c0c-02a1-49c6-819a-5e5937957d70"/>
+            <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                id="398067be-ac71-4c80-9bd1-b71a29d1f095" name="Control Pump" target="#ee6e8e9c-29a1-4749-8921-71dae81a4032"
+                source="#eb011991-5e66-4be7-9796-5c28f56d85a1"/>
+            <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                id="1b4c9aea-320c-4524-b761-14648edbf35b" name="Sense Water" target="#21f931cd-87c6-4924-ae7e-099bcba4199a"
+                source="#28d15cd9-267b-4f87-ba54-b5e477beb49d"/>
+            <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                id="3d5573ae-77fd-420b-95e7-e8b0c0f29eb2" name="Sense Level" target="#0cd7adf5-800d-44d4-9e7a-d45a2feacf2a"
+                source="#ca15c03b-46c0-473c-b9f2-6632c42f088a"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="74451b78-af98-4f68-8cb9-0def8b7df7d8" name="Provide Water">
@@ -6391,24 +6450,41 @@
                 name="Pre-Position Kits" abstractType="#7762e040-2c1d-4a5f-a5d0-7fcb89d2672b"/>
             <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
                 id="cfa71969-133d-4e0e-9115-594e582b5cff" name="Water Subsystem">
-              <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-                  id="6e7c9d83-e0a3-4ede-b5a6-a445d69eee0c" targetElement="#a1451127-4988-4529-9e19-4722b6d57f1d"
-                  sourceElement="#cfa71969-133d-4e0e-9115-594e582b5cff"/>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9a702cdf-dbc0-4896-ac86-930c0dc06bf7"
                   name="Water Purification" abstractType="#7f8489cd-8752-437c-8528-fe35811620b6"/>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="480d6ec4-6ad4-4c91-9a9e-74848c0c2eac"
                   name="Water Filtration" abstractType="#9f20aa82-62ee-408a-9501-c8234e51587f"/>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="350fc498-2e99-45bb-9250-b659d099f56a"
                   name="Storage Container" abstractType="#8b1dc6a0-6a65-4b32-b1a9-60e2e39377b1"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="702b3814-1b43-469d-aaf8-58796ed8bee0"
+                  name="Controls System" abstractType="#f762407b-2b04-4030-b283-6ef3bc5422a9"/>
               <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
                   id="7f8489cd-8752-437c-8528-fe35811620b6" name="Water Purification"
-                  description="&lt;p>Includes filtration, distribution capability, and storage container to provide potable water, an essential service during crises. Requirement: Capable of purifying fresh, brackish, or salt water, integrated with power generation (source: provided document).&lt;/p>&#xA;"/>
+                  description="&lt;p>Includes filtration, distribution capability, and storage container to provide potable water, an essential service during crises. Requirement: Capable of purifying fresh, brackish, or salt water, integrated with power generation (source: provided document).&lt;/p>&#xA;">
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="afc6f6e1-291e-4a27-bfba-1ea3198789ce" targetElement="#7b2e75c9-6976-49c1-967d-ca3bf60c36da"
+                    sourceElement="#7f8489cd-8752-437c-8528-fe35811620b6"/>
+              </ownedLogicalComponents>
               <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
                   id="9f20aa82-62ee-408a-9501-c8234e51587f" name="Water Filtration"
-                  description="&lt;p>Ensures water is safe for drinking and hygiene. Requirement: Part of the purification process (source: domain knowledge of water safety standards).&lt;/p>&#xA;"/>
+                  description="&lt;p>Ensures water is safe for drinking and hygiene. Requirement: Part of the purification process (source: domain knowledge of water safety standards).&lt;/p>&#xA;">
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="e27fbe6a-5f57-4e6c-bcc9-c2b1383f26e1" targetElement="#6a8ec4f1-e327-4780-a7e9-2e1e7337da6c"
+                    sourceElement="#9f20aa82-62ee-408a-9501-c8234e51587f"/>
+              </ownedLogicalComponents>
               <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
                   id="8b1dc6a0-6a65-4b32-b1a9-60e2e39377b1" name="Storage Container"
-                  description="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{}]&quot;>Provides a means to hold and distribute purified water. Requirement: Must meet durability and lightweight standards (source: logistical standards for emergency supplies).&lt;/p>&#xA;"/>
+                  description="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{}]&quot;>Provides a means to hold and distribute purified water. Requirement: Must meet durability and lightweight standards (source: logistical standards for emergency supplies).&lt;/p>&#xA;">
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="a1ddc437-77ea-4f0c-b750-c055ed48129e" targetElement="#1d049865-1d03-4283-9db7-c040b8271e03"
+                    sourceElement="#8b1dc6a0-6a65-4b32-b1a9-60e2e39377b1"/>
+              </ownedLogicalComponents>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="f762407b-2b04-4030-b283-6ef3bc5422a9" name="Controls System">
+                <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                    id="6c17014a-cf71-4488-8f52-dcd91b605fcc" targetElement="#61a793c5-c760-41d9-b85b-c1eb287fc97e"
+                    sourceElement="#f762407b-2b04-4030-b283-6ef3bc5422a9"/>
+              </ownedLogicalComponents>
             </ownedLogicalComponents>
             <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
                 id="96da9729-25c3-424a-ae4b-802fc88abdad" name="Power Sub-System">
