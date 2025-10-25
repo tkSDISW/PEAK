@@ -5112,19 +5112,19 @@
                     sourceElement="#15d91343-ff68-44dc-a7e0-b86eb3d46b62"/>
               </outputs>
               <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                  id="99567752-bd9e-4a1d-9045-bcc15f4c65e1" name="outWater">
+                  id="99567752-bd9e-4a1d-9045-bcc15f4c65e1" name="outWater LP">
                 <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
                     id="ad72388d-253a-42e1-9f90-97e11aec2b2c" targetElement="#ed67255b-138f-4a42-8b14-99cc1eea287e"
                     sourceElement="#99567752-bd9e-4a1d-9045-bcc15f4c65e1"/>
               </outputs>
               <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                  id="ee042c0e-5817-479f-be61-b0d2c0d83ef6" name="outWater">
+                  id="ee042c0e-5817-479f-be61-b0d2c0d83ef6" name="outWater AP">
                 <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
                     id="8375dd6e-bc49-45e2-b5e3-f66a873c6125" targetElement="#8d352e23-1197-477d-862c-11e8e4dc66fa"
                     sourceElement="#ee042c0e-5817-479f-be61-b0d2c0d83ef6"/>
               </outputs>
               <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                  id="bb1aa71c-4cc5-47fe-a871-25a3c179038d" name="outWater">
+                  id="bb1aa71c-4cc5-47fe-a871-25a3c179038d" name="outWater FR">
                 <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
                     id="b6e44906-032f-4ece-b88e-85cf14d57683" targetElement="#c4bcdfa6-fe78-4777-ac14-05bd7f714dbc"
                     sourceElement="#bb1aa71c-4cc5-47fe-a871-25a3c179038d"/>
@@ -7384,13 +7384,19 @@
                     id="a1ddc437-77ea-4f0c-b750-c055ed48129e" targetElement="#1d049865-1d03-4283-9db7-c040b8271e03"
                     sourceElement="#8b1dc6a0-6a65-4b32-b1a9-60e2e39377b1"/>
                 <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                    id="c32ed5fd-734f-432c-851d-93cc677dc51a" name="Faucet" orientation="OUT"
+                    id="c32ed5fd-734f-432c-851d-93cc677dc51a" name="Faucets" orientation="OUT"
                     kind="FLOW">
                   <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
                       id="f7c264ca-263a-4f91-b7ca-96a22eac6216" targetElement="#15d91343-ff68-44dc-a7e0-b86eb3d46b62"
                       sourceElement="#c32ed5fd-734f-432c-851d-93cc677dc51a"/>
                   <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
                       id="282fd2f3-5548-4d34-85df-b014bb0b31b7" targetElement="#bb1aa71c-4cc5-47fe-a871-25a3c179038d"
+                      sourceElement="#c32ed5fd-734f-432c-851d-93cc677dc51a"/>
+                  <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                      id="e42f1b37-ff3d-4bf4-9c75-ee8439989fb5" targetElement="#99567752-bd9e-4a1d-9045-bcc15f4c65e1"
+                      sourceElement="#c32ed5fd-734f-432c-851d-93cc677dc51a"/>
+                  <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                      id="ab62f4a5-dbdc-44aa-8dad-6f7c342bb1f1" targetElement="#ee042c0e-5817-479f-be61-b0d2c0d83ef6"
                       sourceElement="#c32ed5fd-734f-432c-851d-93cc677dc51a"/>
                 </ownedFeatures>
                 <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
