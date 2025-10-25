@@ -7206,17 +7206,21 @@
               sourceElement="#9a52f867-4c88-482d-86c7-9f04aa2f57a9"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="55250bc2-fb9e-469e-970b-fe2052b0daaa" name="Water Pour" source="#9c943369-f94b-40f3-9c7f-8d9ed47843fa"
-            target="#8593574b-7796-4b21-810d-7ecf6027e389" kind="FLOW"/>
+            id="55250bc2-fb9e-469e-970b-fe2052b0daaa" name="Water Pour" source="#c32ed5fd-734f-432c-851d-93cc677dc51a"
+            target="#8593574b-7796-4b21-810d-7ecf6027e389" kind="FLOW">
+          <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
+              id="fc6a8872-c564-472d-802e-00917a23bfa6" targetElement="#c11349f1-e7f7-4db0-8bf0-d2082863c0e8"
+              sourceElement="#55250bc2-fb9e-469e-970b-fe2052b0daaa"/>
+        </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="e6723b80-cd77-4354-9970-dd7bb501560c" name="Water Pour" source="#ed46ffc1-d436-4b37-b13e-45a0eef4e8c8"
+            id="e6723b80-cd77-4354-9970-dd7bb501560c" name="Water Pour" source="#c32ed5fd-734f-432c-851d-93cc677dc51a"
             target="#b08e4e8e-7f36-42c4-89a6-e94c859a0966" kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="ac9038e6-0e64-447d-9cda-35a985134a07" targetElement="#18099b75-788e-4d38-96ce-77f853c4e287"
               sourceElement="#e6723b80-cd77-4354-9970-dd7bb501560c"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="cab5b2c7-7a21-467f-b759-4acffb118a3f" name="Water Pour" source="#b23e9735-eb10-4a92-b47b-8caf0d099c9b"
+            id="cab5b2c7-7a21-467f-b759-4acffb118a3f" name="Water Pour" source="#c32ed5fd-734f-432c-851d-93cc677dc51a"
             target="#6818cdf3-37f4-406d-95a3-f322b8c7560d" kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="3792cb94-771b-484a-8196-b9fa5c487cba" targetElement="#5cd94c85-b005-4043-b95f-18b1fd3518e8"
@@ -7380,28 +7384,14 @@
                     id="a1ddc437-77ea-4f0c-b750-c055ed48129e" targetElement="#1d049865-1d03-4283-9db7-c040b8271e03"
                     sourceElement="#8b1dc6a0-6a65-4b32-b1a9-60e2e39377b1"/>
                 <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                    id="c32ed5fd-734f-432c-851d-93cc677dc51a" name="CP 1" orientation="OUT"
+                    id="c32ed5fd-734f-432c-851d-93cc677dc51a" name="Faucet" orientation="OUT"
                     kind="FLOW">
                   <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
                       id="f7c264ca-263a-4f91-b7ca-96a22eac6216" targetElement="#15d91343-ff68-44dc-a7e0-b86eb3d46b62"
                       sourceElement="#c32ed5fd-734f-432c-851d-93cc677dc51a"/>
-                </ownedFeatures>
-                <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                    id="9c943369-f94b-40f3-9c7f-8d9ed47843fa" name="CP 2" orientation="OUT"
-                    kind="FLOW"/>
-                <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                    id="ed46ffc1-d436-4b37-b13e-45a0eef4e8c8" name="CP 3" orientation="OUT"
-                    kind="FLOW">
                   <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
-                      id="f1617574-f9da-47b8-8a77-b519ffe5967f" targetElement="#ee042c0e-5817-479f-be61-b0d2c0d83ef6"
-                      sourceElement="#ed46ffc1-d436-4b37-b13e-45a0eef4e8c8"/>
-                </ownedFeatures>
-                <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                    id="b23e9735-eb10-4a92-b47b-8caf0d099c9b" name="CP 4" orientation="OUT"
-                    kind="FLOW">
-                  <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
-                      id="a5bfbf2a-16fc-48ca-a93e-6aab48b6a0cb" targetElement="#99567752-bd9e-4a1d-9045-bcc15f4c65e1"
-                      sourceElement="#b23e9735-eb10-4a92-b47b-8caf0d099c9b"/>
+                      id="282fd2f3-5548-4d34-85df-b014bb0b31b7" targetElement="#bb1aa71c-4cc5-47fe-a871-25a3c179038d"
+                      sourceElement="#c32ed5fd-734f-432c-851d-93cc677dc51a"/>
                 </ownedFeatures>
                 <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                     id="6e50187d-8684-4d74-9eb6-5b5c91149cf8" name="CP 5" orientation="IN"
@@ -7704,7 +7694,11 @@
               sourceElement="#5694cc79-6e41-4470-ab08-cacd588cced8"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="8593574b-7796-4b21-810d-7ecf6027e389" name="CP 1" orientation="IN"
-              kind="FLOW"/>
+              kind="FLOW">
+            <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                id="bf90abc9-939c-4435-af21-bd51e0ab5043" targetElement="#397c4acf-430b-47cf-8884-c1a1e370a575"
+                sourceElement="#8593574b-7796-4b21-810d-7ecf6027e389"/>
+          </ownedFeatures>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="97e4e580-adf8-4665-b77e-0b4e79140a7b" targetElement="#ee9c1138-f37d-4654-9a56-2973fb5b7c8d"
               sourceElement="#5694cc79-6e41-4470-ab08-cacd588cced8"/>
