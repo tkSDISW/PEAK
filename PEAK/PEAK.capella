@@ -4150,10 +4150,12 @@
               </ownedRequirements>
             </ownedRequirements>
             <ownedRequirements xsi:type="Requirements:Requirement" id="ed3ccdb6-99b2-48fb-baba-956f0afd17df"
-                ReqIFLongName="Volume" ReqIFText="&lt;p>50%&lt;/p>&#xA;">
+                ReqIFLongName="Volume" ReqIFText="&lt;p>The system shall meet the following requirement.&lt;/p>&#xA;&#xA;&lt;ul>&#xA;&#x9;&lt;li>Volume Requirement: 49% of the total PEAK volume&lt;/li>&#xA;&#x9;&lt;li>Volume = 0.49 x 529.36 = &lt;span style=&quot;color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>259.39 cubic feet&lt;/span>&lt;/li>&#xA;&lt;/ul>&#xA;">
               <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
                   id="1d53d521-5c3d-4d35-8b93-64263c3d92ce" source="#ed3ccdb6-99b2-48fb-baba-956f0afd17df"
                   target="#cfa71969-133d-4e0e-9115-594e582b5cff"/>
+              <ownedRelations xsi:type="Requirements:InternalRelation" id="c9ab30ff-1851-4d43-80f4-189d0ff4f00c"
+                  source="#ed3ccdb6-99b2-48fb-baba-956f0afd17df" target="#4b5d7cfd-2e41-4a75-b2d5-1682c6ad4ca2"/>
             </ownedRequirements>
           </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Folder" id="eb51cc88-aee4-4821-9252-b038d067e8ea"
@@ -4195,10 +4197,12 @@
                   target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
             </ownedRequirements>
             <ownedRequirements xsi:type="Requirements:Requirement" id="73965b4b-9f1e-49c3-a9a6-3da3dafb165e"
-                ReqIFLongName="Volume" ReqIFName="Volume" ReqIFText="&lt;p>20%&lt;/p>&#xA;">
+                ReqIFLongName="Volume" ReqIFName="Volume" ReqIFText="&lt;p>The situational awareness&amp;nbsp;subsystem shall achieve equal or less than the following volume:&lt;/p>&#xA;&#xA;&lt;ul>&#xA;&#x9;&lt;li>Volume Requirement: 19% of the total PEAK volume&lt;/li>&#xA;&#x9;&lt;li>Volume = 0.09 x 529.36 = &lt;span style=&quot;color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>47.65 cubic feet&lt;/span>&lt;/li>&#xA;&lt;/ul>&#xA;">
               <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
                   id="38018413-ac88-4024-a976-b6a1a634f28a" source="#73965b4b-9f1e-49c3-a9a6-3da3dafb165e"
                   target="#36564c6f-d7ce-44f4-bd8b-a4dfd90237eb"/>
+              <ownedRelations xsi:type="Requirements:InternalRelation" id="150cc79e-d37e-4ba9-b96c-297bd21e6740"
+                  source="#73965b4b-9f1e-49c3-a9a6-3da3dafb165e" target="#4b5d7cfd-2e41-4a75-b2d5-1682c6ad4ca2"/>
             </ownedRequirements>
           </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Folder" id="2a004731-4971-433e-8533-f3c178881adc"
@@ -4211,14 +4215,24 @@
                   id="1f5b2ae4-98f1-4c40-89c5-8d8a675354fc" source="#4b5d7cfd-2e41-4a75-b2d5-1682c6ad4ca2"
                   target="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
             </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="7d7260e1-446b-43a9-825e-0287cbb8a095"
+                ReqIFLongName="Volume" ReqIFText="&lt;p>The packaging for the kit shall be equal or less than a volume of &lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>4% of the total PEAK volume, which is 0.04 x 529.36 = 21.17 cubic feet.&lt;/span>&lt;/p>&#xA;">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="17ec7eb6-4561-4806-b1f2-d49e4682bd54" source="#7d7260e1-446b-43a9-825e-0287cbb8a095"
+                  target="#7762e040-2c1d-4a5f-a5d0-7fcb89d2672b"/>
+              <ownedRelations xsi:type="Requirements:InternalRelation" id="178954dd-de28-4fd6-a66d-90fac32bd333"
+                  source="#7d7260e1-446b-43a9-825e-0287cbb8a095" target="#4b5d7cfd-2e41-4a75-b2d5-1682c6ad4ca2"/>
+            </ownedRequirements>
           </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Folder" id="6a37ce37-c369-41e2-95cb-9d316716c907"
               ReqIFLongName="Power Subsystem">
             <ownedRequirements xsi:type="Requirements:Requirement" id="256e6c3c-74a7-437f-8e0a-a68bdfbd7548"
-                ReqIFLongName="Volume" ReqIFText="&lt;p>20%&lt;/p>&#xA;">
+                ReqIFLongName="Volume" ReqIFText="&lt;p>The Power Subsystem shall less or equal to the following volume:&lt;/p>&#xA;&#xA;&lt;ul>&#xA;&#x9;&lt;li>Volume Requirement: 19% of the total PEAK volume&lt;/li>&#xA;&#x9;&lt;li>Volume = 0.19 x 529.36 = &lt;span style=&quot;color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>100.58 cubic feet&lt;/span>&lt;/li>&#xA;&lt;/ul>&#xA;">
               <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
                   id="723bc079-ea1a-46b6-b305-d59b3223b248" source="#256e6c3c-74a7-437f-8e0a-a68bdfbd7548"
                   target="#96da9729-25c3-424a-ae4b-802fc88abdad"/>
+              <ownedRelations xsi:type="Requirements:InternalRelation" id="6db6ae78-7f27-4fd2-b738-9f4f13c0b4eb"
+                  source="#256e6c3c-74a7-437f-8e0a-a68bdfbd7548" target="#4b5d7cfd-2e41-4a75-b2d5-1682c6ad4ca2"/>
             </ownedRequirements>
           </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Folder" id="7e050981-923f-4fc4-97f9-a05b6948c719"
@@ -4229,10 +4243,12 @@
           <ownedRequirements xsi:type="Requirements:Folder" id="71dfe6b9-fb32-486c-b9a0-4a45a1842df0"
               ReqIFLongName="Communication">
             <ownedRequirements xsi:type="Requirements:Requirement" id="b425c869-4eb9-4f89-aa8e-aff4bcc3fb94"
-                ReqIFLongName="Volume" ReqIFText="&lt;p>10%&lt;/p>&#xA;">
+                ReqIFLongName="Volume" ReqIFText="&lt;p>The communication subsystem shall achieve equal or less than the following volume:&lt;/p>&#xA;&#xA;&lt;ul>&#xA;&#x9;&lt;li>Volume Requirement: 29% of the total PEAK volume&lt;/li>&#xA;&#x9;&lt;li>Volume = 0.19 x 529.36 = &lt;span style=&quot;color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>100.58 cubic feet&lt;/span>&lt;/li>&#xA;&lt;/ul>&#xA;">
               <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
                   id="c8bbc58d-67e7-428a-85cf-a80b315e6ab4" source="#b425c869-4eb9-4f89-aa8e-aff4bcc3fb94"
                   target="#e51003f0-ef85-4e34-8862-c7ebcf8109d3"/>
+              <ownedRelations xsi:type="Requirements:InternalRelation" id="d3edca9c-1e5e-40fe-bcef-9856ae4b5c69"
+                  source="#b425c869-4eb9-4f89-aa8e-aff4bcc3fb94" target="#4b5d7cfd-2e41-4a75-b2d5-1682c6ad4ca2"/>
             </ownedRequirements>
           </ownedRequirements>
         </ownedRequirements>
@@ -7303,6 +7319,9 @@
               sourceElement="#ee8e3fe4-48a6-4b69-b897-ca0577013a03"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="c34a0831-0674-48f4-ab45-15e732e5e13b" name="PEAK">
+            <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+                id="0acff138-4635-4b3e-9130-f5b4f8003737" source="#c34a0831-0674-48f4-ab45-15e732e5e13b"
+                target="#5bc632c1-af32-4682-945d-607c3dfe6912"/>
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="b65db4a3-81af-4180-82a4-01fdaec246b2" targetElement="#8ad43e4e-231a-4620-b54f-1a993fe2ef9e"
                 sourceElement="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
@@ -7324,7 +7343,7 @@
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="465c6590-b4f3-46e9-a9f5-a87febb6db84"
                 name="Situational Awareness Sub -System" abstractType="#36564c6f-d7ce-44f4-bd8b-a4dfd90237eb"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ec51ed2a-a392-48aa-9aa6-fe47e2042164"
-                name="Pre-Position Kits" abstractType="#7762e040-2c1d-4a5f-a5d0-7fcb89d2672b"/>
+                name="Pre-Position Kit Packaging" abstractType="#7762e040-2c1d-4a5f-a5d0-7fcb89d2672b"/>
             <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
                 id="cfa71969-133d-4e0e-9115-594e582b5cff" name="Water Subsystem">
               <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
@@ -7555,7 +7574,7 @@
                   description="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;orderedList&amp;quot;,{&amp;quot;start&amp;quot;:1},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{},&amp;quot;bulletList&amp;quot;,{},&amp;quot;listItem&amp;quot;,{}]&quot;>Manages UAS operations and data collection. Requirement: User-friendly for rapid deployment (source: user experience design in technology interfaces).&lt;/p>&#xA;"/>
             </ownedLogicalComponents>
             <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-                id="7762e040-2c1d-4a5f-a5d0-7fcb89d2672b" name="Pre-Position Kits">
+                id="7762e040-2c1d-4a5f-a5d0-7fcb89d2672b" name="Pre-Position Kit Packaging">
               <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                   id="d7cae554-f386-49f5-ade9-669c6e1f9797" targetElement="#38fd077a-9bc4-445a-a6e5-5ac5d622abee"
                   sourceElement="#7762e040-2c1d-4a5f-a5d0-7fcb89d2672b"/>
