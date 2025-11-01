@@ -1358,6 +1358,18 @@
                   id="2748b271-f504-495b-aa1e-2edbb186de5e" source="#188c4eed-b141-4bb9-9e33-a4e8a3cfa215"
                   target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
             </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Folder" id="618effbc-8639-4cc8-a15e-115f09079dfb"
+                ReqIFLongName="Water Storage">
+              <ownedRequirements xsi:type="Requirements:Folder" id="9decc83f-847f-4017-b05d-16a5f95c9b67"
+                  ReqIFLongName="Faucets">
+                <ownedRequirements xsi:type="Requirements:Requirement" id="a875f921-933a-44eb-b1f7-c51e33245d1e"
+                    ReqIFLongName="Water Flow Rate" ReqIFText="&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>The &amp;quot;Faucets&amp;quot; shall provide a water flow rate of at least&amp;nbsp;407 liters per day to meet the minimum water consumption rate for all connected functions, ensuring adequate water supply for operational needs.&lt;/span>&lt;/p>&#xA;">
+                  <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                      id="9bcda9ae-8a49-4430-ac97-c0db001c265f" source="#a875f921-933a-44eb-b1f7-c51e33245d1e"
+                      target="#c32ed5fd-734f-432c-851d-93cc677dc51a"/>
+                </ownedRequirements>
+              </ownedRequirements>
+            </ownedRequirements>
           </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Folder" id="6cb5eca4-3761-42cc-934f-3aa757dafc44"
               ReqIFLongName="Situational Awareness">
@@ -4177,7 +4189,17 @@
                   target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
             </ownedRequirements>
           </ownedRequirements>
-          <ownedRequirements xsi:type="Requirements:Folder" id="2a004731-4971-433e-8533-f3c178881adc"/>
+          <ownedRequirements xsi:type="Requirements:Folder" id="2a004731-4971-433e-8533-f3c178881adc"
+              ReqIFLongName="Packaging Requirements">
+            <ownedRequirements xsi:type="Requirements:Requirement" id="4b5d7cfd-2e41-4a75-b2d5-1682c6ad4ca2"
+                ReqIFLongName="Dimensions" ReqIFText="&lt;p>The system shall conform to the following dimensional constraints to ensure compatibility with standard transport and storage solutions:&lt;/p>&#xA;&#xA;&lt;p>&lt;strong style=&quot;font-weight: bold;&quot;>Dimensions:&lt;/strong>&lt;/p>&#xA;&#xA;&lt;ul>&#xA;&#x9;&lt;li>&lt;strong style=&quot;font-weight: bold;&quot;>Length: 108 inches (274.32 cm)&lt;/strong>&lt;/li>&#xA;&#x9;&lt;li>&lt;strong style=&quot;font-weight: bold;&quot;>Width: 88 inches (223.52 cm)&lt;/strong>&lt;/li>&#xA;&#x9;&lt;li>&lt;strong style=&quot;font-weight: bold;&quot;>Height: Up to 96 inches (243.84 cm)&lt;/strong>&lt;/li>&#xA;&lt;/ul>&#xA;&#xA;&lt;p>Volume ::&lt;/p>&#xA;&#xA;&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>The volume of the system is approximately 529.36 cubic feet or 14.992.73 cubic liters.&lt;/span>&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;">
+              <ownedRelations xsi:type="Requirements:InternalRelation" id="b29947d5-d79a-4629-a43a-c3c593772699"
+                  source="#4b5d7cfd-2e41-4a75-b2d5-1682c6ad4ca2" target="#5bc632c1-af32-4682-945d-607c3dfe6912"/>
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="1f5b2ae4-98f1-4c40-89c5-8d8a675354fc" source="#4b5d7cfd-2e41-4a75-b2d5-1682c6ad4ca2"
+                  target="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
+            </ownedRequirements>
+          </ownedRequirements>
         </ownedRequirements>
       </ownedExtensions>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.la:LogicalFunctionPkg"
@@ -7378,7 +7400,7 @@
                   <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
                       id="210ff3cc-288d-4bff-8752-f9ab78549ad9" name="Units" value="liter"/>
                   <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
-                      id="0fa298aa-8342-406c-8b10-4ab8965bfecf" name="Value"/>
+                      id="0fa298aa-8342-406c-8b10-4ab8965bfecf" name="Value" value="1000.0"/>
                 </ownedPropertyValueGroups>
                 <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                     id="a1ddc437-77ea-4f0c-b750-c055ed48129e" targetElement="#1d049865-1d03-4283-9db7-c040b8271e03"
