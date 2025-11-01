@@ -4149,6 +4149,12 @@
                     source="#8590ba82-13eb-4668-af7c-e5715db777d8" target="#7546d353-e92f-4f5e-9fd2-0d4aef285e80"/>
               </ownedRequirements>
             </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="ed3ccdb6-99b2-48fb-baba-956f0afd17df"
+                ReqIFLongName="Volume" ReqIFText="&lt;p>50%&lt;/p>&#xA;">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="1d53d521-5c3d-4d35-8b93-64263c3d92ce" source="#ed3ccdb6-99b2-48fb-baba-956f0afd17df"
+                  target="#cfa71969-133d-4e0e-9115-594e582b5cff"/>
+            </ownedRequirements>
           </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Folder" id="eb51cc88-aee4-4821-9252-b038d067e8ea"
               ReqIFLongName="Situational Awareness">
@@ -4188,6 +4194,12 @@
                   id="02bd03b3-5fc8-4ce7-9684-893534273e73" source="#71ecaf6b-fdfc-441d-9f9f-cdf003091d33"
                   target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
             </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="73965b4b-9f1e-49c3-a9a6-3da3dafb165e"
+                ReqIFLongName="Volume" ReqIFName="Volume" ReqIFText="&lt;p>20%&lt;/p>&#xA;">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="38018413-ac88-4024-a976-b6a1a634f28a" source="#73965b4b-9f1e-49c3-a9a6-3da3dafb165e"
+                  target="#36564c6f-d7ce-44f4-bd8b-a4dfd90237eb"/>
+            </ownedRequirements>
           </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Folder" id="2a004731-4971-433e-8533-f3c178881adc"
               ReqIFLongName="Packaging Requirements">
@@ -4198,6 +4210,29 @@
               <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
                   id="1f5b2ae4-98f1-4c40-89c5-8d8a675354fc" source="#4b5d7cfd-2e41-4a75-b2d5-1682c6ad4ca2"
                   target="#c34a0831-0674-48f4-ab45-15e732e5e13b"/>
+            </ownedRequirements>
+          </ownedRequirements>
+          <ownedRequirements xsi:type="Requirements:Folder" id="6a37ce37-c369-41e2-95cb-9d316716c907"
+              ReqIFLongName="Power Subsystem">
+            <ownedRequirements xsi:type="Requirements:Requirement" id="256e6c3c-74a7-437f-8e0a-a68bdfbd7548"
+                ReqIFLongName="Volume" ReqIFText="&lt;p>20%&lt;/p>&#xA;">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="723bc079-ea1a-46b6-b305-d59b3223b248" source="#256e6c3c-74a7-437f-8e0a-a68bdfbd7548"
+                  target="#96da9729-25c3-424a-ae4b-802fc88abdad"/>
+            </ownedRequirements>
+          </ownedRequirements>
+          <ownedRequirements xsi:type="Requirements:Folder" id="7e050981-923f-4fc4-97f9-a05b6948c719"
+              ReqIFLongName="Communication Subsystem">
+            <ownedRequirements xsi:type="Requirements:Requirement" id="3a02e110-8ff6-415b-8f59-4d955e697feb"
+                ReqIFLongName="Volume"/>
+          </ownedRequirements>
+          <ownedRequirements xsi:type="Requirements:Folder" id="71dfe6b9-fb32-486c-b9a0-4a45a1842df0"
+              ReqIFLongName="Communication">
+            <ownedRequirements xsi:type="Requirements:Requirement" id="b425c869-4eb9-4f89-aa8e-aff4bcc3fb94"
+                ReqIFLongName="Volume" ReqIFText="&lt;p>10%&lt;/p>&#xA;">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="c8bbc58d-67e7-428a-85cf-a80b315e6ab4" source="#b425c869-4eb9-4f89-aa8e-aff4bcc3fb94"
+                  target="#e51003f0-ef85-4e34-8862-c7ebcf8109d3"/>
             </ownedRequirements>
           </ownedRequirements>
         </ownedRequirements>
