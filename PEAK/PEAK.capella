@@ -1363,10 +1363,10 @@
               <ownedRequirements xsi:type="Requirements:Folder" id="9decc83f-847f-4017-b05d-16a5f95c9b67"
                   ReqIFLongName="Faucets">
                 <ownedRequirements xsi:type="Requirements:Requirement" id="a875f921-933a-44eb-b1f7-c51e33245d1e"
-                    ReqIFLongName="Water Flow Rate" ReqIFText="&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>The &amp;quot;Faucets&amp;quot; shall provide a water flow rate of at least&amp;nbsp;407 liters per day to meet the minimum water consumption rate for all connected functions, ensuring adequate water supply for operational needs.&lt;/span>&lt;/p>&#xA;">
+                    ReqIFLongName="Water Flow Rate" ReqIFText="&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>The &amp;quot;Faucets&amp;quot; shall provide a water flow rate of at least ? &amp;nbsp;liters per day to meet the minimum water consumption rate for all connected functions, ensuring adequate water supply for operational needs.&lt;/span>&lt;/p>&#xA;">
                   <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
-                      id="9bcda9ae-8a49-4430-ac97-c0db001c265f" source="#a875f921-933a-44eb-b1f7-c51e33245d1e"
-                      target="#c32ed5fd-734f-432c-851d-93cc677dc51a"/>
+                      id="9bcda9ae-8a49-4430-ac97-c0db001c265f" ReqIFLongName="Allocate"
+                      source="#a875f921-933a-44eb-b1f7-c51e33245d1e" target="#c32ed5fd-734f-432c-851d-93cc677dc51a"/>
                 </ownedRequirements>
               </ownedRequirements>
             </ownedRequirements>
@@ -2502,7 +2502,7 @@
                 sourceElement="#8696fc87-8347-4bba-83f8-cf879e1109e8"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="156c7a5b-7c4f-49e4-85ba-f51e6918422a" name="V">
+              id="156c7a5b-7c4f-49e4-85ba-f51e6918422a" name="Receive Build">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="2f657d09-7937-49d3-8baf-02df4d406310" name="inBuild"/>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
