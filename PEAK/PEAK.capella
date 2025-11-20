@@ -1046,54 +1046,10 @@
           ReqIFLongName="User Requirements" ReqIFName="User Requirements">
         <ownedRequirements xsi:type="Requirements:Requirement" id="5bc632c1-af32-4682-945d-607c3dfe6912"
             ReqIFName="Cargo Pallet Fit" ReqIFText="The system components shall fit on a single 463L cargo air pallet. Rationale:Standardizes military air transport."/>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="1b408a6b-ea13-4c87-888a-d1f276c265e4"
-            ReqIFName="Filtration System Inclusion" ReqIFText="The water system shall include a filtration system. Rationale:Ensures the removal of contaminants.">
-          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="c9b9f11d-6af6-42a8-83fc-27ffba654976"
-              source="#1b408a6b-ea13-4c87-888a-d1f276c265e4" target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
-        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="e034047e-3d6c-4cd3-bfa4-a5e89e7613bf"
             ReqIFName="Water Distribution Capability" ReqIFText="The system shall include water distribution capability. Rationale:To facilitate potable water supply.">
           <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="17181b48-84e0-49f6-9c4b-c14b781b7e8e"
               source="#e034047e-3d6c-4cd3-bfa4-a5e89e7613bf" target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
-        </ownedRequirements>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="7546d353-e92f-4f5e-9fd2-0d4aef285e80"
-            ReqIFName="Include Storage Container" ReqIFText="The water system shall include a storage container. Rationale:To store the purified water.">
-          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="06aae7b7-f8d2-4548-9d7f-b09859ee41cb"
-              source="#7546d353-e92f-4f5e-9fd2-0d4aef285e80" target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
-          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="3758e729-48e4-4ac1-bfca-70d5bd0518ad"
-              source="#7546d353-e92f-4f5e-9fd2-0d4aef285e80" target="#273eeba1-93de-42db-b902-26d459371b25"/>
-        </ownedRequirements>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="69bd77f0-61f8-4e76-8ee5-97357959b4cb"
-            ReqIFName="Kit Power Source" ReqIFText="The water equipment shall be powered through the kit power generation system. Rationale:To ensure energy efficiency.">
-          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="b87226a4-cb0d-492e-bc4a-868a194cdbb1"
-              source="#69bd77f0-61f8-4e76-8ee5-97357959b4cb" target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
-        </ownedRequirements>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="9f01a3b9-4945-4cf9-9d29-4717ab2876d2"
-            ReqIFName="Leverage Existing Water Tech" ReqIFText="The water system shall leverage existing technology. Rationale:To reduce development time and cost.">
-          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="d3a8b1cd-c8c3-40bb-938c-6bf9f102bb91"
-              source="#9f01a3b9-4945-4cf9-9d29-4717ab2876d2" target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
-        </ownedRequirements>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="b3aa5623-5095-4f76-a306-faf82a0e9cf3"
-            ReqIFName="Renewable Power Source" ReqIFText="The power sub-system shall primarily run on renewable sources. Rationale:To promote sustainability and autonomy.">
-          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="96bc4a90-b9c2-4d04-a0e9-b897ee5d5fc1"
-              source="#b3aa5623-5095-4f76-a306-faf82a0e9cf3" target="#227e66f0-482e-4f30-bea0-0c615f0d4489"/>
-        </ownedRequirements>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="4612aebc-795e-4315-8482-2680d4197315"
-            ReqIFName="Fossil Fuel Backup" ReqIFText="The power system shall have a fossil fuel generator backup. Rationale:Ensures continuous operation.">
-          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="9a4980f1-8b91-44ff-b3ba-4f72a8dc7d78"
-              source="#4612aebc-795e-4315-8482-2680d4197315" target="#18a249ae-8e5b-4b13-ae72-15f61ba0ab0d"/>
-          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="1edbcba7-1dba-4256-9ac3-ec97f3c2a0c2"
-              source="#4612aebc-795e-4315-8482-2680d4197315" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
-        </ownedRequirements>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="db208455-2f1c-4bea-8277-7d0dfeb05740"
-            ReqIFName="Support Kit Components" ReqIFText="The power system shall have sufficient capacity to support all kit components. Rationale:Enables integrated operation.">
-          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="c59fab12-c265-4e7a-ab2a-72ee2f2a9cad"
-              source="#db208455-2f1c-4bea-8277-7d0dfeb05740" target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
-        </ownedRequirements>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="eb323dd1-0d54-4e13-8951-5ff2281c427b"
-            ReqIFName="Use Existing Power Tech" ReqIFText="The power system shall leverage existing technology. Rationale:To minimize resource use.">
-          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="0a560c42-575f-4217-b93c-b537c08e7e66"
-              source="#eb323dd1-0d54-4e13-8951-5ff2281c427b" target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
         </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="2760202e-ef64-41f4-a9f9-e4a1f63f6bb7"
             ReqIFName="Situational Awareness Features" ReqIFText="The system shall include local situational awareness capabilities. Rationale:To provide essential data to responders.">
@@ -1170,11 +1126,6 @@
             ReqIFName="Self-Diagnosis and Alerts" ReqIFText="The system shall include self-diagnosis capabilities with alert systems. Rationale:Promotes proactive maintenance.">
           <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="0a13247f-a0f8-4570-adb2-95ef8f0165b0"
               source="#ce579235-615c-4713-88ff-d673bb10ec88" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
-        </ownedRequirements>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="bd9a26d5-4158-42d5-9a21-38233e181f62"
-            ReqIFName="Power Management Interface" ReqIFText="The power system shall include a management interface for monitoring usage. Rationale:For efficient resource allocation.">
-          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="5fb8bf48-dbf5-48f8-beea-6b521c12f36e"
-              source="#bd9a26d5-4158-42d5-9a21-38233e181f62" target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
         </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="fdcb1d3b-6c0b-4428-acbd-d924b522a793"
             ReqIFName="Local Partner Training" ReqIFText="The system shall provide training to local partners on operational use. Rationale:Enhances capacity building and sustainability.">
@@ -1332,83 +1283,11 @@
                 id="9b1e6a1b-060a-4c20-b42c-146f6b6123e1" source="#a4e63e67-484a-46cb-ba84-1433bfa56f35"
                 target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
           </ownedRequirements>
-          <ownedRequirements xsi:type="Requirements:Requirement" id="ca02d49e-c407-4fdc-a1a0-89edf6b7bc33"
-              ReqIFName="Portable Power Sources" ReqIFText="The system shall include portable power sources to support off-grid operations. Rationale:Ensures continuous operation in remote locations.">
-            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
-                id="4a363584-114f-419f-a99d-b29b95d3aabd" source="#ca02d49e-c407-4fdc-a1a0-89edf6b7bc33"
-                target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
-          </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="f8761ff2-2b56-4f56-b8d1-36f356f9a690"
               ReqIFName="Redundancy for Critical Functions" ReqIFText="&lt;p>The system shall include redundancy for all critical functions. Rationale:Ensures system reliability under duress.&lt;/p>&#xA;">
             <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
                 id="e733093d-802c-4e88-809b-c3f3f06f9f2b" source="#f8761ff2-2b56-4f56-b8d1-36f356f9a690"
                 target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
-          </ownedRequirements>
-          <ownedRequirements xsi:type="Requirements:Folder" id="298c7ee6-993c-499b-a87d-adb7e784e5ec"
-              ReqIFLongName="Water Purification">
-            <ownedRequirements xsi:type="Requirements:Requirement" id="53773e29-a148-481e-aada-47987c2a1357"
-                ReqIFName="Produce Potable Water" ReqIFText="The water purification equipment shall produce potable water. Rationale:To meet health and hygiene needs.">
-              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
-                  id="3422938a-3ebf-4488-8005-c36d8aa691df" source="#53773e29-a148-481e-aada-47987c2a1357"
-                  target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
-            </ownedRequirements>
-            <ownedRequirements xsi:type="Requirements:Requirement" id="188c4eed-b141-4bb9-9e33-a4e8a3cfa215"
-                ReqIFName="Advanced Water Sensors" ReqIFText="Water systems shall include advanced sensors for quality monitoring. Rationale:Ensures safety and compliance.">
-              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
-                  id="2748b271-f504-495b-aa1e-2edbb186de5e" source="#188c4eed-b141-4bb9-9e33-a4e8a3cfa215"
-                  target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
-            </ownedRequirements>
-            <ownedRequirements xsi:type="Requirements:Folder" id="618effbc-8639-4cc8-a15e-115f09079dfb"
-                ReqIFLongName="Water Storage">
-              <ownedRequirements xsi:type="Requirements:Folder" id="9decc83f-847f-4017-b05d-16a5f95c9b67"
-                  ReqIFLongName="Faucets">
-                <ownedRequirements xsi:type="Requirements:Requirement" id="a875f921-933a-44eb-b1f7-c51e33245d1e"
-                    ReqIFLongName="Water Flow Rate" ReqIFText="&lt;p>&lt;span style=&quot;text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: system-ui, -apple-system, blinkmacsystemfont, &amp;quot;Segoe UI&amp;quot;, helvetica, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>The &amp;quot;Faucets&amp;quot; shall provide a water flow rate of at least ? &amp;nbsp;liters per day to meet the minimum water consumption rate for all connected functions, ensuring adequate water supply for operational needs.&lt;/span>&lt;/p>&#xA;">
-                  <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
-                      id="9bcda9ae-8a49-4430-ac97-c0db001c265f" ReqIFLongName="Allocate"
-                      source="#a875f921-933a-44eb-b1f7-c51e33245d1e" target="#c32ed5fd-734f-432c-851d-93cc677dc51a"/>
-                </ownedRequirements>
-              </ownedRequirements>
-            </ownedRequirements>
-          </ownedRequirements>
-          <ownedRequirements xsi:type="Requirements:Folder" id="6cb5eca4-3761-42cc-934f-3aa757dafc44"
-              ReqIFLongName="Situational Awareness">
-            <ownedRequirements xsi:type="Requirements:Requirement" id="ed52e4cf-63c1-4d12-906b-bf2b06423ac9"
-                ReqIFName="Include Camera System" ReqIFText="The situational awareness component shall include a camera system. Rationale:To capture essential visual data.">
-              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
-                  id="c2a3ec8b-a8af-4615-be87-9f682352ff04" source="#ed52e4cf-63c1-4d12-906b-bf2b06423ac9"
-                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
-            </ownedRequirements>
-            <ownedRequirements xsi:type="Requirements:Requirement" id="d4e57853-9b16-4d61-8f0e-7740ec3de662"
-                ReqIFName="Integrate Situational Platform" ReqIFText="The situational awareness component shall have an integrated platform. Rationale:To provide a cohesive data framework.">
-              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
-                  id="23d52885-6f96-49d0-9cf1-547d736e87ad" source="#d4e57853-9b16-4d61-8f0e-7740ec3de662"
-                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
-            </ownedRequirements>
-            <ownedRequirements xsi:type="Requirements:Requirement" id="9596e2b6-002f-45e2-8244-3c6febf05979"
-                ReqIFName="Power Through Kit" ReqIFText="The situational awareness system shall be powered through the kit. Rationale:Ensures system autonomy.">
-              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
-                  id="9f50d43b-7a7b-43c3-a31e-85bed151cbbc" source="#9596e2b6-002f-45e2-8244-3c6febf05979"
-                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
-            </ownedRequirements>
-            <ownedRequirements xsi:type="Requirements:Requirement" id="fafd2974-09a8-4d07-8189-415d57e5d32b"
-                ReqIFName="Existing Awareness Tech" ReqIFText="The situational awareness system shall leverage existing technology. Rationale:To optimize existing capabilities.">
-              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
-                  id="a8ecfc13-8c24-42ab-afc8-0d1c9f49e15b" source="#fafd2974-09a8-4d07-8189-415d57e5d32b"
-                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
-            </ownedRequirements>
-            <ownedRequirements xsi:type="Requirements:Requirement" id="f232c30a-4beb-46b4-85dc-1d8e87b8fab1"
-                ReqIFName="GIS Integration" ReqIFText="Situational awareness tools shall integrate with Geographic Information Systems (GIS). Rationale:To enhance mapping and tracking capabilities.">
-              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
-                  id="00816388-65dd-48b9-8398-8fa08e68bd8c" source="#f232c30a-4beb-46b4-85dc-1d8e87b8fab1"
-                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
-            </ownedRequirements>
-            <ownedRequirements xsi:type="Requirements:Requirement" id="ee27c4d0-36ed-4778-98f2-d52dee9a276d"
-                ReqIFName="Weather Forecast Alerts" ReqIFText="Situational awareness components shall issue alerts based on forecasted weather conditions. Rationale:Prepares users for imminent conditions.">
-              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
-                  id="552dadb2-ff00-4692-bca8-17ba8cc08d7d" source="#ee27c4d0-36ed-4778-98f2-d52dee9a276d"
-                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
-            </ownedRequirements>
           </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Requirement" id="b0795839-55fe-455d-9e48-3134c60f829c"
               ReqIFName="Standardized Connectors" ReqIFText="The system shall use standardized connectors for all components. Rationale:To ensure interoperability and ease of maintenance.">
@@ -1472,7 +1351,131 @@
                 id="e9a42379-b40a-4620-a402-e7ffcdae6adb" source="#d4e8f139-0c08-410b-bbaf-94d2bf9a4b90"
                 target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
           </ownedRequirements>
-          <ownedRequirements xsi:type="Requirements:Folder" id="8ce811cc-eee0-46d2-8545-55c0b8b57bbb"/>
+          <ownedRequirements xsi:type="Requirements:Requirement" id="ca02d49e-c407-4fdc-a1a0-89edf6b7bc33"
+              ReqIFName="Portable Power Sources" ReqIFText="The system shall include portable power sources to support off-grid operations. Rationale:Ensures continuous operation in remote locations.">
+            <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                id="4a363584-114f-419f-a99d-b29b95d3aabd" source="#ca02d49e-c407-4fdc-a1a0-89edf6b7bc33"
+                target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
+          </ownedRequirements>
+          <ownedRequirements xsi:type="Requirements:Folder" id="298c7ee6-993c-499b-a87d-adb7e784e5ec"
+              ReqIFLongName="Water Purification">
+            <ownedRequirements xsi:type="Requirements:Requirement" id="53773e29-a148-481e-aada-47987c2a1357"
+                ReqIFName="Produce Potable Water" ReqIFText="The water purification equipment shall produce potable water. Rationale:To meet health and hygiene needs.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="3422938a-3ebf-4488-8005-c36d8aa691df" source="#53773e29-a148-481e-aada-47987c2a1357"
+                  target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="188c4eed-b141-4bb9-9e33-a4e8a3cfa215"
+                ReqIFName="Advanced Water Sensors" ReqIFText="Water systems shall include advanced sensors for quality monitoring. Rationale:Ensures safety and compliance.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="2748b271-f504-495b-aa1e-2edbb186de5e" source="#188c4eed-b141-4bb9-9e33-a4e8a3cfa215"
+                  target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="1b408a6b-ea13-4c87-888a-d1f276c265e4"
+                ReqIFName="Filtration System Inclusion" ReqIFText="The water system shall include a filtration system. Rationale:Ensures the removal of contaminants.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="c9b9f11d-6af6-42a8-83fc-27ffba654976" source="#1b408a6b-ea13-4c87-888a-d1f276c265e4"
+                  target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="7546d353-e92f-4f5e-9fd2-0d4aef285e80"
+                ReqIFName="Include Storage Container" ReqIFText="The water system shall include a storage container. Rationale:To store the purified water.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="06aae7b7-f8d2-4548-9d7f-b09859ee41cb" source="#7546d353-e92f-4f5e-9fd2-0d4aef285e80"
+                  target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="3758e729-48e4-4ac1-bfca-70d5bd0518ad" source="#7546d353-e92f-4f5e-9fd2-0d4aef285e80"
+                  target="#273eeba1-93de-42db-b902-26d459371b25"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="69bd77f0-61f8-4e76-8ee5-97357959b4cb"
+                ReqIFName="Kit Power Source" ReqIFText="The water equipment shall be powered through the kit power generation system. Rationale:To ensure energy efficiency.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="b87226a4-cb0d-492e-bc4a-868a194cdbb1" source="#69bd77f0-61f8-4e76-8ee5-97357959b4cb"
+                  target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="9f01a3b9-4945-4cf9-9d29-4717ab2876d2"
+                ReqIFName="Leverage Existing Water Tech" ReqIFText="The water system shall leverage existing technology. Rationale:To reduce development time and cost.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="d3a8b1cd-c8c3-40bb-938c-6bf9f102bb91" source="#9f01a3b9-4945-4cf9-9d29-4717ab2876d2"
+                  target="#5cf5dba7-972a-486a-87ec-faa124ed3d5d"/>
+            </ownedRequirements>
+          </ownedRequirements>
+          <ownedRequirements xsi:type="Requirements:Folder" id="6cb5eca4-3761-42cc-934f-3aa757dafc44"
+              ReqIFLongName="Situational Awareness">
+            <ownedRequirements xsi:type="Requirements:Requirement" id="ed52e4cf-63c1-4d12-906b-bf2b06423ac9"
+                ReqIFName="Include Camera System" ReqIFText="The situational awareness component shall include a camera system. Rationale:To capture essential visual data.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="c2a3ec8b-a8af-4615-be87-9f682352ff04" source="#ed52e4cf-63c1-4d12-906b-bf2b06423ac9"
+                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="d4e57853-9b16-4d61-8f0e-7740ec3de662"
+                ReqIFName="Integrate Situational Platform" ReqIFText="The situational awareness component shall have an integrated platform. Rationale:To provide a cohesive data framework.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="23d52885-6f96-49d0-9cf1-547d736e87ad" source="#d4e57853-9b16-4d61-8f0e-7740ec3de662"
+                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="9596e2b6-002f-45e2-8244-3c6febf05979"
+                ReqIFName="Power Through Kit" ReqIFText="The situational awareness system shall be powered through the kit. Rationale:Ensures system autonomy.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="9f50d43b-7a7b-43c3-a31e-85bed151cbbc" source="#9596e2b6-002f-45e2-8244-3c6febf05979"
+                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="fafd2974-09a8-4d07-8189-415d57e5d32b"
+                ReqIFName="Existing Awareness Tech" ReqIFText="The situational awareness system shall leverage existing technology. Rationale:To optimize existing capabilities.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="a8ecfc13-8c24-42ab-afc8-0d1c9f49e15b" source="#fafd2974-09a8-4d07-8189-415d57e5d32b"
+                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="f232c30a-4beb-46b4-85dc-1d8e87b8fab1"
+                ReqIFName="GIS Integration" ReqIFText="Situational awareness tools shall integrate with Geographic Information Systems (GIS). Rationale:To enhance mapping and tracking capabilities.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="00816388-65dd-48b9-8398-8fa08e68bd8c" source="#f232c30a-4beb-46b4-85dc-1d8e87b8fab1"
+                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="ee27c4d0-36ed-4778-98f2-d52dee9a276d"
+                ReqIFName="Weather Forecast Alerts" ReqIFText="Situational awareness components shall issue alerts based on forecasted weather conditions. Rationale:Prepares users for imminent conditions.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="552dadb2-ff00-4692-bca8-17ba8cc08d7d" source="#ee27c4d0-36ed-4778-98f2-d52dee9a276d"
+                  target="#c19d4576-93a1-45ad-8f03-de36a56f0ea3"/>
+            </ownedRequirements>
+          </ownedRequirements>
+          <ownedRequirements xsi:type="Requirements:Folder" id="8ce811cc-eee0-46d2-8545-55c0b8b57bbb"
+              ReqIFLongName="Power Generation System">
+            <ownedRequirements xsi:type="Requirements:Requirement" id="b3aa5623-5095-4f76-a306-faf82a0e9cf3"
+                ReqIFName="Renewable Power Source" ReqIFText="The power sub-system shall primarily run on renewable sources. Rationale:To promote sustainability and autonomy.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="96bc4a90-b9c2-4d04-a0e9-b897ee5d5fc1" source="#b3aa5623-5095-4f76-a306-faf82a0e9cf3"
+                  target="#227e66f0-482e-4f30-bea0-0c615f0d4489"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="4612aebc-795e-4315-8482-2680d4197315"
+                ReqIFName="Fossil Fuel Backup" ReqIFText="The power system shall have a fossil fuel generator backup. Rationale:Ensures continuous operation.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="9a4980f1-8b91-44ff-b3ba-4f72a8dc7d78" source="#4612aebc-795e-4315-8482-2680d4197315"
+                  target="#18a249ae-8e5b-4b13-ae72-15f61ba0ab0d"/>
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="1edbcba7-1dba-4256-9ac3-ec97f3c2a0c2" source="#4612aebc-795e-4315-8482-2680d4197315"
+                  target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="db208455-2f1c-4bea-8277-7d0dfeb05740"
+                ReqIFName="Support Kit Components" ReqIFText="The power system shall have sufficient capacity to support all kit components. Rationale:Enables integrated operation.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="c59fab12-c265-4e7a-ab2a-72ee2f2a9cad" source="#db208455-2f1c-4bea-8277-7d0dfeb05740"
+                  target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="eb323dd1-0d54-4e13-8951-5ff2281c427b"
+                ReqIFName="Use Existing Power Tech" ReqIFText="The power system shall leverage existing technology. Rationale:To minimize resource use.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="0a560c42-575f-4217-b93c-b537c08e7e66" source="#eb323dd1-0d54-4e13-8951-5ff2281c427b"
+                  target="#fa47f0de-5913-489d-aaab-6fb52ccb7a43"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Requirement" id="bd9a26d5-4158-42d5-9a21-38233e181f62"
+                ReqIFName="Power Management Interface" ReqIFText="The power system shall include a management interface for monitoring usage. Rationale:For efficient resource allocation.">
+              <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation"
+                  id="5fb8bf48-dbf5-48f8-beea-6b521c12f36e" source="#bd9a26d5-4158-42d5-9a21-38233e181f62"
+                  target="#ddc7faf6-4ef7-4adb-9c7b-8a55f0958947"/>
+            </ownedRequirements>
+          </ownedRequirements>
+          <ownedRequirements xsi:type="Requirements:Folder" id="09dde396-8c95-4ba4-b978-df395d5c00d3"
+              ReqIFLongName="Communication System"/>
         </ownedRequirements>
       </ownedExtensions>
       <ownedPropertyValuePkgs xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValuePkg"
@@ -4156,6 +4159,11 @@
                   target="#cfa71969-133d-4e0e-9115-594e582b5cff"/>
               <ownedRelations xsi:type="Requirements:InternalRelation" id="c9ab30ff-1851-4d43-80f4-189d0ff4f00c"
                   source="#ed3ccdb6-99b2-48fb-baba-956f0afd17df" target="#4b5d7cfd-2e41-4a75-b2d5-1682c6ad4ca2"/>
+            </ownedRequirements>
+            <ownedRequirements xsi:type="Requirements:Folder" id="618effbc-8639-4cc8-a15e-115f09079dfb"
+                ReqIFLongName="Water Storage">
+              <ownedRequirements xsi:type="Requirements:Folder" id="9decc83f-847f-4017-b05d-16a5f95c9b67"
+                  ReqIFLongName="Faucets"/>
             </ownedRequirements>
           </ownedRequirements>
           <ownedRequirements xsi:type="Requirements:Folder" id="eb51cc88-aee4-4821-9252-b038d067e8ea"
